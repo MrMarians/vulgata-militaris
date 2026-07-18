@@ -34,7 +34,7 @@ of what the muster is for. *exercitus* elsewhere reads the host as a standing **
 
 ## Loci
 
-- [[../books/Liber Numerorum/01|ch. 1]]:52 (*exercitum*)
+- [[Liber Numerorum/01|ch. 1]]:52 (*exercitum*)
 
 ## Further reading
 

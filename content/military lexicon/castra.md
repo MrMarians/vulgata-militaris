@@ -30,7 +30,7 @@ not a neutral calque of the LXX's more generic παρεμβολή ("encampment, 
 
 ## Loci
 
-- [[../books/Liber Numerorum/01|ch. 1]], vv. 51, 52
+- [[Liber Numerorum/01|ch. 1]], vv. 51, 52
 
 ## Further reading
 
