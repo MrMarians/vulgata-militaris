@@ -1,0 +1,2087 @@
+{
+  "globals.d.ts": {
+    "mtime": 1784329963.0208535,
+    "ast_hash": "8a4938dee4503692d85c617fe83c4e92",
+    "semantic_hash": ""
+  },
+  "index.d.ts": {
+    "mtime": 1784329963.0219834,
+    "ast_hash": "d13a68bc77e67f83b94687ccdd74887a",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1784330182.2907515,
+    "ast_hash": "3c69c7af566445b31e0a0a46ae71822d",
+    "semantic_hash": ""
+  },
+  "plugins/home-hero/package.json": {
+    "mtime": 1784467431.9249218,
+    "ast_hash": "53662717727fac3eb6f9efa1c24a2aca",
+    "semantic_hash": ""
+  },
+  "plugins/home-hero/src/index.js": {
+    "mtime": 1784485242.0330415,
+    "ast_hash": "224356821d40c0b80728b002223443bd",
+    "semantic_hash": ""
+  },
+  "plugins/term-card/package.json": {
+    "mtime": 1784464676.9372265,
+    "ast_hash": "4dab96ab2166f6e3726110670927b612",
+    "semantic_hash": ""
+  },
+  "plugins/term-card/src/index.js": {
+    "mtime": 1784464713.0315008,
+    "ast_hash": "207de4a4a244c58e1ee40fb480831cf7",
+    "semantic_hash": ""
+  },
+  "plugins/term-info/package.json": {
+    "mtime": 1784464732.4829068,
+    "ast_hash": "d023727dfbbe89c66caa04d578304fd8",
+    "semantic_hash": ""
+  },
+  "plugins/term-info/src/components/TermInfo.js": {
+    "mtime": 1784464763.4978743,
+    "ast_hash": "ac49a24aae4a1ee834ca1625b86231fa",
+    "semantic_hash": ""
+  },
+  "plugins/term-info/src/components/index.js": {
+    "mtime": 1784464781.5485713,
+    "ast_hash": "733b3c4805a3e4abd2cd8668d5c6ba3d",
+    "semantic_hash": ""
+  },
+  "plugins/term-info/src/index.js": {
+    "mtime": 1784464781.549569,
+    "ast_hash": "2724c8d907564e8d1f9a19c4b7af0519",
+    "semantic_hash": ""
+  },
+  "plugins/top-nav/package.json": {
+    "mtime": 1784467282.3687737,
+    "ast_hash": "bfdfafc33c3bcc0aff474456f7097f6c",
+    "semantic_hash": ""
+  },
+  "plugins/top-nav/src/components/TopNav.js": {
+    "mtime": 1784467867.5552213,
+    "ast_hash": "0518284b2691b8716dd857a1efbd2a3a",
+    "semantic_hash": ""
+  },
+  "plugins/top-nav/src/components/index.js": {
+    "mtime": 1784467421.7199335,
+    "ast_hash": "101409507abb3a8b129abaff365767ec",
+    "semantic_hash": ""
+  },
+  "plugins/top-nav/src/index.js": {
+    "mtime": 1784467421.7209332,
+    "ast_hash": "f882d77d315a70aa69298630f7e79a87",
+    "semantic_hash": ""
+  },
+  "plugins/vulgata/package.json": {
+    "mtime": 1784463261.734527,
+    "ast_hash": "9aa1cbd1bc38e80e3e40eb8d71474ed2",
+    "semantic_hash": ""
+  },
+  "plugins/vulgata/src/components/TermLegend.js": {
+    "mtime": 1784464865.8252718,
+    "ast_hash": "0a14c002383a25e77635d4ea746892b0",
+    "semantic_hash": ""
+  },
+  "plugins/vulgata/src/components/index.js": {
+    "mtime": 1784463277.0948393,
+    "ast_hash": "c379e10739672790d7222c74fcf3cc01",
+    "semantic_hash": ""
+  },
+  "plugins/vulgata/src/index.js": {
+    "mtime": 1784463280.9703746,
+    "ast_hash": "9bf34c0d6da2c95a2ff5a324dbbbbf36",
+    "semantic_hash": ""
+  },
+  "quartz.lock.json": {
+    "mtime": 1784467636.2473397,
+    "ast_hash": "7e2ca359deae65eed8d3b12d33609f12",
+    "semantic_hash": ""
+  },
+  "quartz.ts": {
+    "mtime": 1784329963.0261924,
+    "ast_hash": "7d3f6884362bc3b1c804241685f6bfec",
+    "semantic_hash": ""
+  },
+  "quartz/bootstrap-cli.mjs": {
+    "mtime": 1784329963.0273945,
+    "ast_hash": "a095ed1325724c549fec774322c6d688",
+    "semantic_hash": ""
+  },
+  "quartz/bootstrap-worker.mjs": {
+    "mtime": 1784329963.0273945,
+    "ast_hash": "a4568ef53c5d8e441b80940a2338585a",
+    "semantic_hash": ""
+  },
+  "quartz/build.ts": {
+    "mtime": 1784329963.028664,
+    "ast_hash": "9a5633a9ae1637aefa3826e87dc2dfac",
+    "semantic_hash": ""
+  },
+  "quartz/cfg.ts": {
+    "mtime": 1784329963.028664,
+    "ast_hash": "cfb2ba46c8736f7ed459aff3d7002061",
+    "semantic_hash": ""
+  },
+  "quartz/cli/args.js": {
+    "mtime": 1784329963.0298185,
+    "ast_hash": "087a7f0287ec746187586760e7fbf3e7",
+    "semantic_hash": ""
+  },
+  "quartz/cli/constants.js": {
+    "mtime": 1784329963.0309694,
+    "ast_hash": "360a08344a1894180a875f6b61902e7f",
+    "semantic_hash": ""
+  },
+  "quartz/cli/handlers.js": {
+    "mtime": 1784329963.0309694,
+    "ast_hash": "f15d81fcca4783d88216b6d276251176",
+    "semantic_hash": ""
+  },
+  "quartz/cli/helpers.js": {
+    "mtime": 1784329963.0320113,
+    "ast_hash": "32d81c3001b0d6cfc3910300b780cac9",
+    "semantic_hash": ""
+  },
+  "quartz/cli/helpers.test.js": {
+    "mtime": 1784329963.0320113,
+    "ast_hash": "3730e65175c604d681b87533e51652ed",
+    "semantic_hash": ""
+  },
+  "quartz/cli/plugin-data.js": {
+    "mtime": 1784329963.0332088,
+    "ast_hash": "f142491709cd7dbf828bd1611963651c",
+    "semantic_hash": ""
+  },
+  "quartz/cli/plugin-git-handlers.js": {
+    "mtime": 1784329963.0342135,
+    "ast_hash": "157f6ff25edebe2480b8485f6cca3798",
+    "semantic_hash": ""
+  },
+  "quartz/components/Body.tsx": {
+    "mtime": 1784329963.0377676,
+    "ast_hash": "3588cbf9dfb243745d0b6ec10a8b2076",
+    "semantic_hash": ""
+  },
+  "quartz/components/ConditionalRender.tsx": {
+    "mtime": 1784329963.0388682,
+    "ast_hash": "794513ac7a1f409e1ed6f443106dfa56",
+    "semantic_hash": ""
+  },
+  "quartz/components/Date.tsx": {
+    "mtime": 1784329963.0401318,
+    "ast_hash": "2210bde0a793d58986b9f65608a3622a",
+    "semantic_hash": ""
+  },
+  "quartz/components/DesktopOnly.tsx": {
+    "mtime": 1784329963.0401318,
+    "ast_hash": "173e850536d2118202aa3b45f3d718f5",
+    "semantic_hash": ""
+  },
+  "quartz/components/Flex.tsx": {
+    "mtime": 1784329963.0412676,
+    "ast_hash": "bbf5d4ce862190a666e20d6d4d981a20",
+    "semantic_hash": ""
+  },
+  "quartz/components/Head.tsx": {
+    "mtime": 1784329963.0412676,
+    "ast_hash": "ab0d9bbb3ff6ca5385dfc182ddc33bdb",
+    "semantic_hash": ""
+  },
+  "quartz/components/Header.tsx": {
+    "mtime": 1784329963.0426867,
+    "ast_hash": "8e81f5a8295ee39a46924e19b25856ac",
+    "semantic_hash": ""
+  },
+  "quartz/components/MobileOnly.tsx": {
+    "mtime": 1784329963.0426867,
+    "ast_hash": "47a2a5f655c86c18aec9b28f89f430ed",
+    "semantic_hash": ""
+  },
+  "quartz/components/PageList.tsx": {
+    "mtime": 1784329963.043854,
+    "ast_hash": "7205f0744686ebc4aab8182e23aae163",
+    "semantic_hash": ""
+  },
+  "quartz/components/Spacer.tsx": {
+    "mtime": 1784329963.043854,
+    "ast_hash": "bd27b6675b6868a0979e6c761f7df229",
+    "semantic_hash": ""
+  },
+  "quartz/components/external.ts": {
+    "mtime": 1784329963.0449114,
+    "ast_hash": "83f66a8ef0f3014ab537a5e9a1d94fd2",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/DefaultFrame.tsx": {
+    "mtime": 1784329963.0461032,
+    "ast_hash": "1360b150810723ee1ffe5fd8d66acc3d",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/FullWidthFrame.tsx": {
+    "mtime": 1784329963.0461032,
+    "ast_hash": "c79128aa96051cfa6eb5c16d6baefaf2",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/MinimalFrame.tsx": {
+    "mtime": 1784329963.0473242,
+    "ast_hash": "8524bd039cd64450688f686fc5b90dca",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/index.ts": {
+    "mtime": 1784329963.0484023,
+    "ast_hash": "378133dfc865c13d133432efa131b6c5",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/registry.ts": {
+    "mtime": 1784329963.0484023,
+    "ast_hash": "db0d0f4dfc7da022f0ed8ba8c8298ec6",
+    "semantic_hash": ""
+  },
+  "quartz/components/frames/types.ts": {
+    "mtime": 1784329963.0495355,
+    "ast_hash": "93f56c1411e189cb29e7c451b2eabab3",
+    "semantic_hash": ""
+  },
+  "quartz/components/index.ts": {
+    "mtime": 1784329963.0507143,
+    "ast_hash": "e13dfc88f17d5ddc0bfe8e39f1184702",
+    "semantic_hash": ""
+  },
+  "quartz/components/pages/404.tsx": {
+    "mtime": 1784329963.0518384,
+    "ast_hash": "14ca47ba66809661311d9e2cff2764bf",
+    "semantic_hash": ""
+  },
+  "quartz/components/registry.ts": {
+    "mtime": 1784329963.0518384,
+    "ast_hash": "34763b1f0cc891b8148d05116665c687",
+    "semantic_hash": ""
+  },
+  "quartz/components/renderPage.test.ts": {
+    "mtime": 1784329963.0528986,
+    "ast_hash": "97ab10369919b03854573b6a5a4abafb",
+    "semantic_hash": ""
+  },
+  "quartz/components/renderPage.tsx": {
+    "mtime": 1784329963.0528986,
+    "ast_hash": "0cc4a196d6d376de2fd5d31d65c2d2a8",
+    "semantic_hash": ""
+  },
+  "quartz/components/scripts/popover.inline.ts": {
+    "mtime": 1784329963.054186,
+    "ast_hash": "1312e561591de3f4233104567e8233af",
+    "semantic_hash": ""
+  },
+  "quartz/components/scripts/popover.test.ts": {
+    "mtime": 1784329963.0552828,
+    "ast_hash": "d587ff38673a9ea3e61d2c1f8c47995a",
+    "semantic_hash": ""
+  },
+  "quartz/components/scripts/search.test.ts": {
+    "mtime": 1784329963.0563629,
+    "ast_hash": "d9d6b4feebb6c4029938814585f9a72e",
+    "semantic_hash": ""
+  },
+  "quartz/components/scripts/spa.inline.ts": {
+    "mtime": 1784329963.0563629,
+    "ast_hash": "08c91b3384bf1aafe143c92b5dc6c121",
+    "semantic_hash": ""
+  },
+  "quartz/components/scripts/util.ts": {
+    "mtime": 1784329963.05738,
+    "ast_hash": "51bec4a83cb5e865065e042669537470",
+    "semantic_hash": ""
+  },
+  "quartz/components/types.ts": {
+    "mtime": 1784329963.0586023,
+    "ast_hash": "c2e8e4d0ee79fcc2e4006788ddfc851e",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/index.ts": {
+    "mtime": 1784329963.0606792,
+    "ast_hash": "165e5ee4da38ee1554eda7df102e422c",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ar-SA.ts": {
+    "mtime": 1784329963.0616775,
+    "ast_hash": "e8c10a9afed66fdd4f00fc481f08eed8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ca-ES.ts": {
+    "mtime": 1784329963.0616775,
+    "ast_hash": "577315ffab97241f510db829f3f810ba",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/cs-CZ.ts": {
+    "mtime": 1784329963.0631945,
+    "ast_hash": "33e71ed49a996b5ca62f93d5624b8461",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/de-DE.ts": {
+    "mtime": 1784329963.0631945,
+    "ast_hash": "e280f226ff71d5d10874c44c4befd63d",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/definition.ts": {
+    "mtime": 1784329963.0642028,
+    "ast_hash": "73d8c0ff69823803932894f7f2ec87ab",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/en-GB.ts": {
+    "mtime": 1784329963.0642028,
+    "ast_hash": "1d55c5b57d8ac7e14933b8c77ef75be8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/en-US.ts": {
+    "mtime": 1784329963.0655437,
+    "ast_hash": "73c81a51d3c3fc956218098a19f0468c",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/es-ES.ts": {
+    "mtime": 1784329963.0655437,
+    "ast_hash": "fba48269466f716a3cf27272fec89660",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/fa-IR.ts": {
+    "mtime": 1784329963.0665517,
+    "ast_hash": "8f7c811ea2b5609085673795b0c88ec1",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/fi-FI.ts": {
+    "mtime": 1784329963.0676608,
+    "ast_hash": "97b010d493349db83e65446fa151539b",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/fr-FR.ts": {
+    "mtime": 1784329963.0686626,
+    "ast_hash": "fb6ad17ac499bdb2a3d42d721a56d8db",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/he-IL.ts": {
+    "mtime": 1784329963.0686626,
+    "ast_hash": "a885d5d1d6cb138ee3567969525520bd",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/hu-HU.ts": {
+    "mtime": 1784329963.069821,
+    "ast_hash": "58aca22f2d363795b5c60c7e04ae04e1",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/id-ID.ts": {
+    "mtime": 1784329963.069821,
+    "ast_hash": "ef2ec66f424a983a342a8fca17ac1392",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/it-IT.ts": {
+    "mtime": 1784329963.0708456,
+    "ast_hash": "180e6fb2d583e3df8336a45bb5348245",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ja-JP.ts": {
+    "mtime": 1784329963.0720289,
+    "ast_hash": "f4a7242fd12079bf32dd5e9708a6bcbe",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/kk-KZ.ts": {
+    "mtime": 1784329963.0720289,
+    "ast_hash": "67917321af036e6e527a65b8267a2fa8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ko-KR.ts": {
+    "mtime": 1784329963.0731733,
+    "ast_hash": "19914e0a0c2db6d380adb00e6ce00b41",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/lt-LT.ts": {
+    "mtime": 1784329963.074767,
+    "ast_hash": "cd3752d718a1302998153c3058d53ce7",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/nb-NO.ts": {
+    "mtime": 1784329963.0760138,
+    "ast_hash": "992e2fcd5e10b22cb639c6acf9944287",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/nl-NL.ts": {
+    "mtime": 1784329963.0760138,
+    "ast_hash": "d1a2fbcd91de810d69c96e1a5d4fd22b",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/pl-PL.ts": {
+    "mtime": 1784329963.0760138,
+    "ast_hash": "e1d1b241d5b244f42e12d06d28a7aef2",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/pt-BR.ts": {
+    "mtime": 1784329963.0780356,
+    "ast_hash": "5019637363e8cbf6c151766083af1734",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ro-RO.ts": {
+    "mtime": 1784329963.0780356,
+    "ast_hash": "95f4e6307bd05c274d8fd527129f03ef",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/ru-RU.ts": {
+    "mtime": 1784329963.0790462,
+    "ast_hash": "f3cc20db8ec6ce2c104903e58edc6570",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/th-TH.ts": {
+    "mtime": 1784329963.0800452,
+    "ast_hash": "db731a68097b3bf876944d6f5dcaf17e",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/tr-TR.ts": {
+    "mtime": 1784329963.0800452,
+    "ast_hash": "f92772e835e34da7c60102f10eb5cf68",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/uk-UA.ts": {
+    "mtime": 1784329963.0810418,
+    "ast_hash": "3d314c7151c5ba6d7f540314411887f8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/vi-VN.ts": {
+    "mtime": 1784329963.081548,
+    "ast_hash": "45ce64338123163367c992af5e41f3b8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/zh-CN.ts": {
+    "mtime": 1784329963.081548,
+    "ast_hash": "5ab498ae4bb56c25631321c7ff1b8ae8",
+    "semantic_hash": ""
+  },
+  "quartz/i18n/locales/zh-TW.ts": {
+    "mtime": 1784329963.082561,
+    "ast_hash": "d6325a796c50f2482261d94125a9c511",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/config.ts": {
+    "mtime": 1784329963.083554,
+    "ast_hash": "82325df50c35060f30037769da3738f7",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/emitters/assets.ts": {
+    "mtime": 1784329963.0845606,
+    "ast_hash": "c2cd21c038c04bee2f56acea27bfdb48",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/emitters/componentResources.ts": {
+    "mtime": 1784329963.0855563,
+    "ast_hash": "ab7cddbffd965fb3f444e0e3dbaf7569",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/emitters/helpers.ts": {
+    "mtime": 1784329963.0855563,
+    "ast_hash": "2d8f409d87ba05581c5da5c485eda954",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/emitters/index.ts": {
+    "mtime": 1784329963.086555,
+    "ast_hash": "f887c24e89e8daec562409d27f2f5208",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/emitters/static.ts": {
+    "mtime": 1784329963.086555,
+    "ast_hash": "b6e01e0a655f9f92ec32da98b586ca03",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/filters/index.ts": {
+    "mtime": 1784329963.0875573,
+    "ast_hash": "97b214023a92a133a4df15bdfa51ee47",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/index.ts": {
+    "mtime": 1784329963.088556,
+    "ast_hash": "d09424ffedc972dc95e6457d236e8d89",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/componentLoader.ts": {
+    "mtime": 1784329963.0895565,
+    "ast_hash": "a7d117d4c62cd9edaf2b27e124a09701",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/conditions.ts": {
+    "mtime": 1784329963.0895565,
+    "ast_hash": "8600a4deae584e8c44844b5f06d35f9c",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/config-loader.ts": {
+    "mtime": 1784329963.0908709,
+    "ast_hash": "855fa90c56707a95e342a19062a03136",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/frameLoader.ts": {
+    "mtime": 1784329963.0918727,
+    "ast_hash": "e5690f6a00b00079f318f906b7b33f34",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/gitLoader.ts": {
+    "mtime": 1784329963.0918727,
+    "ast_hash": "a740aea16982844d1c8ea6a518c8f22e",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/index.ts": {
+    "mtime": 1784329963.0928695,
+    "ast_hash": "1f1cfbd603f7e161ecb035cfb1c655d3",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/install-plugins.ts": {
+    "mtime": 1784329963.0938733,
+    "ast_hash": "6e8996244848e831f6b401bd9fab3360",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/loader.ts": {
+    "mtime": 1784329963.0948699,
+    "ast_hash": "c8a16690f7eccffd0b2c9a137fa814cb",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/loader/types.ts": {
+    "mtime": 1784329963.0948699,
+    "ast_hash": "6fb02259c79f46b58dfe03162a5d9f00",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/pageTypes/404.ts": {
+    "mtime": 1784329963.0962303,
+    "ast_hash": "6d56288cf05169f81f26968c0c17782f",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/pageTypes/dispatcher.ts": {
+    "mtime": 1784329963.097228,
+    "ast_hash": "2b3119d4c42beb57b814ffa922361003",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/pageTypes/index.ts": {
+    "mtime": 1784329963.097228,
+    "ast_hash": "b04752c4284ad41153d6a4a52bedd24a",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/pageTypes/matchers.ts": {
+    "mtime": 1784329963.0982287,
+    "ast_hash": "c22215bdbd0fab946cb2a494f72c5d5d",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/quartz-plugins.schema.json": {
+    "mtime": 1784329963.0982287,
+    "ast_hash": "e5a786d850a9d9bb21264e8827348dd6",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/transformers/index.ts": {
+    "mtime": 1784329963.0997286,
+    "ast_hash": "97b214023a92a133a4df15bdfa51ee47",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/types.ts": {
+    "mtime": 1784329963.1007292,
+    "ast_hash": "f0942e806c9371ac1726cbb0050d2f7a",
+    "semantic_hash": ""
+  },
+  "quartz/plugins/vfile.ts": {
+    "mtime": 1784329963.1017306,
+    "ast_hash": "65573f6eb4926e363945f3755cac9dd0",
+    "semantic_hash": ""
+  },
+  "quartz/processors/emit.ts": {
+    "mtime": 1784329963.1028934,
+    "ast_hash": "6bedcac293ffde192838dee94e79a74f",
+    "semantic_hash": ""
+  },
+  "quartz/processors/filter.ts": {
+    "mtime": 1784329963.1028934,
+    "ast_hash": "2297b46b80282d047c2228b9a8dd0688",
+    "semantic_hash": ""
+  },
+  "quartz/processors/parse.ts": {
+    "mtime": 1784329963.1038928,
+    "ast_hash": "59b2a98a78f95c28aca49a3124a8bb14",
+    "semantic_hash": ""
+  },
+  "quartz/util/clone.ts": {
+    "mtime": 1784329963.1129012,
+    "ast_hash": "b4f7050df12ad14c0883425ce9148b01",
+    "semantic_hash": ""
+  },
+  "quartz/util/ctx.ts": {
+    "mtime": 1784329963.1140282,
+    "ast_hash": "7b330775ce269da6f1ea78d1ac05fa14",
+    "semantic_hash": ""
+  },
+  "quartz/util/emoji.ts": {
+    "mtime": 1784329963.115027,
+    "ast_hash": "9942b5892fe088d4eef22369459f2e83",
+    "semantic_hash": ""
+  },
+  "quartz/util/emojimap.json": {
+    "mtime": 1784329963.2019966,
+    "ast_hash": "357f8ae7b601a75eef89474244a41d1f",
+    "semantic_hash": ""
+  },
+  "quartz/util/escape.ts": {
+    "mtime": 1784329963.2029967,
+    "ast_hash": "e711c094fda7778e70e02108909356d3",
+    "semantic_hash": ""
+  },
+  "quartz/util/fileTrie.test.ts": {
+    "mtime": 1784329963.2039964,
+    "ast_hash": "582fed63a10fa3c583aa912d3c2bb2cd",
+    "semantic_hash": ""
+  },
+  "quartz/util/fileTrie.ts": {
+    "mtime": 1784329963.210971,
+    "ast_hash": "88af0a12e852895a836d32e45f853281",
+    "semantic_hash": ""
+  },
+  "quartz/util/glob.ts": {
+    "mtime": 1784329963.2123559,
+    "ast_hash": "df53de999e68987764436d87b7b25a03",
+    "semantic_hash": ""
+  },
+  "quartz/util/jsx.tsx": {
+    "mtime": 1784329963.2134671,
+    "ast_hash": "21b9ef363c790191fd57c99e96e427b6",
+    "semantic_hash": ""
+  },
+  "quartz/util/lang.ts": {
+    "mtime": 1784329963.214635,
+    "ast_hash": "a6295318879e6f992b2c14045fa51c5c",
+    "semantic_hash": ""
+  },
+  "quartz/util/log.ts": {
+    "mtime": 1784329963.2158368,
+    "ast_hash": "6cec9de590665aeeddf98d02d8b02b0b",
+    "semantic_hash": ""
+  },
+  "quartz/util/path.test.ts": {
+    "mtime": 1784329963.2164576,
+    "ast_hash": "ec36a80b0e922b7a4dacdf61a63ccfef",
+    "semantic_hash": ""
+  },
+  "quartz/util/path.ts": {
+    "mtime": 1784329963.2174795,
+    "ast_hash": "b1ca8625463e724bd19d4771d98bd19e",
+    "semantic_hash": ""
+  },
+  "quartz/util/perf.ts": {
+    "mtime": 1784329963.2174795,
+    "ast_hash": "bdb417a9cfe49d5509bf116955513111",
+    "semantic_hash": ""
+  },
+  "quartz/util/random.ts": {
+    "mtime": 1784329963.218488,
+    "ast_hash": "01df28c2f5f3133e0f0b89527d4c8149",
+    "semantic_hash": ""
+  },
+  "quartz/util/resources.tsx": {
+    "mtime": 1784329963.219488,
+    "ast_hash": "a325455ae0b9bdee9c86b585424f1796",
+    "semantic_hash": ""
+  },
+  "quartz/util/slugCollisions.test.ts": {
+    "mtime": 1784329963.2208118,
+    "ast_hash": "8db192d121230874bedbf4c0d04a2579",
+    "semantic_hash": ""
+  },
+  "quartz/util/slugCollisions.ts": {
+    "mtime": 1784329963.2208118,
+    "ast_hash": "d970346ffb64597e0512a4354ad3f98f",
+    "semantic_hash": ""
+  },
+  "quartz/util/sourcemap.ts": {
+    "mtime": 1784329963.2218094,
+    "ast_hash": "3378f2533abd7182f43ae33366afe093",
+    "semantic_hash": ""
+  },
+  "quartz/util/theme.ts": {
+    "mtime": 1784329963.2229831,
+    "ast_hash": "d0758db22cf7dfee0e2f40f107ae9f25",
+    "semantic_hash": ""
+  },
+  "quartz/util/trace.ts": {
+    "mtime": 1784329963.2229831,
+    "ast_hash": "3841b07cdf8437c60bbef6df31b63e9b",
+    "semantic_hash": ""
+  },
+  "quartz/worker.ts": {
+    "mtime": 1784329963.22444,
+    "ast_hash": "cf2e5fe9c624d600af6a8763ea3236f6",
+    "semantic_hash": ""
+  },
+  "sync-content.mjs": {
+    "mtime": 1784333609.4473698,
+    "ast_hash": "b8fe7ca2a9d7241560ca7cf951aa5391",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1784329963.2254403,
+    "ast_hash": "b6eea1f942216b3fa0acfeb26a572f82",
+    "semantic_hash": ""
+  },
+  ".github/FUNDING.yml": {
+    "mtime": 1784329962.9076705,
+    "ast_hash": "a97f425135db9ae541515c91020a9d5f",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/bug_report.md": {
+    "mtime": 1784329962.9076705,
+    "ast_hash": "2da8504b4770320fcdcbae5e64622fca",
+    "semantic_hash": ""
+  },
+  ".github/ISSUE_TEMPLATE/feature_request.md": {
+    "mtime": 1784329962.9086695,
+    "ast_hash": "a60fa8d32902e86de6b87e86eef0995c",
+    "semantic_hash": ""
+  },
+  ".github/dependabot.yml": {
+    "mtime": 1784329962.9086695,
+    "ast_hash": "14194e20ca9c30082b2ecc4e25f8eaf9",
+    "semantic_hash": ""
+  },
+  ".github/pull_request_template.md": {
+    "mtime": 1784329962.9096692,
+    "ast_hash": "beec24c7f76e03393b3be00331355f80",
+    "semantic_hash": ""
+  },
+  ".github/workflows/build-preview.yaml": {
+    "mtime": 1784329962.9106686,
+    "ast_hash": "84ea845c1c0f3e04a0cc3a37353aac52",
+    "semantic_hash": ""
+  },
+  ".github/workflows/ci.yaml": {
+    "mtime": 1784329962.9106686,
+    "ast_hash": "ab93e6feb86e4b4958e0551d792a706d",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy-preview.yaml": {
+    "mtime": 1784329962.9116678,
+    "ast_hash": "331ca09294ebfd8d05ea718e664678e7",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy-v5.yaml": {
+    "mtime": 1784329962.9116678,
+    "ast_hash": "2cbbc5adc8ec56dc76bc8dff722aad24",
+    "semantic_hash": ""
+  },
+  ".github/workflows/deploy.yml": {
+    "mtime": 1784334600.7095804,
+    "ast_hash": "c0633bf997950703189ec71abc9d7285",
+    "semantic_hash": ""
+  },
+  ".github/workflows/docker-build-push.yaml": {
+    "mtime": 1784329962.9116678,
+    "ast_hash": "ffebcbb4223841931e8c2d73f80182ef",
+    "semantic_hash": ""
+  },
+  "CODE_OF_CONDUCT.md": {
+    "mtime": 1784329962.9146757,
+    "ast_hash": "9bc7828b6a2906b05841f82b9546b05b",
+    "semantic_hash": ""
+  },
+  "Homepage Hero Vulgata Militaris.dc.html": {
+    "mtime": 1784484700.447868,
+    "ast_hash": "e43a8281c50b338820308df8b66ae15b",
+    "semantic_hash": ""
+  },
+  "LICENSE.txt": {
+    "mtime": 1784329962.91567,
+    "ast_hash": "db99912204d44bbfaa34f4eb8f04603c",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1784329962.91567,
+    "ast_hash": "cfc7c062e6cdede953c1dc73b3225f4d",
+    "semantic_hash": ""
+  },
+  "content/README.md": {
+    "mtime": 1784332229.258489,
+    "ast_hash": "f551912455148ca64dfab6d159b68890",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/01.md": {
+    "mtime": 1784392477.4587245,
+    "ast_hash": "c0f4bb56e038cdcecb2446b5e0448d84",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/02.md": {
+    "mtime": 1784391042.0508754,
+    "ast_hash": "00871f30cf84f86844b165fcca2c18f7",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/03.md": {
+    "mtime": 1784391042.0641441,
+    "ast_hash": "d98b37bccfb8f64968657808f95d8000",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/04.md": {
+    "mtime": 1784391042.0798976,
+    "ast_hash": "98a63f666a34cc7a8b667b1bc23b47a8",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/05.md": {
+    "mtime": 1784391042.0940304,
+    "ast_hash": "23db9426ac99d66c846c83780d4a0077",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/06.md": {
+    "mtime": 1784391042.1040268,
+    "ast_hash": "14e61ae1e4f0086c65a7fd73db4d3fe5",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/07.md": {
+    "mtime": 1784391042.1281097,
+    "ast_hash": "a51bee14d37d34cfc32f9c0055c812e8",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/08.md": {
+    "mtime": 1784391042.1381187,
+    "ast_hash": "f6f1d79740ed03e9c211bb2ec919e5ef",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/09.md": {
+    "mtime": 1784391042.146157,
+    "ast_hash": "3f4d6f524a141efd76f6aeeb162287d3",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/10.md": {
+    "mtime": 1784391042.1582048,
+    "ast_hash": "1feb41f3542e2f8f0910db03ad1e7ee2",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/11.md": {
+    "mtime": 1784391042.1713152,
+    "ast_hash": "17322bbc810ec6deff51c0cf01476ee3",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/12.md": {
+    "mtime": 1784391042.177106,
+    "ast_hash": "1c13e1eb7341f1f53852ae041cca373c",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/13.md": {
+    "mtime": 1784391042.1874998,
+    "ast_hash": "ed05df846e45d9b369d4c0fbc812814a",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/14.md": {
+    "mtime": 1784392477.4738445,
+    "ast_hash": "832809e11aacdaf5c8d00a6693a27498",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/15.md": {
+    "mtime": 1784391293.7139826,
+    "ast_hash": "c221925990e9d8a9dc998399ae158b1b",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/16.md": {
+    "mtime": 1784392477.4958155,
+    "ast_hash": "e0941005aa5586246fc69526cc4b6b8a",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/17.md": {
+    "mtime": 1784391293.7311652,
+    "ast_hash": "ae2a10077ea5ab9a0d814e161e017d6a",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/18.md": {
+    "mtime": 1784392477.5077562,
+    "ast_hash": "7d8f744a96d62144e1b6eb7aeed07532",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/19.md": {
+    "mtime": 1784392477.5172672,
+    "ast_hash": "8c22561c3501bf62db3f64dc1a6b8468",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/20.md": {
+    "mtime": 1784402995.0695486,
+    "ast_hash": "cf8a2d8394cb4799cec28c19882f6e0d",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/21.md": {
+    "mtime": 1784404762.1060383,
+    "ast_hash": "f6bac36a2f95a014e259cc071fd95f91",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/22.md": {
+    "mtime": 1784392477.5319588,
+    "ast_hash": "33f50648d68052336c16759bb829323b",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/23.md": {
+    "mtime": 1784404762.116036,
+    "ast_hash": "240d1e5ab91795a7be8c129e53cb7974",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/24.md": {
+    "mtime": 1784391623.12424,
+    "ast_hash": "53ec27136ba54e67fe91be1eb41c47f8",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/25.md": {
+    "mtime": 1784392477.5483112,
+    "ast_hash": "42def1fbaeff3416f26c9010e9eb0a2d",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/26.md": {
+    "mtime": 1784393015.8456855,
+    "ast_hash": "85f48188c7693ecf14c98584f6f8761e",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/27.md": {
+    "mtime": 1784392314.4295864,
+    "ast_hash": "c6c7b6b6343d47e5f47e6b2e7d77badf",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/28.md": {
+    "mtime": 1784392314.4374466,
+    "ast_hash": "386f32c741a926626d996db2fc9fb4b5",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/29.md": {
+    "mtime": 1784392314.4461546,
+    "ast_hash": "4362c0cc39ed450863230cecea08be68",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/30.md": {
+    "mtime": 1784392314.4511545,
+    "ast_hash": "a235e301f52c0449675ebff0b0bd4b33",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/31.md": {
+    "mtime": 1784392477.5637593,
+    "ast_hash": "708609d4e7a34a10b07fcf4c672161e6",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/32.md": {
+    "mtime": 1784393015.8587122,
+    "ast_hash": "19bd5818c5636bcba89b3988e6d9d9ca",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/33.md": {
+    "mtime": 1784393015.8687122,
+    "ast_hash": "c9a0570a9f388148fd12aa527d4b082c",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/34.md": {
+    "mtime": 1784393015.8752658,
+    "ast_hash": "45e5ade001f350173a5f400403488d58",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/35.md": {
+    "mtime": 1784393015.8822658,
+    "ast_hash": "c64d62cd62933cca4a8d067edfd30d62",
+    "semantic_hash": ""
+  },
+  "content/books/Liber Numerorum/36.md": {
+    "mtime": 1784393015.8862658,
+    "ast_hash": "9d330be4b4e0ec791eab5d646d477b73",
+    "semantic_hash": ""
+  },
+  "content/index.md": {
+    "mtime": 1784442229.274894,
+    "ast_hash": "31b521c62854584c53adac2e847d5c0c",
+    "semantic_hash": ""
+  },
+  "content/introduction.md": {
+    "mtime": 1784468838.4132526,
+    "ast_hash": "efd3704119332e8e15d25ae3915d5fd5",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/accinctus.md": {
+    "mtime": 1784442229.1995447,
+    "ast_hash": "0bb1b1e1c16555a31aa37be84a91e92c",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/anathema.md": {
+    "mtime": 1784442229.2010107,
+    "ast_hash": "d6fbd9b46c1b65a6039d25249f3d2ec7",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/ariolus.md": {
+    "mtime": 1784441659.586684,
+    "ast_hash": "878e29611070b51427af9e81eca0e084",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/armatus.md": {
+    "mtime": 1784442229.202287,
+    "ast_hash": "380dbb1665fba96e95ef6af97c44dd29",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/augurium.md": {
+    "mtime": 1784441620.007686,
+    "ast_hash": "3cd93ccf3647e5c50bd1e4870df24580",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/bellum.md": {
+    "mtime": 1784442229.2033567,
+    "ast_hash": "93996c2cb4256dcf756aeca3315d921e",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/captivus.md": {
+    "mtime": 1784442229.2044957,
+    "ast_hash": "f8cb62cc9d5444d0a594f88c549d4ff7",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/castra.md": {
+    "mtime": 1784442229.2056508,
+    "ast_hash": "cf792b9a550fd1279f9fc9f246cb8a79",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/castrametari.md": {
+    "mtime": 1784442229.2068746,
+    "ast_hash": "77db8f49d419788218c4bf2ada500018",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/centurio.md": {
+    "mtime": 1784442229.207875,
+    "ast_hash": "c07bdfd0cb946175395fbf569a76de66",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/clangor.md": {
+    "mtime": 1784442229.2088733,
+    "ast_hash": "d06fba2166686226f50a333d2511dfd3",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/considerare.md": {
+    "mtime": 1784442229.2102804,
+    "ast_hash": "f88ad9c39c19c37bdb0ee27ec85521be",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/cuneus.md": {
+    "mtime": 1784442229.212564,
+    "ast_hash": "6afede0d8267afc4ebd680ab5f6a45fa",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/custodia.md": {
+    "mtime": 1784442229.2135642,
+    "ast_hash": "a974d87699613cabe07c7910634aa347",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/delere.md": {
+    "mtime": 1784442229.2149923,
+    "ast_hash": "cf63959cae70a9cc11ea9e502ea27c1a",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/dimicare.md": {
+    "mtime": 1784442229.2162683,
+    "ast_hash": "33a3704d24028eeddecd3a398691a9fb",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/divinatio.md": {
+    "mtime": 1784441642.803246,
+    "ast_hash": "662629d94cb88cb97a6b8042190d903f",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/ductor.md": {
+    "mtime": 1784442229.2177765,
+    "ast_hash": "95a069c11a3e9c0b4722df50477c4f65",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/dux.md": {
+    "mtime": 1784442229.2177765,
+    "ast_hash": "0d8d228aab65e196c90134a7ef82916b",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/excubiae.md": {
+    "mtime": 1784442229.2202134,
+    "ast_hash": "0a833d03d96bc78b66fa765e28c95de7",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/exercitus.md": {
+    "mtime": 1784441886.3384912,
+    "ast_hash": "fa9d040091cf79f59f7f2ae73aa59e75",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/expeditus.md": {
+    "mtime": 1784442229.221524,
+    "ast_hash": "3de0afda9cf1f3653670d40f700f2adc",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/explorare.md": {
+    "mtime": 1784442229.2230163,
+    "ast_hash": "b15de1905762d8970bce72e5c0027686",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/foedus.md": {
+    "mtime": 1784442229.2243433,
+    "ast_hash": "c15ef1d643f93bfc4ec4783f00a78a27",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/fugere.md": {
+    "mtime": 1784442229.22634,
+    "ast_hash": "42f8063e7f74b2b5e86d6d6d9831b7fd",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/gladius.md": {
+    "mtime": 1784442229.2281902,
+    "ast_hash": "5d510927df00e2f18496fbeb2d958615",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/hostis.md": {
+    "mtime": 1784442229.229365,
+    "ast_hash": "bcc62ded369e7bbfd41bed778f0c21fa",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/imperium.md": {
+    "mtime": 1784442229.229365,
+    "ast_hash": "9feae046565d628d1e7c63d184b503dd",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/inimicus.md": {
+    "mtime": 1784442229.2317662,
+    "ast_hash": "1bfb54dc10f5294612755126e6aa2d9c",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/insidiae.md": {
+    "mtime": 1784442229.2327666,
+    "ast_hash": "e8e70da4127b681148961b71a28c2f25",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/interficere.md": {
+    "mtime": 1784442229.2347689,
+    "ast_hash": "b367351f7ef91ba0f194924abff3c591",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/iuramentum.md": {
+    "mtime": 1784442229.235767,
+    "ast_hash": "f2dd1a92b882e79f10d686a6663447ad",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/magister.md": {
+    "mtime": 1784442229.2362764,
+    "ast_hash": "74bc2864fcf32ceb477831be0d182935",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/maledictio.md": {
+    "mtime": 1784442229.2388203,
+    "ast_hash": "22778f79053a1a2dc8c3fda0d1b03d91",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/numerare.md": {
+    "mtime": 1784442229.2398207,
+    "ast_hash": "76b45cd4870413ad848f73429e93607d",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/occidere.md": {
+    "mtime": 1784442229.2411861,
+    "ast_hash": "10a50b3655a8997328f55ccd6fbf7809",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/occupare.md": {
+    "mtime": 1784442229.2432017,
+    "ast_hash": "e53241e689b270026bb56d305b195d6f",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/pactum.md": {
+    "mtime": 1784442229.2432017,
+    "ast_hash": "4e93dd0eda03be0933966620c5f85768",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/percutere.md": {
+    "mtime": 1784442229.2443204,
+    "ast_hash": "5ba381525e7259473fe71329c3f61dd6",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/persequi.md": {
+    "mtime": 1784442229.245328,
+    "ast_hash": "2755885b26d78494351ecedb87f5fe07",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/praeda.md": {
+    "mtime": 1784442229.246368,
+    "ast_hash": "2e2213e00539d761cbe2f7fc07e750ba",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/praesidium.md": {
+    "mtime": 1784442229.2474012,
+    "ast_hash": "0f9925bfb24172032df75284416b2ec1",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/princeps.md": {
+    "mtime": 1784442229.2493982,
+    "ast_hash": "c70354b4e39f2d6c4d81faa9ff93415a",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/proceres.md": {
+    "mtime": 1784442229.2504,
+    "ast_hash": "b7beab92a9822fae86876373c07038d8",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/proelium.md": {
+    "mtime": 1784442229.2514343,
+    "ast_hash": "a92a3b4e7e9a958793f4ec5b2f88254e",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/profectio.md": {
+    "mtime": 1784442229.2514343,
+    "ast_hash": "adc0b3c52ba646687f2e67b6e940e8e3",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/pugio.md": {
+    "mtime": 1784442229.2527502,
+    "ast_hash": "efaa0f353aff61a0bddc1022fac5b06d",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/pugnare.md": {
+    "mtime": 1784442229.2540646,
+    "ast_hash": "2608fd53d83c0543d35fae31a05f0714",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/recensere.md": {
+    "mtime": 1784442229.2540646,
+    "ast_hash": "26b6596af50ea4e9840c64ddfa9c7efd",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/sagitta.md": {
+    "mtime": 1784442229.255224,
+    "ast_hash": "8888eaa158f3857ed601cb1c2937863c",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/seditio.md": {
+    "mtime": 1784442229.256238,
+    "ast_hash": "7f495d6c93a3f5e094d5b33358554f74",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/signum.md": {
+    "mtime": 1784442229.2573514,
+    "ast_hash": "bea99774704a9353ba783c4d7c0aca26",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/sors.md": {
+    "mtime": 1784442229.2593527,
+    "ast_hash": "2dc40b4cc25ddf609e484ab9e6290bf4",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/subvertere.md": {
+    "mtime": 1784442229.260351,
+    "ast_hash": "cab0a06f83c32e9b97135e0b8ad3765e",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/tribunus.md": {
+    "mtime": 1784442229.2613578,
+    "ast_hash": "13c362c816d4100e51b97b7511a2388d",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/tuba.md": {
+    "mtime": 1784442229.2633514,
+    "ast_hash": "c05aeae034467e8ff626bf83f668ad76",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/turma.md": {
+    "mtime": 1784442229.26456,
+    "ast_hash": "b9d8d4694b7acbf8b8b727241240b06d",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/ultio.md": {
+    "mtime": 1784441682.015921,
+    "ast_hash": "42bfe5a5fb961043fabdc9a9f902d220",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/ululatus.md": {
+    "mtime": 1784442229.266012,
+    "ast_hash": "b9154f688e1212d98339b7734b35812e",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/vastare.md": {
+    "mtime": 1784442229.2675169,
+    "ast_hash": "1ee0fb052d77d804bfda845f43dd3f57",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/vexillum.md": {
+    "mtime": 1784442229.2688954,
+    "ast_hash": "508bc278f8a21a589ddd262f3da3cef6",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/victoria.md": {
+    "mtime": 1784442229.2698963,
+    "ast_hash": "dbdc645b09d283901bda6d3792645eaa",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/vindicare.md": {
+    "mtime": 1784441864.769403,
+    "ast_hash": "0f906cd70975f60b61375a6a61c53199",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/vir fortis.md": {
+    "mtime": 1784442229.2718956,
+    "ast_hash": "466654d0ab23a21138cf8afc6eab6cca",
+    "semantic_hash": ""
+  },
+  "content/military lexicon/zelus.md": {
+    "mtime": 1784441602.2363973,
+    "ast_hash": "9b96a3df03dacdd394340298edd693a5",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/Militaria in Vulgata Redesign.dc.html": {
+    "mtime": 1784459969.0,
+    "ast_hash": "531d4ca8b6302f99758a7c962d6f748b",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/README.md": {
+    "mtime": 1784459969.0,
+    "ast_hash": "4e4d12ddad2f0de7af93568c3f65876c",
+    "semantic_hash": ""
+  },
+  "docs/advanced/architecture.md": {
+    "mtime": 1784329962.9190605,
+    "ast_hash": "793dc38b5315da503302e6c6e087db45",
+    "semantic_hash": ""
+  },
+  "docs/advanced/creating components.md": {
+    "mtime": 1784329962.9201164,
+    "ast_hash": "e336db773329c152905c03b09230e59d",
+    "semantic_hash": ""
+  },
+  "docs/advanced/index.md": {
+    "mtime": 1784329962.9211826,
+    "ast_hash": "9aa56a2f8a54464979e8bacd4a6a7b4b",
+    "semantic_hash": ""
+  },
+  "docs/advanced/making plugins.md": {
+    "mtime": 1784329962.9211826,
+    "ast_hash": "623a2ed7753122efe06e5c7765f8aebc",
+    "semantic_hash": ""
+  },
+  "docs/advanced/paths.md": {
+    "mtime": 1784329962.9223387,
+    "ast_hash": "dceb16b4875d5930aaf7ac1e06048905",
+    "semantic_hash": ""
+  },
+  "docs/cli/build.md": {
+    "mtime": 1784329962.9234512,
+    "ast_hash": "b018202ad204422cfd6ac070ee48f624",
+    "semantic_hash": ""
+  },
+  "docs/cli/create.md": {
+    "mtime": 1784329962.9234512,
+    "ast_hash": "c59b6ba1e1a7b47f1016006c7cd1d8bc",
+    "semantic_hash": ""
+  },
+  "docs/cli/index.md": {
+    "mtime": 1784329962.9244921,
+    "ast_hash": "d33983ad8e870dc29d5767f848d216ab",
+    "semantic_hash": ""
+  },
+  "docs/cli/plugin.md": {
+    "mtime": 1784329962.9244921,
+    "ast_hash": "7dae27a983a0aff793a533b673d31694",
+    "semantic_hash": ""
+  },
+  "docs/cli/restore.md": {
+    "mtime": 1784329962.9255822,
+    "ast_hash": "46c7d595bce6387a911f3d41856ca48a",
+    "semantic_hash": ""
+  },
+  "docs/cli/sync.md": {
+    "mtime": 1784329962.9255822,
+    "ast_hash": "82db63502e2b64b3680f9b589da15f55",
+    "semantic_hash": ""
+  },
+  "docs/cli/tui.md": {
+    "mtime": 1784329962.92669,
+    "ast_hash": "894e2313fde16be4e0bb8d4216c5559b",
+    "semantic_hash": ""
+  },
+  "docs/cli/upgrade.md": {
+    "mtime": 1784329962.9280088,
+    "ast_hash": "7d07a206cd6f6caa382b41fed22bb9fd",
+    "semantic_hash": ""
+  },
+  "docs/community.md": {
+    "mtime": 1784329962.9290943,
+    "ast_hash": "e5db29200ef79c454c36b8a4047b1dc8",
+    "semantic_hash": ""
+  },
+  "docs/configuration.md": {
+    "mtime": 1784329962.9301612,
+    "ast_hash": "2d9762fd581b8c5d4f3e7e2bd73eae88",
+    "semantic_hash": ""
+  },
+  "docs/features/Bases.md": {
+    "mtime": 1784329962.931253,
+    "ast_hash": "88d62dbc908d34bfd005379635fb08d9",
+    "semantic_hash": ""
+  },
+  "docs/features/Canvas.md": {
+    "mtime": 1784329962.9317603,
+    "ast_hash": "fab58026f0f797740edf3661619c0038",
+    "semantic_hash": ""
+  },
+  "docs/features/Citations.md": {
+    "mtime": 1784329962.9327712,
+    "ast_hash": "5d603aa864cba1a9dc1bb5162f16d003",
+    "semantic_hash": ""
+  },
+  "docs/features/Docker Support.md": {
+    "mtime": 1784329962.9327712,
+    "ast_hash": "48ccbb1a2a99de1a3261e020eb51f131",
+    "semantic_hash": ""
+  },
+  "docs/features/Latex.md": {
+    "mtime": 1784329962.9337702,
+    "ast_hash": "42de4c66a17ce08a3a93861d0798d779",
+    "semantic_hash": ""
+  },
+  "docs/features/Mermaid diagrams.md": {
+    "mtime": 1784329962.9347703,
+    "ast_hash": "9c67d9e5faa1204425deb91afbe4ecf3",
+    "semantic_hash": ""
+  },
+  "docs/features/Obsidian compatibility.md": {
+    "mtime": 1784329962.9357712,
+    "ast_hash": "e3770fafdba7ef05a717641922f556a8",
+    "semantic_hash": ""
+  },
+  "docs/features/OxHugo compatibility.md": {
+    "mtime": 1784329962.9357712,
+    "ast_hash": "9c38ad88178b4fabebc1dc97b0e7d767",
+    "semantic_hash": ""
+  },
+  "docs/features/RSS Feed.md": {
+    "mtime": 1784329962.9367704,
+    "ast_hash": "8eb269bbecaf024d6753fa4bc574bd95",
+    "semantic_hash": ""
+  },
+  "docs/features/Roam Research compatibility.md": {
+    "mtime": 1784329962.9367704,
+    "ast_hash": "829ee27107400c5f96529d87a65c7cb7",
+    "semantic_hash": ""
+  },
+  "docs/features/SPA Routing.md": {
+    "mtime": 1784329962.9377692,
+    "ast_hash": "651fa2e5b80e9d5f1cbd68d51e582cdb",
+    "semantic_hash": ""
+  },
+  "docs/features/backlinks.md": {
+    "mtime": 1784329962.9387693,
+    "ast_hash": "ffc74d76b588088d11332e52e9383afd",
+    "semantic_hash": ""
+  },
+  "docs/features/breadcrumbs.md": {
+    "mtime": 1784329962.9387693,
+    "ast_hash": "c0baa338f6c4d79bd344ca5002f39d22",
+    "semantic_hash": ""
+  },
+  "docs/features/callouts.md": {
+    "mtime": 1784329962.9400523,
+    "ast_hash": "d11a73494c22cce79216030c55493b5b",
+    "semantic_hash": ""
+  },
+  "docs/features/comments.md": {
+    "mtime": 1784329962.9400523,
+    "ast_hash": "fc00ddc99d6d3fad85c6807b7d204861",
+    "semantic_hash": ""
+  },
+  "docs/features/darkmode.md": {
+    "mtime": 1784329962.9414284,
+    "ast_hash": "44eede1a9c2d80854bfeeec8f46ffb5a",
+    "semantic_hash": ""
+  },
+  "docs/features/explorer.md": {
+    "mtime": 1784329962.942442,
+    "ast_hash": "143d463582a02ad78ef48e9fd12b2d28",
+    "semantic_hash": ""
+  },
+  "docs/features/folder and tag listings.md": {
+    "mtime": 1784329962.9435353,
+    "ast_hash": "7e2cb93f773c2eefea1bca58bad1c050",
+    "semantic_hash": ""
+  },
+  "docs/features/full-text search.md": {
+    "mtime": 1784329962.9435353,
+    "ast_hash": "f6af9fdd3f98f72a5c1e9bc09002992d",
+    "semantic_hash": ""
+  },
+  "docs/features/graph view.md": {
+    "mtime": 1784329962.944782,
+    "ast_hash": "cdf98113734b301038cc4cb8ee600394",
+    "semantic_hash": ""
+  },
+  "docs/features/i18n.md": {
+    "mtime": 1784329962.944782,
+    "ast_hash": "811b0f55ad4a0ad734ae61fca6770638",
+    "semantic_hash": ""
+  },
+  "docs/features/index.md": {
+    "mtime": 1784329962.9457836,
+    "ast_hash": "8eb1ea445bf4d02bc6da49121b6598d1",
+    "semantic_hash": ""
+  },
+  "docs/features/popover previews.md": {
+    "mtime": 1784329962.9457836,
+    "ast_hash": "d5b81f14d47dac214a40aef7e9fa75f4",
+    "semantic_hash": ""
+  },
+  "docs/features/private pages.md": {
+    "mtime": 1784329962.94705,
+    "ast_hash": "c7973621dae13f6751b732ca876c11f6",
+    "semantic_hash": ""
+  },
+  "docs/features/reader mode.md": {
+    "mtime": 1784329962.94705,
+    "ast_hash": "004ec94f71fee6e202697fa5b30c7594",
+    "semantic_hash": ""
+  },
+  "docs/features/recent notes.md": {
+    "mtime": 1784329962.9481924,
+    "ast_hash": "a9e57a35f2914f7d2a180a880173ded0",
+    "semantic_hash": ""
+  },
+  "docs/features/social images.md": {
+    "mtime": 1784329962.9481924,
+    "ast_hash": "a0fad5d48e15a646dbc255a87e19535b",
+    "semantic_hash": ""
+  },
+  "docs/features/syntax highlighting.md": {
+    "mtime": 1784329962.9492724,
+    "ast_hash": "3991e98caae49f09741d2bc805140915",
+    "semantic_hash": ""
+  },
+  "docs/features/table of contents.md": {
+    "mtime": 1784329962.950296,
+    "ast_hash": "26fe4390b89e8a6fb4e0565754fa46eb",
+    "semantic_hash": ""
+  },
+  "docs/features/wikilinks.md": {
+    "mtime": 1784329962.9512985,
+    "ast_hash": "a829a26b8efce7c5f78cf36ae6f2dfe2",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/authoring-content.md": {
+    "mtime": 1784329962.9523008,
+    "ast_hash": "ccb6c0b303f516ef285bb808c41e8404",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/index.md": {
+    "mtime": 1784329962.9523008,
+    "ast_hash": "36a514401daa55619016528eaf38195f",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/installation.md": {
+    "mtime": 1784329962.9542968,
+    "ast_hash": "829cb3d57609e87af810983c43a54500",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/migrating.md": {
+    "mtime": 1784329962.9553628,
+    "ast_hash": "b0b6431042ff51c4b31df085b123c8d3",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/upgrading.md": {
+    "mtime": 1784329962.9553628,
+    "ast_hash": "721a6f9304c820d0b0b782b31ab911a9",
+    "semantic_hash": ""
+  },
+  "docs/getting-started/whats-new.md": {
+    "mtime": 1784329962.956538,
+    "ast_hash": "6c744ec84f07dcf82895cfa10ecf90e0",
+    "semantic_hash": ""
+  },
+  "docs/hosting.md": {
+    "mtime": 1784329962.956538,
+    "ast_hash": "3f5fb926937e6565a9d2b44ca782d347",
+    "semantic_hash": ""
+  },
+  "docs/index.md": {
+    "mtime": 1784329962.9807334,
+    "ast_hash": "0512df360cfece8ca85597b6b0fcc1db",
+    "semantic_hash": ""
+  },
+  "docs/layout-components.md": {
+    "mtime": 1784329962.9817436,
+    "ast_hash": "7af2e90d00e40dbf082f3ad9d38ee574",
+    "semantic_hash": ""
+  },
+  "docs/layout.md": {
+    "mtime": 1784329962.9817436,
+    "ast_hash": "5f164e299a598905e28235feedfa31c4",
+    "semantic_hash": ""
+  },
+  "docs/philosophy.md": {
+    "mtime": 1784329962.9827414,
+    "ast_hash": "47e5e31b5c449baf77cc4efbbae32c13",
+    "semantic_hash": ""
+  },
+  "docs/plugins/AliasRedirects.md": {
+    "mtime": 1784329962.9827414,
+    "ast_hash": "18e6aa36197762405771054415b10eb7",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ArticleTitle.md": {
+    "mtime": 1784329962.9840765,
+    "ast_hash": "53f3a9e37b4986ced0052f14280e1087",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Assets.md": {
+    "mtime": 1784329962.9840765,
+    "ast_hash": "137be2d08d7a9791aec4927b96499ab1",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Backlinks.md": {
+    "mtime": 1784329962.9852338,
+    "ast_hash": "4d70871daae2d504db5ea5b33dd56bf4",
+    "semantic_hash": ""
+  },
+  "docs/plugins/BasesPage.md": {
+    "mtime": 1784329962.9863875,
+    "ast_hash": "5c2a26e83108872c8b369c1c72aeeb23",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Breadcrumbs.md": {
+    "mtime": 1784329962.9863875,
+    "ast_hash": "69ea214e812994dcd5ee0a8d754a644b",
+    "semantic_hash": ""
+  },
+  "docs/plugins/CNAME.md": {
+    "mtime": 1784329962.987541,
+    "ast_hash": "239302ddc839f5f7ac69ebc9dfa16b9c",
+    "semantic_hash": ""
+  },
+  "docs/plugins/CanvasPage.md": {
+    "mtime": 1784329962.9886332,
+    "ast_hash": "9128af96eb28d47a5dffee04e4c6ac96",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Citations.md": {
+    "mtime": 1784329962.9886332,
+    "ast_hash": "f126dc62da5b8f5b2b1471c581cf5e6b",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Comments.md": {
+    "mtime": 1784329962.9897697,
+    "ast_hash": "982310acc7b087fc687ba6740bb91cad",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ComponentResources.md": {
+    "mtime": 1784329962.9897697,
+    "ast_hash": "efbece8768e10b05312ab1ff6af13f57",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ContentIndex.md": {
+    "mtime": 1784329962.9908347,
+    "ast_hash": "1586d41ba1506cad822978eb309654cb",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ContentMeta.md": {
+    "mtime": 1784329962.9920442,
+    "ast_hash": "b4bead5552e0e4a3038a10e54aed1172",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ContentPage.md": {
+    "mtime": 1784329962.9920442,
+    "ast_hash": "cb28d8e83ca41349b8b3e4d4e6f6e447",
+    "semantic_hash": ""
+  },
+  "docs/plugins/CrawlLinks.md": {
+    "mtime": 1784329962.9932106,
+    "ast_hash": "acb169d908ef1eee1a7c43775d17ed3a",
+    "semantic_hash": ""
+  },
+  "docs/plugins/CreatedModifiedDate.md": {
+    "mtime": 1784329962.9932106,
+    "ast_hash": "f594be200cb1df9c6ed26e3a9eed4902",
+    "semantic_hash": ""
+  },
+  "docs/plugins/CustomOgImages.md": {
+    "mtime": 1784329962.9952924,
+    "ast_hash": "fdba522f219ef246de1900a386e444ec",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Darkmode.md": {
+    "mtime": 1784329962.9962912,
+    "ast_hash": "2e104c94d38322b199cc7cebfc193b9c",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Description.md": {
+    "mtime": 1784329962.9962912,
+    "ast_hash": "d6424e8134d773c62754c7822bbcec6f",
+    "semantic_hash": ""
+  },
+  "docs/plugins/EncryptedPages Demo.md": {
+    "mtime": 1784329962.9973054,
+    "ast_hash": "dfe4db99e2360cedc35ef02f889f730b",
+    "semantic_hash": ""
+  },
+  "docs/plugins/EncryptedPages.md": {
+    "mtime": 1784329962.9982996,
+    "ast_hash": "29866e6e30fe8434b0c69ad2f3bf0f04",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ExplicitPublish.md": {
+    "mtime": 1784329962.9982996,
+    "ast_hash": "38747a0f51a2b0a08bc71134ddb61e95",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Explorer.md": {
+    "mtime": 1784329962.9993277,
+    "ast_hash": "24cec25ed9e75608da9c8c73b0ea9322",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Favicon.md": {
+    "mtime": 1784329962.9993277,
+    "ast_hash": "f3b4661291b09036f31f2cafb3f1e6b3",
+    "semantic_hash": ""
+  },
+  "docs/plugins/FolderPage.md": {
+    "mtime": 1784329963.0003235,
+    "ast_hash": "1138105e69db189a8c0041b1ee445786",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Fonts.md": {
+    "mtime": 1784329963.0014026,
+    "ast_hash": "33a66494456a5aa5aa3b793a87611a51",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Footer.md": {
+    "mtime": 1784329963.0014026,
+    "ast_hash": "28235f4b523eff2b8d3d36f8aba94005",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Frontmatter.md": {
+    "mtime": 1784329963.0030832,
+    "ast_hash": "36ba435d3b78792b2f00a70b2ff2686e",
+    "semantic_hash": ""
+  },
+  "docs/plugins/GitHubFlavoredMarkdown.md": {
+    "mtime": 1784329963.0030832,
+    "ast_hash": "89c0bf845e5b0b5c6d6d0cd7830b3477",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Graph.md": {
+    "mtime": 1784329963.0040936,
+    "ast_hash": "c8945e6a0a231b2ccd228a030c1cb4a0",
+    "semantic_hash": ""
+  },
+  "docs/plugins/HardLineBreaks.md": {
+    "mtime": 1784329963.0051007,
+    "ast_hash": "8c94bce7a6dfe5ec08c0e0c5607019bc",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Latex.md": {
+    "mtime": 1784329963.0051007,
+    "ast_hash": "47c83d4358893244f520424508984552",
+    "semantic_hash": ""
+  },
+  "docs/plugins/NotFoundPage.md": {
+    "mtime": 1784329963.0061064,
+    "ast_hash": "762a987caf8d04e031b701670eb1a488",
+    "semantic_hash": ""
+  },
+  "docs/plugins/NoteProperties.md": {
+    "mtime": 1784329963.0061064,
+    "ast_hash": "735dd7d7da70f7c540051085dda14284",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ObsidianFlavoredMarkdown.md": {
+    "mtime": 1784329963.0071187,
+    "ast_hash": "bdef56dc317e384f97fe09cb309f62e8",
+    "semantic_hash": ""
+  },
+  "docs/plugins/OxHugoFlavoredMarkdown.md": {
+    "mtime": 1784329963.0082839,
+    "ast_hash": "4e16422aba0a4318bee8177f69bc7b82",
+    "semantic_hash": ""
+  },
+  "docs/plugins/PageTitle.md": {
+    "mtime": 1784329963.009282,
+    "ast_hash": "bf87d6a69f6cc37acdd86a4af9a8a19e",
+    "semantic_hash": ""
+  },
+  "docs/plugins/ReaderMode.md": {
+    "mtime": 1784329963.0098698,
+    "ast_hash": "6631b5bd4444123be9a73115331fa4d7",
+    "semantic_hash": ""
+  },
+  "docs/plugins/RecentNotes.md": {
+    "mtime": 1784329963.0098698,
+    "ast_hash": "dbb15fb5c790112a1744c48ce02fdcb3",
+    "semantic_hash": ""
+  },
+  "docs/plugins/RemoveDrafts.md": {
+    "mtime": 1784329963.0108788,
+    "ast_hash": "4206db9510c407d23e99f36080581a64",
+    "semantic_hash": ""
+  },
+  "docs/plugins/RoamFlavoredMarkdown.md": {
+    "mtime": 1784329963.0118763,
+    "ast_hash": "5ad956ba2ceda150e5642811f98a6a80",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Search.md": {
+    "mtime": 1784329963.0118763,
+    "ast_hash": "be610341a7cbfa6c9fdccb315f90e8c0",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Spacer.md": {
+    "mtime": 1784329963.0118763,
+    "ast_hash": "3a1e724ae4b54c0e5793e57d46dd0093",
+    "semantic_hash": ""
+  },
+  "docs/plugins/StackedPages.md": {
+    "mtime": 1784329963.0131724,
+    "ast_hash": "fae5b4a2f145a9c065b43019a4206678",
+    "semantic_hash": ""
+  },
+  "docs/plugins/Static.md": {
+    "mtime": 1784329963.014194,
+    "ast_hash": "d732403bd185655cb686b266a2cbebf0",
+    "semantic_hash": ""
+  },
+  "docs/plugins/SyntaxHighlighting.md": {
+    "mtime": 1784329963.014194,
+    "ast_hash": "917400281396465f075ec976bf9349f3",
+    "semantic_hash": ""
+  },
+  "docs/plugins/TableOfContents.md": {
+    "mtime": 1784329963.0153804,
+    "ast_hash": "992bc64a91c792c811fff5e748c1f9ea",
+    "semantic_hash": ""
+  },
+  "docs/plugins/TagList.md": {
+    "mtime": 1784329963.0153804,
+    "ast_hash": "913de117c3ef52c5bf22a0ced0b62db6",
+    "semantic_hash": ""
+  },
+  "docs/plugins/TagPage.md": {
+    "mtime": 1784329963.0164137,
+    "ast_hash": "30bc0f79c8561775543fe08c4252043e",
+    "semantic_hash": ""
+  },
+  "docs/plugins/UnlistedPages.md": {
+    "mtime": 1784329963.0174696,
+    "ast_hash": "2d0afe2bee4fad9677bdeb3d0df05206",
+    "semantic_hash": ""
+  },
+  "docs/plugins/index.md": {
+    "mtime": 1784329963.0174696,
+    "ast_hash": "404367bd7c3a1af489e47c1e136fa77d",
+    "semantic_hash": ""
+  },
+  "docs/showcase.md": {
+    "mtime": 1784329963.0184891,
+    "ast_hash": "f37b8d85839fa841836d7ce6ce9e7435",
+    "semantic_hash": ""
+  },
+  "docs/tags/component.md": {
+    "mtime": 1784329963.0197945,
+    "ast_hash": "d590bbd4fd5e651c98b7ac0fcd2efd8f",
+    "semantic_hash": ""
+  },
+  "docs/tags/plugin.md": {
+    "mtime": 1784329963.0197945,
+    "ast_hash": "6f9cd8bde082d9645cd3286e04c15d33",
+    "semantic_hash": ""
+  },
+  "docs/troubleshooting.md": {
+    "mtime": 1784329963.0208535,
+    "ast_hash": "d85be79664080439e0693c1e52dc0fca",
+    "semantic_hash": ""
+  },
+  "quartz.config.default.yaml": {
+    "mtime": 1784329963.0251293,
+    "ast_hash": "b403a2a1c72e4d548dc59285e16d575e",
+    "semantic_hash": ""
+  },
+  "quartz.config.yaml": {
+    "mtime": 1784467615.159077,
+    "ast_hash": "9c4c0ce81a5464003c6e4c969354edf5",
+    "semantic_hash": ""
+  },
+  "quartz/cli/templates/blog.yaml": {
+    "mtime": 1784329963.0356014,
+    "ast_hash": "dd45615fe6978a0f94b74b72684f2fa9",
+    "semantic_hash": ""
+  },
+  "quartz/cli/templates/default.yaml": {
+    "mtime": 1784329963.0356014,
+    "ast_hash": "b77003cc163b497c44279ac00bcfa6ce",
+    "semantic_hash": ""
+  },
+  "quartz/cli/templates/obsidian.yaml": {
+    "mtime": 1784329963.0366547,
+    "ast_hash": "16269b6555b7c6a2461a42b57e704799",
+    "semantic_hash": ""
+  },
+  "quartz/cli/templates/ttrpg.yaml": {
+    "mtime": 1784329963.0377676,
+    "ast_hash": "3416adbec079aed50080a0870828a720",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/01-home-dark.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "3728371581269f02743d7c49abb53d35",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/02-home-light.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "307452f8389c1e2a02c12b7f969f3341",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/03-lexicon-light.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "27c7ee798f2bc80292aead4db45d7ce3",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/04-lexicon-dark.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "c415ed37f8b7d8abcf95a3e4fcaea76e",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/05-chapter-dark.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "dcef6a5dffcede32b26c9c11a7d5daa0",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/06-chapter-light.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "5490713ec1184ffa476551c0439bcce1",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/07-chapter-light-scrolled.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "751ea4fa928942db97cb8733764b7e20",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/screenshots/08-graph-sidebar-closeup.png": {
+    "mtime": 1784459970.0,
+    "ast_hash": "59f20f45c659dda7d699a0692259ff94",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase1-home-dark.png": {
+    "mtime": 1784461910.339028,
+    "ast_hash": "60f3fa7db49743b9a31df9b2282a74b9",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase1-home-light.png": {
+    "mtime": 1784461910.3831208,
+    "ast_hash": "6d47c76fa673e89dd613713d864a9bf9",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase3-chapter-dark.png": {
+    "mtime": 1784464077.6449623,
+    "ast_hash": "ba28ef9fc392d8a095e9918f21cc3021",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase3-chapter-light-scrolled.png": {
+    "mtime": 1784464077.7879186,
+    "ast_hash": "d97c0ebb3ca4ac245ea594be2ef2319d",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase3-chapter-light.png": {
+    "mtime": 1784464077.702296,
+    "ast_hash": "03a05fcbe36b0fb9d08fd42cb3dec121",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase4-lexicon-dark.png": {
+    "mtime": 1784465263.986914,
+    "ast_hash": "2560a8d2f2e55da5bbfa99511e7254bc",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/fase4-lexicon-light.png": {
+    "mtime": 1784465263.9420853,
+    "ast_hash": "6d0996c4e98626c93bd55dc02299f350",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/finale-chapter-con-nav.png": {
+    "mtime": 1784468065.961257,
+    "ast_hash": "4db083df72f26bea0c6e3c83add483e7",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/finale-home-dark.png": {
+    "mtime": 1784468065.878016,
+    "ast_hash": "bccc181a35a900ee40c486970a28c04b",
+    "semantic_hash": ""
+  },
+  "design_handoff_vulgata_militaris/verify/finale-home-light.png": {
+    "mtime": 1784468065.9190307,
+    "ast_hash": "8432cf3dde8b3719d0131a06cb61bfe6",
+    "semantic_hash": ""
+  },
+  "docs/images/custom-social-image-preview-dark.png": {
+    "mtime": 1784329962.9590528,
+    "ast_hash": "b4774dadf449718e8bd5288c00daee98",
+    "semantic_hash": ""
+  },
+  "docs/images/custom-social-image-preview-light.png": {
+    "mtime": 1784329962.960284,
+    "ast_hash": "e84037eb1a61890b8094812fc22732c1",
+    "semantic_hash": ""
+  },
+  "docs/images/dns records.png": {
+    "mtime": 1784329962.9613013,
+    "ast_hash": "773594d2cf1b6b01d055d4f3cf8cbd15",
+    "semantic_hash": ""
+  },
+  "docs/images/giscus-discussion.png": {
+    "mtime": 1784329962.9622946,
+    "ast_hash": "3592c5834cfc1ec2217d9d8bfead63a8",
+    "semantic_hash": ""
+  },
+  "docs/images/giscus-example.png": {
+    "mtime": 1784329962.9672983,
+    "ast_hash": "c65e3ecb3c271c06910ff5b193321b51",
+    "semantic_hash": ""
+  },
+  "docs/images/giscus-repo.png": {
+    "mtime": 1784329962.9683037,
+    "ast_hash": "3af4d1b24e513e8d37d7b1e26d2ae64d",
+    "semantic_hash": ""
+  },
+  "docs/images/giscus-results.png": {
+    "mtime": 1784329962.970301,
+    "ast_hash": "3514237df98d84133a1b364da0c05ab7",
+    "semantic_hash": ""
+  },
+  "docs/images/github-init-repo-options.png": {
+    "mtime": 1784329962.9713001,
+    "ast_hash": "f4658d8609dbd0af692ac61bb96adcfc",
+    "semantic_hash": ""
+  },
+  "docs/images/github-quick-setup.png": {
+    "mtime": 1784329962.9732995,
+    "ast_hash": "a949d1d81735bb2264d0aa4cd4eb182d",
+    "semantic_hash": ""
+  },
+  "docs/images/quartz transform pipeline.png": {
+    "mtime": 1784329962.9743016,
+    "ast_hash": "2227b135fe43d14188c9e89d543ee747",
+    "semantic_hash": ""
+  },
+  "docs/images/quartz-layout-desktop.png": {
+    "mtime": 1784329962.9753003,
+    "ast_hash": "81a740ed46d1c5c9af769e09624c135a",
+    "semantic_hash": ""
+  },
+  "docs/images/quartz-layout-mobile.png": {
+    "mtime": 1784329962.9753003,
+    "ast_hash": "c4bf67eddfc6b24918bff503a260f737",
+    "semantic_hash": ""
+  },
+  "docs/images/quartz-layout-tablet.png": {
+    "mtime": 1784329962.9763007,
+    "ast_hash": "e395f7adcdefed86d96c38923b9d331e",
+    "semantic_hash": ""
+  },
+  "docs/images/social-image-preview-dark.png": {
+    "mtime": 1784329962.9783008,
+    "ast_hash": "bdd90c18e13b4437f7725a326788d5d8",
+    "semantic_hash": ""
+  },
+  "docs/images/social-image-preview-light.png": {
+    "mtime": 1784329962.9797199,
+    "ast_hash": "36d79c1a8153e12d79bb1445ada92e68",
+    "semantic_hash": ""
+  },
+  "quartz/static/icon.png": {
+    "mtime": 1784329963.1068923,
+    "ast_hash": "f03c27d75fac3d5968b7b155a6ec52f8",
+    "semantic_hash": ""
+  },
+  "quartz/static/og-image.png": {
+    "mtime": 1784329963.108155,
+    "ast_hash": "f404bbd328e9f704c3f9c5a2ada36dd5",
+    "semantic_hash": ""
+  }
+}

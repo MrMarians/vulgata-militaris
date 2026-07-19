@@ -1,6 +1,8 @@
-// Home page transformer (design handoff §2). On the index page only:
-//  1. replaces the content h1 with the eyebrow label ("A digital garden —
-//     Jerome's Vulgate", overridable via frontmatter `eyebrow`) + hero h1;
+// Home page transformer. On the index page only:
+//  1. replaces the content h1 with the full-width hero banner from the
+//     "Homepage Hero Vulgata Militaris.dc" mockup: eyebrow (overridable via
+//     frontmatter `eyebrow`), VVLGATA MILITARIS title, ornament divider,
+//     Eph 6:11 quote with attribution, and bottom caption;
 //  2. inserts the diamond-marked divider before the "Books" section;
 //  3. turns the chapter-links paragraph after "Liber Numerorum" into the
 //     numbered square grid (link text "Nm 12" -> "12", anchors preserved so
@@ -25,7 +27,10 @@ function textOf(node) {
   return ""
 }
 
-const DEFAULT_EYEBROW = "A digital garden — Jerome's Vulgate"
+const DEFAULT_EYEBROW = "Lessico storico-filologico"
+const HERO_QUOTE = "“Induite vos arma Dei, ut possitis stare adversus insidias diaboli.”"
+const HERO_REF = "Ephesios VI, 11 · Biblia Sacra Vulgata"
+const HERO_FOOT = "Vulgata Militaris — Edizione digitale"
 
 const HomeHero = () => {
   return {
@@ -38,16 +43,36 @@ const HomeHero = () => {
           if (!Array.isArray(kids)) return
           const fm = file.data?.frontmatter ?? {}
 
-          // 1. Eyebrow + hero title in place of the content h1
+          // 1. Hero banner in place of the content h1
           const h1i = kids.findIndex((n) => isEl(n, "h1"))
           if (h1i >= 0) {
             kids.splice(
               h1i,
               1,
-              el("div", { className: ["home-eyebrow"] }, [
-                text(String(fm.eyebrow ?? DEFAULT_EYEBROW)),
+              el("section", { className: ["home-hero"] }, [
+                el("div", { className: ["home-hero-inner"] }, [
+                  el("div", { className: ["home-hero-eyebrow"] }, [
+                    text(String(fm.eyebrow ?? DEFAULT_EYEBROW)),
+                  ]),
+                  el("h1", { className: ["home-hero-title"] }, [
+                    text("VVLGATA"),
+                    el("br"),
+                    text("MILITARIS"),
+                  ]),
+                  el("div", { className: ["home-hero-ornament"] }, [
+                    el("span", { className: ["home-hero-line"] }),
+                    el("span", { className: ["home-hero-diamond"] }),
+                    el("span", { className: ["home-hero-line"] }),
+                  ]),
+                  el("p", { className: ["home-hero-quote"] }, [text(HERO_QUOTE)]),
+                  el("div", { className: ["home-hero-ref"] }, [text(HERO_REF)]),
+                ]),
+                el("div", { className: ["home-hero-foot"] }, [
+                  el("span", { className: ["home-hero-foot-line"] }),
+                  text(HERO_FOOT),
+                  el("span", { className: ["home-hero-foot-line"] }),
+                ]),
               ]),
-              el("h1", { className: ["home-title"] }, [text(String(fm.title ?? ""))]),
             )
           }
 
