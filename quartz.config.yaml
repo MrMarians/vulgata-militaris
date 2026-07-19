@@ -267,6 +267,14 @@ plugins:
   - source: ./plugins/term-card
     enabled: true
     order: 65
+  - source: ./plugins/home-hero
+    enabled: true
+    order: 65
+  - source: ./plugins/top-nav
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 1
   - source: ./plugins/term-info
     enabled: true
     layout:

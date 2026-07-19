@@ -115,6 +115,141 @@ body[data-slug^="books/"] article {
 }
 
 // ---------------------------------------------------------------------------
+// Home page (design handoff §2): eyebrow + 64px hero title (injected by the
+// home-hero transformer in place of the content h1), lede/intro paragraphs,
+// diamond divider, section eyebrows, chapter-number grid, lexicon rows.
+// ---------------------------------------------------------------------------
+body[data-slug="index"] {
+  h1.article-title,
+  .content-meta {
+    display: none;
+  }
+
+  article {
+    .home-eyebrow {
+      font-size: 12px;
+      font-weight: $boldWeight;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--secondary);
+      margin-bottom: 18px;
+    }
+
+    h1.home-title {
+      font-family: "Source Serif 4", serif;
+      font-weight: $semiBoldWeight;
+      font-size: 64px;
+      line-height: 1.05;
+      margin: 0 0 28px;
+      max-width: 820px;
+    }
+
+    // Lede + intro paragraphs (first two of the page)
+    & > div > p:nth-of-type(1) {
+      font-family: "Source Serif 4", serif;
+      font-size: 21px;
+      line-height: 1.6;
+      color: var(--gray);
+      max-width: 680px;
+      margin: 0 0 32px;
+    }
+
+    & > div > p:nth-of-type(2) {
+      font-size: 15px;
+      line-height: 1.7;
+      color: var(--gray);
+      max-width: 640px;
+      margin: 0 0 56px;
+
+      a.internal {
+        color: var(--secondary);
+        font-weight: $semiBoldWeight;
+        background-color: transparent;
+        padding: 0;
+        border-bottom: 1px solid var(--secondary);
+        border-radius: 0;
+      }
+    }
+
+    .home-divider {
+      height: 1px;
+      background-color: var(--borderCol);
+      margin: 0 0 56px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -4px;
+        width: 8px;
+        height: 8px;
+        transform: rotate(45deg);
+        background-color: var(--secondary);
+      }
+    }
+
+    // Section headings become small uppercase eyebrows (Books, Military lexicon)
+    h2 {
+      font-family: "Public Sans", sans-serif;
+      font-size: 12px;
+      font-weight: $boldWeight;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin: 0 0 10px;
+    }
+
+    h3 {
+      font-family: "Source Serif 4", serif;
+      font-weight: $semiBoldWeight;
+      font-size: 28px;
+      margin: 0 0 22px;
+    }
+
+    .chapter-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(52px, 1fr));
+      gap: 9px;
+      max-width: 900px;
+      margin: 0 0 64px;
+
+      a.chapter-square {
+        font-family: "Source Serif 4", serif;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 11px 0;
+        border-radius: 6px;
+        border: 1px solid var(--borderCol);
+        background-color: var(--bgAlt);
+        color: var(--darkgray);
+        text-align: center;
+      }
+
+      a.chapter-square:hover {
+        border-color: var(--secondary);
+        color: var(--secondary);
+      }
+    }
+
+    // Lexicon rows: bold category lead + middle-dot separated term links
+    & > div > p:nth-of-type(n + 3) {
+      font-size: 15.5px;
+      line-height: 2.1;
+      max-width: 900px;
+      margin: 0 0 16px;
+
+      a.internal {
+        background-color: transparent;
+        padding: 0;
+        color: var(--secondary);
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Terminology-card pages (content under military-lexicon/): title row,
 // comparison chain, definition/loci typography. Markup emitted by the
 // term-card transformer plugin; sidebar card styles live in the term-info

@@ -157,6 +157,12 @@
       "commit": "0d448f38a24c568c5539ff2cd57d813293430ccd",
       "installedAt": "2026-07-17T23:17:21.196Z"
     },
+    "home-hero": {
+      "source": "./plugins/home-hero",
+      "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\home-hero",
+      "commit": "local",
+      "installedAt": "2026-07-19T13:27:16.190Z"
+    },
     "latex": {
       "source": "github:quartz-community/latex",
       "resolved": "https://github.com/quartz-community/latex.git",
@@ -287,6 +293,12 @@
       "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\term-info",
       "commit": "local",
       "installedAt": "2026-07-19T12:41:32.423Z"
+    },
+    "top-nav": {
+      "source": "./plugins/top-nav",
+      "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\top-nav",
+      "commit": "local",
+      "installedAt": "2026-07-19T13:27:16.191Z"
     },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
