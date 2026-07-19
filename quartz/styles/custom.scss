@@ -152,8 +152,8 @@ body[data-slug="index"] {
       margin: 0 0 56px;
       font-family: "Public Sans", sans-serif;
       // Mockup background: warm dark base + gold glow, corner vignettes,
-      // faint 3px gold grid texture (the mockup's overlay-blended grid and
-      // Jerome engraving are approximated / omitted — no asset in repo).
+      // faint 3px gold grid texture (the mockup's overlay blend mode is
+      // approximated with low-alpha gold), Jerome engraving as <img> below.
       background:
         repeating-linear-gradient(0deg, rgba(209, 164, 78, 0.03) 0 1px, transparent 1px 3px),
         repeating-linear-gradient(90deg, rgba(209, 164, 78, 0.03) 0 1px, transparent 1px 3px),
@@ -176,6 +176,24 @@ body[data-slug="index"] {
         inset: 22px;
         border: 1px solid rgba(209, 164, 78, 0.18);
       }
+    }
+
+    img.home-hero-image {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 73%; // mockup: 1400px on a 1920px canvas
+      min-width: 420px;
+      max-width: none;
+      height: auto;
+      opacity: 0.16;
+      filter: grayscale(1) sepia(0.5) brightness(1.1) contrast(1.05);
+      mix-blend-mode: luminosity;
+      border-radius: 0;
+      margin: 0;
+      user-select: none;
+      pointer-events: none;
     }
 
     .home-hero-eyebrow {

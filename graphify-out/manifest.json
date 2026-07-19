@@ -20,8 +20,8 @@
     "semantic_hash": ""
   },
   "plugins/home-hero/src/index.js": {
-    "mtime": 1784485242.0330415,
-    "ast_hash": "224356821d40c0b80728b002223443bd",
+    "mtime": 1784495285.0488586,
+    "ast_hash": "3044414cde42ba3287a6e32673b1ce48",
     "semantic_hash": ""
   },
   "plugins/term-card/package.json": {
@@ -777,11 +777,6 @@
   "CODE_OF_CONDUCT.md": {
     "mtime": 1784329962.9146757,
     "ast_hash": "9bc7828b6a2906b05841f82b9546b05b",
-    "semantic_hash": ""
-  },
-  "Homepage Hero Vulgata Militaris.dc.html": {
-    "mtime": 1784484700.447868,
-    "ast_hash": "e43a8281c50b338820308df8b66ae15b",
     "semantic_hash": ""
   },
   "LICENSE.txt": {
@@ -2082,6 +2077,16 @@
   "quartz/static/og-image.png": {
     "mtime": 1784329963.108155,
     "ast_hash": "f404bbd328e9f704c3f9c5a2ada36dd5",
+    "semantic_hash": ""
+  },
+  "Vulgata Militaris - Homepage Hero.html": {
+    "mtime": 1784494911.9096806,
+    "ast_hash": "5527e2739181e6513a22b5a071acdd9b",
+    "semantic_hash": ""
+  },
+  "quartz/static/gerolamo-crop.webp": {
+    "mtime": 1784495275.542,
+    "ast_hash": "5b89618a0cc1be3548d0e9a90ab5a5f3",
     "semantic_hash": ""
   }
 }

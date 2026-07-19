@@ -50,6 +50,15 @@ const HomeHero = () => {
               h1i,
               1,
               el("section", { className: ["home-hero"] }, [
+                // Jerome engraving from the mockup (blended into the dark
+                // background); ./ resolves because the hero only renders on
+                // the root index page
+                el("img", {
+                  className: ["home-hero-image"],
+                  src: "./static/gerolamo-crop.webp",
+                  alt: "",
+                  decoding: "async",
+                }),
                 el("div", { className: ["home-hero-inner"] }, [
                   el("div", { className: ["home-hero-eyebrow"] }, [
                     text(String(fm.eyebrow ?? DEFAULT_EYEBROW)),
