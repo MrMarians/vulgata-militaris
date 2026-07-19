@@ -15,10 +15,7 @@ status: draft
 
 # princeps
 
-The standard title of the tribal chief in the Vulgate of Numbers — 72 occurrences, the
-backbone of the book's command vocabulary. Behind it stand chiefly the *nəśîʾîm*, the
-chieftains of the census and the camp, but also the *śārîm* of Moab and Balak and, at one
-point, the "heads" (*rāʾšê*) of the people.
+The standard title of the tribal chief in the Vulgate of Numbers — 72 occurrences, the backbone of the book's command vocabulary. Behind it stand chiefly the *nəśîʾîm*, the chieftains of the census and the camp, but also the *śārîm* of Moab and Balak and, at one point, the "heads" (*rāʾšê*) of the people.
 
 ## Textual tradition
 
@@ -26,16 +23,7 @@ point, the "heads" (*rāʾšê*) of the people.
 |---|---|---|---|---|
 | נָשִׂיא — *nāśîʾ* (dominant); שַׂר — *śar* (the princes of Moab, chh. 22-23); רֹאשׁ — *rōʾš* (30,1; 25,4) | ἄρχων / ἄρχοντες | — | **princeps** | 72 in Numbers (full text, verified; *principium* "beginning" excluded, e.g. 24,20) |
 
-Marked colourings within the mass: at [[Liber Numerorum/01|Nm 1,16]] the chiefs are
-"**nobilissimi principes** multitudinis… et capita exercitus" — a pairing with Ciceronian
-credentials (*nobilissimi ac principes civitatis*, Verr. II,1,90); at
-[[Liber Numerorum/03|Nm 3,32]] Eleazar is "**princeps principum** Levitarum" (*nəśîʾ
-nəśîʾê*); at [[Liber Numerorum/14|Nm 14,12]] the Vulgate has God promise to make Moses
-"principem super gentem magnam" where the Hebrew makes him *become* a great nation — the
-prince is read into the text. Note also the *variatio* with [[dux]] for the same Hebrew
-title: in ch. 7 the offering chiefs are *duces* (7,3-18) and then *principes* (7,24-84); in
-ch. 10 the column marches under *principes* with one *dux* (10,24). For the one place where
-*princeps* is pointedly avoided — the revolt of Korah — see [[proceres]].
+Marked colourings within the mass: at [[Liber Numerorum/01|Nm 1,16]] the chiefs are "**nobilissimi principes** multitudinis… et capita exercitus" — a pairing with Ciceronian credentials (*nobilissimi ac principes civitatis*, Verr. II,1,90); at [[Liber Numerorum/03|Nm 3,32]] Eleazar is "**princeps principum** Levitarum" (*nəśîʾ nəśîʾê*); at [[Liber Numerorum/14|Nm 14,12]] the Vulgate has God promise to make Moses "principem super gentem magnam" where the Hebrew makes him *become* a great nation — the prince is read into the text. Note also the *variatio* with [[dux]] for the same Hebrew title: in ch. 7 the offering chiefs are *duces* (7,3-18) and then *principes* (7,24-84); in ch. 10 the column marches under *principes* with one *dux* (10,24). For the one place where *princeps* is pointedly avoided — the revolt of Korah — see [[proceres]].
 
 ## Loci (all occurrences in Numbers)
 

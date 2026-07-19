@@ -15,9 +15,7 @@ status: draft
 
 # inimicus
 
-The **un-friend** — *in-imicus*, the negation of *amicus*: in Roman idiom the personal
-enemy, as against the public [[hostis]]. Nine occurrences, tracking Hebrew *ʾōyēb* (from
-*ʾāyab*, "to be hostile") with the same etymological logic of relation denied.
+The **un-friend** — *in-imicus*, the negation of *amicus*: in Roman idiom the personal enemy, as against the public [[hostis]]. Nine occurrences, tracking Hebrew *ʾōyēb* (from *ʾāyab*, "to be hostile") with the same etymological logic of relation denied.
 
 ## Textual tradition
 
@@ -25,17 +23,7 @@ enemy, as against the public [[hostis]]. Nine occurrences, tracking Hebrew *ʾō
 |---|---|---|---|---|
 | אֹיֵב — *ʾōyēb* "the hater/foe"; אֵיבָה — *ʾêbâ* "enmity" (35,21.23); שׂנא *śānēʾ* (10,35, as a relative clause) | ἐχθρός; ἔχθρα | — | **inimicus / inimicitiae** | 9 in Numbers (full text, verified) |
 
-The mapping *ʾōyēb → inimicus* holds throughout — sealed by the double enemy-verse
-[[Liber Numerorum/10|Nm 10,9]] (see [[hostis]]) and sung in the Ark-formula: "dissipentur
-**inimici** tui, et fugiant **qui oderunt te** a facie tua"
-([[Liber Numerorum/10|Nm 10,35]]), where the second enemy-word, *śānēʾ* "hater", becomes a
-relative clause. So Israel falls "coram **inimicis**" (14,42), Balak rages that Balaam
-blesses his *inimici* (23,11; 24,10), Edom passes to its *inimici* in the oracle (24,18),
-and Israel fights "donec subvertat **inimicos** suos" (32,21). Then the register shifts
-exactly where Roman usage would put it: in the homicide law of
-[[Liber Numerorum/35|Nm 35,21.23]] the criterion of murder is **personal enmity** —
-*inimicitiae*, *inimicus* (Hebrew *ʾêbâ*): the private enemy, the *inimicus* proper, decides
-between murderer and manslayer.
+The mapping *ʾōyēb → inimicus* holds throughout — sealed by the double enemy-verse [[Liber Numerorum/10|Nm 10,9]] (see [[hostis]]) and sung in the Ark-formula: "dissipentur **inimici** tui, et fugiant **qui oderunt te** a facie tua" ([[Liber Numerorum/10|Nm 10,35]]), where the second enemy-word, *śānēʾ* "hater", becomes a relative clause. So Israel falls "coram **inimicis**" (14,42), Balak rages that Balaam blesses his *inimici* (23,11; 24,10), Edom passes to its *inimici* in the oracle (24,18), and Israel fights "donec subvertat **inimicos** suos" (32,21). Then the register shifts exactly where Roman usage would put it: in the homicide law of [[Liber Numerorum/35|Nm 35,21.23]] the criterion of murder is **personal enmity** — *inimicitiae*, *inimicus* (Hebrew *ʾêbâ*): the private enemy, the *inimicus* proper, decides between murderer and manslayer.
 
 ## Loci (all occurrences in Numbers)
 

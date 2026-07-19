@@ -15,8 +15,7 @@ status: draft
 
 # persequi
 
-The **pursuit** — the phase of battle after the line breaks, when the victor rides down the
-routed. One occurrence in Numbers, at Israel's own worst defeat.
+The **pursuit** — the phase of battle after the line breaks, when the victor rides down the routed. One occurrence in Numbers, at Israel's own worst defeat.
 
 ## Textual tradition
 
@@ -24,13 +23,7 @@ routed. One occurrence in Numbers, at Israel's own worst defeat.
 |---|---|---|---|---|
 | וַיַּכּוּם וַיַּכְּתוּם עַד־הַחָרְמָה — "they struck them and crushed them as far as Hormah" | (they cut them down as far as Herman) | — | **persecutus est… usque Horma** | 1 in Numbers (full text, verified) |
 
-[[Liber Numerorum/14|Nm 14,45]]: after the presumptuous attack made *sine Domino*, Amalek
-and Canaan descend, "**percutiens** eos atque concidens **persecutus** est usque Horma."
-The Hebrew piles up two smiting verbs and a place-name; Jerome unfolds them into the
-tactical sequence a Roman reader expects — strike, cut down, **pursue**. The pursuit ends
-at *Horma*: the same name that at [[Liber Numerorum/21|Nm 21,3]] will seal Israel's
-ban-victory, *Horma id est* [[anathema]]. The place of the rout becomes the place of the
-ban — a name-echo the lexicon lets the reader trace card to card.
+[[Liber Numerorum/14|Nm 14,45]]: after the presumptuous attack made *sine Domino*, Amalek and Canaan descend, "**percutiens** eos atque concidens **persecutus** est usque Horma." The Hebrew piles up two smiting verbs and a place-name; Jerome unfolds them into the tactical sequence a Roman reader expects — strike, cut down, **pursue**. The pursuit ends at *Horma*: the same name that at [[Liber Numerorum/21|Nm 21,3]] will seal Israel's ban-victory, *Horma id est* [[anathema]]. The place of the rout becomes the place of the ban — a name-echo the lexicon lets the reader trace card to card.
 
 ## Loci (all occurrences in Numbers)
 

@@ -15,9 +15,7 @@ status: draft
 
 # percutere
 
-To **strike** — the universal smiting-verb, 29 occurrences: God's blows, Moses' rod, the
-serpent's bite, the war-stroke, the manslayer's hand. One Latin verb holds the whole
-spectrum of Hebrew *nākâ*.
+To **strike** — the universal smiting-verb, 29 occurrences: God's blows, Moses' rod, the serpent's bite, the war-stroke, the manslayer's hand. One Latin verb holds the whole spectrum of Hebrew *nākâ*.
 
 ## Textual tradition
 
@@ -25,15 +23,7 @@ spectrum of Hebrew *nākâ*.
 |---|---|---|---|---|
 | נכה — *nākâ* (dominant); מָחַץ *māḥaṣ* "shatter" (24,17) | πατάσσω; θραύω (24,17) | — | **percutere / percussor** | 29 in Numbers (full text, verified) |
 
-The clusters: **God strikes** — the firstborn of Egypt (3,13; 8,17; 33,4), the craving camp
-(11,33), the spies (14,37), the plague of Korah (16,49), Peor (25,18; 31,16). **Men
-strike** — Moses the rock (20,11), Israel Sihon and Og (21,24.35; 32,4), Balaam his donkey
-(22,28.29, with Balak's *percutere* wish at 22,6), the command against Midian (25,17). The
-**serpents** strike: the bitten of 21,8.9 are *percussi*. At the messianic summit, the star
-of Jacob *percutiet duces Moab* (24,17, Hebrew *māḥaṣ* "shatter", LXX θραύσει). And in the
-homicide law of [[Liber Numerorum/35|Nm 35]] the agent-noun steps forward: the *percussor*
-(vv. 16-27), Hebrew *makkēh*, the striker whose intent the law weighs — smiting turned
-jurisprudence.
+The clusters: **God strikes** — the firstborn of Egypt (3,13; 8,17; 33,4), the craving camp (11,33), the spies (14,37), the plague of Korah (16,49), Peor (25,18; 31,16). **Men strike** — Moses the rock (20,11), Israel Sihon and Og (21,24.35; 32,4), Balaam his donkey (22,28.29, with Balak's *percutere* wish at 22,6), the command against Midian (25,17). The **serpents** strike: the bitten of 21,8.9 are *percussi*. At the messianic summit, the star of Jacob *percutiet duces Moab* (24,17, Hebrew *māḥaṣ* "shatter", LXX θραύσει). And in the homicide law of [[Liber Numerorum/35|Nm 35]] the agent-noun steps forward: the *percussor* (vv. 16-27), Hebrew *makkēh*, the striker whose intent the law weighs — smiting turned jurisprudence.
 
 ## Loci (all occurrences in Numbers)
 

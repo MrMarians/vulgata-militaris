@@ -15,10 +15,7 @@ status: draft
 
 # recensere
 
-The **census-review** — *recensere* is the technical verb of the Roman *census* and of the
-late-antique *recensus militaris*, the periodic review of the rolls attested in the
-Theodosian Code. Jerome reserves it for the muster of Israel: 26 occurrences, concentrated
-where the book counts its fighting men.
+The **census-review** — *recensere* is the technical verb of the Roman *census* and of the late-antique *recensus militaris*, the periodic review of the rolls attested in the Theodosian Code. Jerome reserves it for the muster of Israel: 26 occurrences, concentrated where the book counts its fighting men.
 
 ## Textual tradition
 
@@ -26,13 +23,7 @@ where the book counts its fighting men.
 |---|---|---|---|---|
 | פקד — *pāqad*, "to visit, muster, enrol" | ἐπισκέπτομαι | — | **recensere** | 26 in Numbers (full text, verified) |
 
-The Hebrew *pāqad* covers visitation, appointment and muster; the LXX's ἐπισκέπτομαι keeps
-the "inspection" note. Jerome splits the labour between two Latin verbs: the everyday
-[[numerare]] and this marked technicism, which turns the tribal enrolment into a Roman
-levy-review — *recensiti sunt per nomina singulorum*, name by name, as a recruiting officer
-checks his rolls. The distribution is telling: the two censuses (chh. 1-4 and 26) and the
-after-battle review of the Midian war (31,49: "recensuimus... nec unus quidem defuit" — the
-count that proves no one fell).
+The Hebrew *pāqad* covers visitation, appointment and muster; the LXX's ἐπισκέπτομαι keeps the "inspection" note. Jerome splits the labour between two Latin verbs: the everyday [[numerare]] and this marked technicism, which turns the tribal enrolment into a Roman levy-review — *recensiti sunt per nomina singulorum*, name by name, as a recruiting officer checks his rolls. The distribution is telling: the two censuses (chh. 1-4 and 26) and the after-battle review of the Midian war (31,49: "recensuimus... nec unus quidem defuit" — the count that proves no one fell).
 
 ## Loci (all occurrences in Numbers)
 

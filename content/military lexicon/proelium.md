@@ -16,8 +16,7 @@ dossier: notes/term-dossiers/milḥāmâ.md
 
 # proelium
 
-The **engagement** — where *bellum* is the war, *proelium* is the battle fought. Three
-occurrences in Numbers, with a curiosity: none of them renders *milḥāmâ* directly.
+The **engagement** — where *bellum* is the war, *proelium* is the battle fought. Three occurrences in Numbers, with a curiosity: none of them renders *milḥāmâ* directly.
 
 ## Textual tradition
 
@@ -25,16 +24,7 @@ occurrences in Numbers, with a curiosity: none of them renders *milḥāmâ* dir
 |---|---|---|---|---|
 | צָבָא — *ṣābāʾ* "the host" (31,36.42); no direct trigger at 32,17 | πόλεμος / παράταξις | — | **proelium** | 3 in Numbers (full text, verified) |
 
-In the spoil-arithmetic of the Midian war, "the men **who had gone out in the host**"
-become *qui in **proelio** fuerant* ([[Liber Numerorum/31|Nm 31,36.42]]) — as in the census
-formula of [[bellum]], the institution (*ṣābāʾ*) is read through its event, here the
-engagement itself. At [[Liber Numerorum/32|Nm 32,17]] the pledge of Gad and Ruben —
-*pergemus **ad proelium** ante filios Israhel* — has no battle-word in the Hebrew at all
-("we will go ready **before** the sons of Israel"): Jerome supplies the *proelium*,
-completing the soldier's oath his *armati et accincti* had begun (see [[accinctus]]).
-Within Numbers, then, the classic trio *bellum / proelium / pugna* is fed less by
-*milḥāmâ* than by Jerome's eventive reading of the muster — a datum for the systematicity
-question that the [[bellum]] and [[pugnare]] cards complete.
+In the spoil-arithmetic of the Midian war, "the men **who had gone out in the host**" become *qui in **proelio** fuerant* ([[Liber Numerorum/31|Nm 31,36.42]]) — as in the census formula of [[bellum]], the institution (*ṣābāʾ*) is read through its event, here the engagement itself. At [[Liber Numerorum/32|Nm 32,17]] the pledge of Gad and Ruben — *pergemus **ad proelium** ante filios Israhel* — has no battle-word in the Hebrew at all ("we will go ready **before** the sons of Israel"): Jerome supplies the *proelium*, completing the soldier's oath his *armati et accincti* had begun (see [[accinctus]]). Within Numbers, then, the classic trio *bellum / proelium / pugna* is fed less by *milḥāmâ* than by Jerome's eventive reading of the muster — a datum for the systematicity question that the [[bellum]] and [[pugnare]] cards complete.
 
 ## Loci (all occurrences in Numbers)
 

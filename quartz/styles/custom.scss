@@ -1,3 +1,16 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Justified, compact prose on article pages (user request)
+article.popover-hint p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+// Slightly taller local-graph panel (plugin default: 250px).
+// div.* specificity needed: the plugin stylesheet loads after custom.scss.
+div.graph > div.graph-outer {
+  height: 330px;
+}

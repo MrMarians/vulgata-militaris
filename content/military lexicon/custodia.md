@@ -15,10 +15,7 @@ status: draft
 
 # custodia
 
-**Guard-duty** — the *mišmeret*, the "charge" kept by the Levites around the sanctuary. In
-the camp of Numbers the priestly tribe is organized as a **guard corps**: posted by clans on
-the four sides of the tabernacle, answering for its protection with their lives, screening
-the *castra* of the fighting tribes from the lethal holiness at the centre.
+**Guard-duty** — the *mišmeret*, the "charge" kept by the Levites around the sanctuary. In the camp of Numbers the priestly tribe is organized as a **guard corps**: posted by clans on the four sides of the tabernacle, answering for its protection with their lives, screening the *castra* of the fighting tribes from the lethal holiness at the centre.
 
 ## Textual tradition
 
@@ -26,13 +23,7 @@ the *castra* of the fighting tribes from the lethal holiness at the centre.
 |---|---|---|---|---|
 | מִשְׁמֶרֶת — *mišmeret* (root šmr "to guard") | φυλακή | — | **custodia** | 10 in Numbers (noun; full text, verified) |
 
-*Custodia* is the ordinary Latin word for a military watch, and the Vulgate deploys it for
-the Levitical *mišmeret* from the first chapter ("excubabunt in **custodiis** tabernaculi
-testimonii", 1,53) to the war of Midian, where the Levites who "keep the watches" receive
-their share of the spoil (31,30). The verb *custodire* in the moral sense ("keep the
-commandments", Hebrew šāmar) belongs to a different register and is deliberately **not**
-indexed here. The guard-corps reading of the Levites goes hand in hand with [[excubiae]],
-the night-watch vocabulary that regularly accompanies *custodia* in these verses.
+*Custodia* is the ordinary Latin word for a military watch, and the Vulgate deploys it for the Levitical *mišmeret* from the first chapter ("excubabunt in **custodiis** tabernaculi testimonii", 1,53) to the war of Midian, where the Levites who "keep the watches" receive their share of the spoil (31,30). The verb *custodire* in the moral sense ("keep the commandments", Hebrew šāmar) belongs to a different register and is deliberately **not** indexed here. The guard-corps reading of the Levites goes hand in hand with [[excubiae]], the night-watch vocabulary that regularly accompanies *custodia* in these verses.
 
 ## Loci (all occurrences in Numbers)
 

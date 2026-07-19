@@ -24,11 +24,7 @@ Camp, encampment; by metonymy also "army, host." Root ḥ-n-h, "to encamp."
 |---|---|---|---|---|
 | מַחֲנֶה — *maḥăneh* | παρεμβολή | — | **castra** | 193 in scope *(draft: 148 confirmed as castra, 45 unmapped)*; **45 in Numbers** (noun, full text, verified) |
 
-Jerome renders *maḥăneh* almost exclusively as *castra*, the technical Roman fortified camp,
-not a neutral calque of the LXX's more generic παρεμβολή ("encampment, drawing-up"). The verb
-*ḥānâ* "to encamp" becomes [[castrametari]], "to lay out a Roman camp" — that card indexes
-the 39 verb occurrences; this one indexes the 45 noun occurrences (at Nm 1,51-52 noun and
-verb share the verse: *cum castra metanda erigent*, *metabuntur autem castra*).
+Jerome renders *maḥăneh* almost exclusively as *castra*, the technical Roman fortified camp, not a neutral calque of the LXX's more generic παρεμβολή ("encampment, drawing-up"). The verb *ḥānâ* "to encamp" becomes [[castrametari]], "to lay out a Roman camp" — that card indexes the 39 verb occurrences; this one indexes the 45 noun occurrences (at Nm 1,51-52 noun and verb share the verse: *cum castra metanda erigent*, *metabuntur autem castra*).
 
 ## Loci (all noun occurrences in Numbers)
 

@@ -4,12 +4,9 @@ title: Militaria in Vulgata
 
 # Militaria in Vulgata
 
-A research companion to the military lexicon of Jerome's Vulgate. Each chapter is given in
-its Latin text, with military terms linked to terminology cards that trace every word from
-the Hebrew (TM) and Greek (LXX) through to the Vulgate rendering.
+A research companion to the military lexicon of Jerome's Vulgate. Each chapter is given in its Latin text, with military terms linked to terminology cards that trace every word from the Hebrew (TM) and Greek (LXX) through to the Vulgate rendering.
 
-New here? The **[[introduction|Introduction]]** explains the project — the military models of
-the Hebrew Bible, their Roman re-coding, and how to read the cards.
+New here? The **[[introduction|Introduction]]** explains the project — the military models of the Hebrew Bible, their Roman re-coding, and how to read the cards.
 
 ## Books
 
@@ -31,8 +28,8 @@ the Hebrew Bible, their Roman re-coding, and how to read the cards.
 
 **The enemy** — [[hostis]] · [[inimicus]]
 
-**War as law and command** — [[foedus]] · [[pactum]] · [[iuramentum]] · [[maledictio]] · [[imperium]] · [[sors]]
+**War as law and command** — [[foedus]] · [[pactum]] · [[iuramentum]] · [[maledictio]] · [[imperium]] · [[sors]] · [[vindicare]]
 
-**The sacral register** — [[anathema]]
+**The sacral register** — [[anathema]] · [[zelus]] · [[ultio]]
 
-*In preparation: zelus, ultio, vindicare, and the mantic cluster of the Balaam cycle (augurium, divinatio, ariolus).*
+**The mantic register** — [[augurium]] · [[divinatio]] · [[ariolus]]

@@ -16,9 +16,7 @@ dossier: notes/term-dossiers/bərît.md
 
 # foedus
 
-The **treaty** — in Roman usage the solemn interstate pact, the *foedus* struck by the
-fetial priests. Forty-one occurrences in Numbers, and nearly all of them name a piece of
-furniture: the covenant colonises the cult.
+The **treaty** — in Roman usage the solemn interstate pact, the *foedus* struck by the fetial priests. Forty-one occurrences in Numbers, and nearly all of them name a piece of furniture: the covenant colonises the cult.
 
 ## Textual tradition
 
@@ -26,16 +24,7 @@ furniture: the covenant colonises the cult.
 |---|---|---|---|---|
 | אֹהֶל מוֹעֵד — *ʾōhel môʿēd*, "tent of **meeting**" (the formula, ~38×); בְּרִית — *bərît* (10,33 *arca foederis*; 25,12 *foedus pacis*) | σκηνὴ τοῦ μαρτυρίου — "tent of **witness**"; διαθήκη | — | **tabernaculum foederis** — "tent of the **treaty**" | 41 in Numbers (full text, verified) |
 
-Three traditions, three theologies of the same tent: the Hebrew names the **appointment**
-(*môʿēd*, from *yāʿad* "to appoint a meeting"), the Greek the **witness** (μαρτύριον,
-reading the consonants toward *ʿēdût*), the Latin the **treaty**. *Tabernaculum foederis*
-is thus itself an interpretation — Israel's sanctuary as the depository of a pact, the way
-Rome's temples held her *foedera* engraved in bronze. Genuine *bərît* appears twice: the
-**arca foederis** that precedes the marching column ([[Liber Numerorum/10|Nm 10,33]]) and
-the *foedus pacis* granted to Phinehas ([[Liber Numerorum/25|Nm 25,12]] — a covenant of
-peace as reward for a spear-thrust; see [[zelus]], [[pactum]]). Note 11,16 and 27,2: even
-the elders and the lawsuit of Zelophehad's daughters convene "ad ostium tabernaculi
-**foederis**" — all public law in Numbers happens at the door of the treaty-tent.
+Three traditions, three theologies of the same tent: the Hebrew names the **appointment** (*môʿēd*, from *yāʿad* "to appoint a meeting"), the Greek the **witness** (μαρτύριον, reading the consonants toward *ʿēdût*), the Latin the **treaty**. *Tabernaculum foederis* is thus itself an interpretation — Israel's sanctuary as the depository of a pact, the way Rome's temples held her *foedera* engraved in bronze. Genuine *bərît* appears twice: the **arca foederis** that precedes the marching column ([[Liber Numerorum/10|Nm 10,33]]) and the *foedus pacis* granted to Phinehas ([[Liber Numerorum/25|Nm 25,12]] — a covenant of peace as reward for a spear-thrust; see [[zelus]], [[pactum]]). Note 11,16 and 27,2: even the elders and the lawsuit of Zelophehad's daughters convene "ad ostium tabernaculi **foederis**" — all public law in Numbers happens at the door of the treaty-tent.
 
 ## Loci (all occurrences in Numbers)
 

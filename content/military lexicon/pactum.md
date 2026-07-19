@@ -16,9 +16,7 @@ dossier: notes/term-dossiers/bərît.md
 
 # pactum
 
-The **pact** — the second Latin face of *bərît*. Where [[foedus]] is the solemn treaty of
-peoples, *pactum* is the agreed bond of Roman private law, the *pactio* that obligates.
-Two occurrences in Numbers, both priestly.
+The **pact** — the second Latin face of *bərît*. Where [[foedus]] is the solemn treaty of peoples, *pactum* is the agreed bond of Roman private law, the *pactio* that obligates. Two occurrences in Numbers, both priestly.
 
 ## Textual tradition
 
@@ -26,14 +24,7 @@ Two occurrences in Numbers, both priestly.
 |---|---|---|---|---|
 | בְּרִית — *bərît* (melaḥ, "of salt", 18,19; kəhunnâ, "of priesthood", 25,13) | διαθήκη (uniform) | — | **pactum** | 2 in Numbers (full text, verified) |
 
-The Greek levels every *bərît* to διαθήκη; the Vulgate distributes. In Numbers *pactum* is
-reserved for the two **priestly** covenants: the "**pactum salis** sempiternum" that
-secures the priests' portions ([[Liber Numerorum/18|Nm 18,19]] — salt, the incorruptible
-seal, a formula treaty-practice knew across the ancient Near East), and the "**pactum**
-sacerdotii sempiternum" granted to Phinehas and his seed ([[Liber Numerorum/25|Nm 25,13]]),
-the juridical sequel of the *foedus pacis* of v. 12. Institutional bərît goes to *foedus*
-(the ark, the tent-formula); the two personal-hereditary grants go to *pactum*: even inside
-one Hebrew word, the Latin sorts covenants by legal kind.
+The Greek levels every *bərît* to διαθήκη; the Vulgate distributes. In Numbers *pactum* is reserved for the two **priestly** covenants: the "**pactum salis** sempiternum" that secures the priests' portions ([[Liber Numerorum/18|Nm 18,19]] — salt, the incorruptible seal, a formula treaty-practice knew across the ancient Near East), and the "**pactum** sacerdotii sempiternum" granted to Phinehas and his seed ([[Liber Numerorum/25|Nm 25,13]]), the juridical sequel of the *foedus pacis* of v. 12. Institutional bərît goes to *foedus* (the ark, the tent-formula); the two personal-hereditary grants go to *pactum*: even inside one Hebrew word, the Latin sorts covenants by legal kind.
 
 ## Loci (all occurrences in Numbers)
 

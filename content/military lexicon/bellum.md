@@ -16,8 +16,7 @@ dossier: notes/term-dossiers/milḥāmâ.md
 
 # bellum
 
-**War** — the most general of the Latin battle-words, and in Numbers a revealing one:
-more than half of its occurrences render not *milḥāmâ* "war" but *ṣābāʾ* "the host".
+**War** — the most general of the Latin battle-words, and in Numbers a revealing one: more than half of its occurrences render not *milḥāmâ* "war" but *ṣābāʾ* "the host".
 
 ## Textual tradition
 
@@ -25,16 +24,7 @@ more than half of its occurrences render not *milḥāmâ* "war" but *ṣābāʾ
 |---|---|---|---|---|
 | צָבָא — *ṣābāʾ* (census formula, chh. 1; 26; 31 passim); מִלְחָמָה — *milḥāmâ* (10,9; 21,14; 32,27.29) | δύναμις (for the formula); πόλεμος | — | **bellum** | 22 in Numbers (full text, verified) |
 
-In the census refrain of ch. 1 — *omnes qui poterant **ad bella** procedere*, thirteen
-times — the Hebrew says "everyone going out **to the host**" (*ṣābāʾ*), and the LXX keeps
-the institution (ἐν δυνάμει). Jerome reads the muster through what the muster is *for*:
-the institution becomes the event. The same shift returns at the second census
-([[Liber Numerorum/26|Nm 26,2]]) and throughout the Midian-war accounting (31,4-28). Beside
-this stands genuine *milḥāmâ*: the war-alarm law of [[Liber Numerorum/10|Nm 10,9]] ("si
-exieritis **ad bellum**… clangetis") and above all [[Liber Numerorum/21|Nm 21,14]], the
-citation of the lost "**liber bellorum Domini**" — the Book of the Wars of YHWH, divine war
-with its own bibliography. For the one-to-many split of *milḥāmâ* across the Latin
-battle-words, see [[proelium]] and [[pugnare]].
+In the census refrain of ch. 1 — *omnes qui poterant **ad bella** procedere*, thirteen times — the Hebrew says "everyone going out **to the host**" (*ṣābāʾ*), and the LXX keeps the institution (ἐν δυνάμει). Jerome reads the muster through what the muster is *for*: the institution becomes the event. The same shift returns at the second census ([[Liber Numerorum/26|Nm 26,2]]) and throughout the Midian-war accounting (31,4-28). Beside this stands genuine *milḥāmâ*: the war-alarm law of [[Liber Numerorum/10|Nm 10,9]] ("si exieritis **ad bellum**… clangetis") and above all [[Liber Numerorum/21|Nm 21,14]], the citation of the lost "**liber bellorum Domini**" — the Book of the Wars of YHWH, divine war with its own bibliography. For the one-to-many split of *milḥāmâ* across the Latin battle-words, see [[proelium]] and [[pugnare]].
 
 ## Loci (all occurrences in Numbers)
 

@@ -15,9 +15,7 @@ status: draft
 
 # numerare
 
-To **count** — verb and noun (*numerare*, *numerus*): the everyday face of the census
-machine, 58 occurrences beside the marked technicism [[recensere]]. And a word that gives
-the book its Latin name: *Liber Numeri*.
+To **count** — verb and noun (*numerare*, *numerus*): the everyday face of the census machine, 58 occurrences beside the marked technicism [[recensere]]. And a word that gives the book its Latin name: *Liber Numeri*.
 
 ## Textual tradition
 
@@ -25,15 +23,7 @@ the book its Latin name: *Liber Numeri*.
 |---|---|---|---|---|
 | פקד — *pāqad* (census); מָנָה *mānâ* / מִסְפָּר *mispār* (23,10) | ἐπισκέπτομαι / ἐπίσκεψις; ἀριθμός | — | **numerare / numerus** | 58 in Numbers (full text, verified; sacrificial ram-counts at 23,1.29 excluded) |
 
-Two resonances are worth hearing. First, in the Latin of Jerome's own century *numerus* is
-also the ordinary technical word for a military **unit** — Ammianus' *militares numeri* —
-so a book called *Numeri*, whose first chapter is a *numerare per turmas*, reads to a
-fourth-century ear as "the Book of the Units" as much as "of the Counts". Second, the
-counting has a theological counterpoint: at [[Liber Numerorum/23|Nm 23,10]] Balaam asks
-"quis dinumerare possit pulverem Iacob et nosse **numerum** stirpis Israhel?" — the people
-so carefully counted in chh. 1 and 26 is, under blessing, **uncountable**. The family also
-serves the spies' assessment of the enemy ("pauci **numero** an plures",
-[[Liber Numerorum/13|Nm 13,18]]) and the redemption arithmetic of the firstborn (3,39-46).
+Two resonances are worth hearing. First, in the Latin of Jerome's own century *numerus* is also the ordinary technical word for a military **unit** — Ammianus' *militares numeri* — so a book called *Numeri*, whose first chapter is a *numerare per turmas*, reads to a fourth-century ear as "the Book of the Units" as much as "of the Counts". Second, the counting has a theological counterpoint: at [[Liber Numerorum/23|Nm 23,10]] Balaam asks "quis dinumerare possit pulverem Iacob et nosse **numerum** stirpis Israhel?" — the people so carefully counted in chh. 1 and 26 is, under blessing, **uncountable**. The family also serves the spies' assessment of the enemy ("pauci **numero** an plures", [[Liber Numerorum/13|Nm 13,18]]) and the redemption arithmetic of the firstborn (3,39-46).
 
 ## Loci (all occurrences in Numbers)
 

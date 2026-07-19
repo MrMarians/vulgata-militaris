@@ -15,9 +15,7 @@ status: draft
 
 # explorare
 
-To **reconnoitre** — the scout's verb of Roman military prose, with its agent-noun
-*explorator*. Five occurrences covering the two Hebrew spy-verbs — and one toponym read as
-a mission.
+To **reconnoitre** — the scout's verb of Roman military prose, with its agent-noun *explorator*. Five occurrences covering the two Hebrew spy-verbs — and one toponym read as a mission.
 
 ## Textual tradition
 
@@ -25,16 +23,7 @@ a mission.
 |---|---|---|---|---|
 | תור *tûr* (13,21.25); רגל piel *rāgal* (21,32); ראה *rāʾâ* "see" (32,8); דֶּרֶךְ הָאֲתָרִים "the way of Atharim" (21,1) | κατασκέπτομαι / κατασκοπεῦσαι; ὁδὸν Αθαριν (transliterated) | — | **explorare / exploratores** | 5 in Numbers (full text, verified) |
 
-The mission of ch. 13 supplies verb and agent: *exploraverunt* (13,21) and the returning
-*exploratores* (13,25 — the noun is the Vulgate's, summarizing "from spying out the
-land"). At [[Liber Numerorum/21|Nm 21,32]] Moses sends men "qui **explorarent** Iazer"
-(Hebrew *rāgal*, the other spy-verb). At [[Liber Numerorum/32|Nm 32,8]] even plain "to
-**see** the land" (*rāʾâ*) becomes reconnaissance. The gem is
-[[Liber Numerorum/21|Nm 21,1]]: Israel comes "per **exploratorum** viam" — where the
-Hebrew has the obscure toponym *hā-ʾătārîm*, transliterated by the LXX (Αθαριν), Jerome
-reads "the way of the scouts", an interpretation with rabbinic parallels (the Targumim's
-"way of the spies"). What Hebrew text he read is unknown; the alignment is ours. For the
-contemplative twin of this verb, see [[considerare]].
+The mission of ch. 13 supplies verb and agent: *exploraverunt* (13,21) and the returning *exploratores* (13,25 — the noun is the Vulgate's, summarizing "from spying out the land"). At [[Liber Numerorum/21|Nm 21,32]] Moses sends men "qui **explorarent** Iazer" (Hebrew *rāgal*, the other spy-verb). At [[Liber Numerorum/32|Nm 32,8]] even plain "to **see** the land" (*rāʾâ*) becomes reconnaissance. The gem is [[Liber Numerorum/21|Nm 21,1]]: Israel comes "per **exploratorum** viam" — where the Hebrew has the obscure toponym *hā-ʾătārîm*, transliterated by the LXX (Αθαριν), Jerome reads "the way of the scouts", an interpretation with rabbinic parallels (the Targumim's "way of the spies"). What Hebrew text he read is unknown; the alignment is ours. For the contemplative twin of this verb, see [[considerare]].
 
 ## Loci (all occurrences in Numbers)
 

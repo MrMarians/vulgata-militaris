@@ -15,8 +15,7 @@ status: draft
 
 # occidere
 
-To **slay** — the third member of the killing triad with [[percutere]] and [[interficere]],
-20 occurrences spanning capital law, war, taunt and sacrifice.
+To **slay** — the third member of the killing triad with [[percutere]] and [[interficere]], 20 occurrences spanning capital law, war, taunt and sacrifice.
 
 ## Textual tradition
 
@@ -24,18 +23,7 @@ To **slay** — the third member of the killing triad with [[percutere]] and [[i
 |---|---|---|---|---|
 | הרג *hārag*; מות *mût* (the death-sentences); שׁחט *šāḥaṭ* (14,16); זבח *zābaḥ* "sacrifice" (22,40); חָלָל *ḥālāl* "the slain" (19,16; 23,24); דָּם *dām* "blood" (35,19.21) | θανατόω / ἀποκτείνω / φονεύω | — | **occidere / occisus** | 20 in Numbers (full text, verified; *occident-* "west" excluded) |
 
-Its first appearance is the book's starkest law: "quisquis externorum accesserit
-**occidetur**" ([[Liber Numerorum/01|Nm 1,51]], repeated at 18,7) — the sacred perimeter of
-the camp enforced by death, the tribal-militia order at its hardest. The nations' taunt
-imagines God *slaughtering* his people in the desert (14,16, Hebrew šāḥaṭ; cf. 14,15;
-16,13); the angel would have *slain* Balaam (22,33), while Balak's *occidisset* (22,40) is
-mere sacrificial slaughter — sense classified, not suppressed. The lioness of the oracle
-drinks "sanguinem **occisorum**" (23,24, Hebrew ḥălālîm), and the *occisi* of 19,16 are the
-sword-slain whose corpse defiles the open field (the sword itself, *ḥereb*, absorbed — see
-[[gladius]]). In [[Liber Numerorum/35|Nm 35]] the family goes juridical: the kinsman of the
-**slain** (*propinquus occisi*, vv. 19.21 — where the Hebrew has the *avenger of blood*,
-gōʾēl had-dām) and the *occiderit* of the manslaying statutes. Executions of Peor and the
-Midian war fill out the count (25,5.9.14; 31,7.19).
+Its first appearance is the book's starkest law: "quisquis externorum accesserit **occidetur**" ([[Liber Numerorum/01|Nm 1,51]], repeated at 18,7) — the sacred perimeter of the camp enforced by death, the tribal-militia order at its hardest. The nations' taunt imagines God *slaughtering* his people in the desert (14,16, Hebrew šāḥaṭ; cf. 14,15; 16,13); the angel would have *slain* Balaam (22,33), while Balak's *occidisset* (22,40) is mere sacrificial slaughter — sense classified, not suppressed. The lioness of the oracle drinks "sanguinem **occisorum**" (23,24, Hebrew ḥălālîm), and the *occisi* of 19,16 are the sword-slain whose corpse defiles the open field (the sword itself, *ḥereb*, absorbed — see [[gladius]]). In [[Liber Numerorum/35|Nm 35]] the family goes juridical: the kinsman of the **slain** (*propinquus occisi*, vv. 19.21 — where the Hebrew has the *avenger of blood*, gōʾēl had-dām) and the *occiderit* of the manslaying statutes. Executions of Peor and the Midian war fill out the count (25,5.9.14; 31,7.19).
 
 ## Loci (all occurrences in Numbers)
 
