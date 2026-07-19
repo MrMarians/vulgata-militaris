@@ -14,3 +14,346 @@ article.popover-hint p {
 div.graph > div.graph-outer {
   height: 330px;
 }
+
+// ---------------------------------------------------------------------------
+// Chapter reading pages (content under books/): verse typography, verse
+// numbers, and category-colored term highlighting.
+// Term→category mapping mirrors the design mockup's CAMP/COMMAND/BATTLE/LAW
+// lists (design_handoff_vulgata_militaris, mockup source). Terms not listed
+// stay unhighlighted, as in the mockup. New term: add its slug to a list.
+// Matching relies on the stable data-slug attributes Quartz emits on body
+// (page slug) and on wikilink anchors (target slug) — no content changes.
+// ---------------------------------------------------------------------------
+$term-categories: (
+  camp: (castra, castrametari, turma, cuneus, vexillum, signum, praesidium, custodia, excubiae),
+  command: (
+    exercitus,
+    princeps,
+    proceres,
+    dux,
+    ductor,
+    tribunus,
+    centurio,
+    magister,
+    recensere,
+    numerare,
+    vir-fortis,
+    armatus,
+    expeditus,
+    accinctus,
+  ),
+  battle: (
+    bellum,
+    proelium,
+    pugnare,
+    dimicare,
+    percutere,
+    interficere,
+    occidere,
+    delere,
+    vastare,
+    subvertere,
+    occupare,
+    fugere,
+    persequi,
+    captivus,
+    praeda,
+    victoria,
+    explorare,
+    considerare,
+    insidiae,
+    seditio,
+  ),
+  law: (foedus, pactum, iuramentum, maledictio, imperium, sors, vindicare),
+);
+
+body[data-slug^="books/"] article {
+  // Verses render as one continuous prose block (mockup refs 06/07): each
+  // source paragraph flows inline, separated by its superscript verse number.
+  // Justified per site-wide preference (mockup is ragged-right; the p-level
+  // justify rule above stops applying once the paragraphs go inline).
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+
+  // Descendant (not child) selectors: content-page always wraps the rendered
+  // Markdown in a div.markdown-preview-view inside the article.
+  & p {
+    display: inline;
+    margin: 0;
+    font-family: "Source Serif 4", serif;
+    font-size: 18.5px;
+    line-height: 1.85;
+  }
+
+  // Verse numbers: the leading **N.** of each verse paragraph
+  & p > strong:first-child {
+    vertical-align: super;
+    font-size: 12px;
+    font-weight: $boldWeight;
+    color: var(--secondary);
+    margin-right: 0.15em;
+    margin-left: 0.35em;
+  }
+
+  & p:first-of-type > strong:first-child {
+    margin-left: 0;
+  }
+
+  @each $cat, $terms in $term-categories {
+    @each $t in $terms {
+      a.internal[data-slug="military-lexicon/#{$t}"] {
+        background-color: var(--cat-#{$cat}-bg);
+        color: var(--cat-#{$cat}-fg);
+        border-bottom: 1.5px solid var(--cat-#{$cat}-border);
+        border-radius: 3px;
+        padding: 1px 3px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Terminology-card pages (content under military-lexicon/): title row,
+// comparison chain, definition/loci typography. Markup emitted by the
+// term-card transformer plugin; sidebar card styles live in the term-info
+// component. Chain/title rules are class-scoped (no body prefix) so they also
+// apply inside link popovers.
+// ---------------------------------------------------------------------------
+body[data-slug^="military-lexicon/"] {
+  // The transformer renders its own title row; stock title/meta would duplicate it
+  h1.article-title,
+  .content-meta {
+    display: none;
+  }
+
+  article {
+    p {
+      font-family: "Source Serif 4", serif;
+      font-size: 17px;
+      line-height: 1.8;
+      max-width: 640px;
+    }
+
+    // Remaining section heading (Loci) — mockup renders it small, serif
+    h2 {
+      font-family: "Source Serif 4", serif;
+      font-size: 19px;
+      font-weight: $semiBoldWeight;
+      margin: 44px 0 16px;
+    }
+
+    // Loci list: plain rows, bold accent chapter refs
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14.5px;
+
+      li {
+        margin: 0;
+      }
+
+      a.internal {
+        font-weight: $boldWeight;
+        background-color: transparent;
+        padding: 0;
+      }
+
+      em {
+        color: var(--gray);
+      }
+    }
+  }
+}
+
+.term-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+
+  h1.term-lemma {
+    font-family: "Source Serif 4", serif;
+    font-weight: $semiBoldWeight;
+    font-size: 52px;
+    margin: 0;
+  }
+
+  .term-hebrew {
+    font-family: "Source Serif 4", serif;
+    font-size: 22px;
+    color: var(--gray);
+  }
+}
+
+p.term-gloss {
+  font-family: "Source Serif 4", serif;
+  font-style: italic;
+  font-size: 17px;
+  color: var(--gray);
+  margin: 0 0 40px;
+}
+
+.term-chain {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin: 12px 0 36px;
+
+  .chain-box {
+    flex: 1.3 1 0;
+    min-width: 0;
+    padding: 16px 12px;
+    background-color: var(--bgAlt);
+    border-top: 1px solid var(--borderCol);
+    border-bottom: 1px solid var(--borderCol);
+  }
+
+  .chain-first {
+    border-left: 1px solid var(--borderCol);
+    border-radius: 10px 0 0 10px;
+  }
+
+  .chain-hex {
+    flex: 0.9 1 0;
+    padding: 16px 10px;
+  }
+
+  .chain-vulgate {
+    position: relative;
+    border: 1px solid var(--secondary);
+    border-radius: 0 10px 10px 0;
+    background-color: var(--highlight);
+  }
+
+  .chain-label {
+    font-size: 10.5px;
+    font-weight: $boldWeight;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+    margin-bottom: 9px;
+    white-space: nowrap;
+  }
+
+  .chain-label-vulgate {
+    color: var(--secondary);
+  }
+
+  .chain-word {
+    font-family: "Source Serif 4", serif;
+    font-size: 20px;
+    overflow-wrap: break-word;
+  }
+
+  .chain-translit {
+    font-family: "Source Serif 4", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: var(--gray);
+    margin-top: 4px;
+  }
+
+  .chain-word-hex {
+    font-size: 16px;
+    color: var(--gray);
+  }
+
+  .chain-word-vulgate {
+    font-weight: $boldWeight;
+    font-size: 21px;
+    color: var(--secondary);
+  }
+
+  .chain-count {
+    position: absolute;
+    top: -11px;
+    right: 10px;
+    background-color: var(--secondary);
+    color: var(--light);
+    font-size: 10.5px;
+    font-weight: $boldWeight;
+    padding: 3px 8px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  .chain-arrow {
+    flex: 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray);
+    font-size: 16px;
+    border-top: 1px solid var(--borderCol);
+    border-bottom: 1px solid var(--borderCol);
+    background-color: var(--bgAlt);
+  }
+
+  .chain-arrow-accent {
+    color: var(--secondary);
+    border-color: var(--secondary);
+    background-color: var(--highlight);
+  }
+}
+
+p.term-chain-caption {
+  font-size: 13px;
+  color: var(--gray);
+  margin: -16px 0 28px;
+  line-height: 1.6;
+  max-width: 640px;
+}
+
+// Extended design tokens: semantic term categories (camp/command/battle/law)
+// and model badges. Not part of Quartz's native 9-slot theme; values from the
+// design handoff (design_handoff_vulgata_militaris/README.md, "Extended tokens").
+// Scoped like the core theme: light on :root (pre-JS fallback), dark override
+// on [saved-theme="dark"]. "Tribal militia" badge reuses --cat-camp-*.
+// --bgAlt/--borderCol: the panel-background/border pair used by the legend
+// bar, the comparison chain and the term-info sidebar card (mockup bgAlt is
+// lighter than the page in light mode, darker panel tone in dark mode).
+:root {
+  --bgAlt: color-mix(in srgb, var(--light) 45%, white);
+  --borderCol: var(--lightgray);
+  --cat-camp-bg: oklch(0.92 0.045 55);
+  --cat-camp-fg: oklch(0.36 0.09 55);
+  --cat-camp-border: oklch(0.68 0.09 55);
+  --cat-command-bg: oklch(0.92 0.035 240);
+  --cat-command-fg: oklch(0.38 0.08 240);
+  --cat-command-border: oklch(0.68 0.08 240);
+  --cat-battle-bg: oklch(0.92 0.05 25);
+  --cat-battle-fg: oklch(0.4 0.1 25);
+  --cat-battle-border: oklch(0.68 0.09 25);
+  --cat-law-bg: oklch(0.9 0.04 150);
+  --cat-law-fg: oklch(0.36 0.08 150);
+  --cat-law-border: oklch(0.66 0.08 150);
+  --model-holywar-bg: oklch(0.91 0.04 285);
+  --model-holywar-fg: oklch(0.4 0.09 285);
+  --model-holywar-border: oklch(0.68 0.08 285);
+}
+
+:root[saved-theme="dark"] {
+  --bgAlt: var(--lightgray);
+  --borderCol: var(--gray);
+  --cat-camp-bg: oklch(0.3 0.055 55);
+  --cat-camp-fg: oklch(0.88 0.06 55);
+  --cat-camp-border: oklch(0.5 0.09 55);
+  --cat-command-bg: oklch(0.28 0.045 240);
+  --cat-command-fg: oklch(0.85 0.055 240);
+  --cat-command-border: oklch(0.48 0.08 240);
+  --cat-battle-bg: oklch(0.28 0.06 25);
+  --cat-battle-fg: oklch(0.85 0.07 25);
+  --cat-battle-border: oklch(0.5 0.1 25);
+  --cat-law-bg: oklch(0.28 0.05 150);
+  --cat-law-fg: oklch(0.83 0.06 150);
+  --cat-law-border: oklch(0.48 0.08 150);
+  --model-holywar-bg: oklch(0.28 0.05 285);
+  --model-holywar-fg: oklch(0.85 0.06 285);
+  --model-holywar-border: oklch(0.5 0.08 285);
+}

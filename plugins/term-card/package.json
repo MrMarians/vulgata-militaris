@@ -1,0 +1,26 @@
+{
+  "name": "term-card",
+  "version": "0.1.0",
+  "description": "Terminology-card page transformer: title row, TM→LXX→Hexaplaric→Vulgate comparison chain, see-also extraction.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./src/index.js",
+  "sideEffects": false,
+  "quartz": {
+    "name": "term-card",
+    "displayName": "Term Card",
+    "category": "transformer",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 65,
+    "defaultEnabled": true,
+    "defaultOptions": {}
+  }
+}

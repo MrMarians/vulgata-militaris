@@ -1,0 +1,39 @@
+{
+  "name": "term-info",
+  "version": "0.1.0",
+  "description": "Sidebar info card for terminology-card pages: category, model badges, status, see also, dossier footnote.",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    },
+    "./components": {
+      "import": "./src/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./src/index.js",
+  "sideEffects": false,
+  "peerDependencies": {
+    "preact": "^10.0.0"
+  },
+  "quartz": {
+    "name": "term-info",
+    "displayName": "Term Info Card",
+    "category": "component",
+    "version": "0.1.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "TermInfo": {
+        "displayName": "Term Info Card",
+        "defaultPosition": "right",
+        "defaultPriority": 5
+      }
+    }
+  }
+}

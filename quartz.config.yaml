@@ -110,7 +110,7 @@ plugins:
     enabled: false
     order: 92
   - source: github:quartz-community/fonts
-    enabled: true
+    enabled: false
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -259,11 +259,24 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: ./plugins/vulgata
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 25
+  - source: ./plugins/term-card
+    enabled: true
+    order: 65
+  - source: ./plugins/term-info
+    enabled: true
+    layout:
+      position: right
+      priority: 5
   - source:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw

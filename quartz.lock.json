@@ -276,11 +276,29 @@
       "commit": "eabf3eec55c0bab7f49e69957341f34d2ae3c5a1",
       "installedAt": "2026-07-17T23:17:23.905Z"
     },
+    "term-card": {
+      "source": "./plugins/term-card",
+      "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\term-card",
+      "commit": "local",
+      "installedAt": "2026-07-19T12:41:32.422Z"
+    },
+    "term-info": {
+      "source": "./plugins/term-info",
+      "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\term-info",
+      "commit": "local",
+      "installedAt": "2026-07-19T12:41:32.423Z"
+    },
     "unlisted-pages": {
       "source": "github:quartz-community/unlisted-pages",
       "resolved": "https://github.com/quartz-community/unlisted-pages.git",
       "commit": "f512d8672862c5891e63d755ba04b66277e6d760",
       "installedAt": "2026-07-17T23:17:21.445Z"
+    },
+    "vulgata": {
+      "source": "./plugins/vulgata",
+      "resolved": "C:\\Users\\ircma\\Desktop\\quartz\\plugins\\vulgata",
+      "commit": "local",
+      "installedAt": "2026-07-19T12:14:56.775Z"
     }
   }
 }

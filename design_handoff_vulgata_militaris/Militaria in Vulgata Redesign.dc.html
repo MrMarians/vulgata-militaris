@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  a { color: inherit; }
+  @keyframes nodePulseA { 0%,100% { transform: scale(1); } 50% { transform: scale(1.2); } }
+  @keyframes nodePulseB { 0%,100% { transform: scale(1); } 50% { transform: scale(1.15); } }
+  @keyframes centerPulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+  @keyframes lineFlow { to { stroke-dashoffset: -16; } }
+  .graph-node-a { transform-box: fill-box; transform-origin: center; animation: nodePulseA 2.6s ease-in-out infinite; }
+  .graph-node-b { transform-box: fill-box; transform-origin: center; animation: nodePulseB 3.1s ease-in-out infinite; }
+  .graph-center { transform-box: fill-box; transform-origin: center; animation: centerPulse 2.4s ease-in-out infinite; }
+  .graph-line { stroke-dasharray: 4 4; animation: lineFlow 1s linear infinite; }
+</style>
+</helmet>
+
+<div style="min-height:100vh; font-family:'Public Sans', sans-serif; background:radial-gradient(ellipse at 15% 0%, {{c.grainA}}, transparent 55%), radial-gradient(ellipse at 85% 100%, {{c.grainB}}, transparent 55%), {{c.bg}}; color:{{c.text}}; transition:background .25s ease, color .25s ease;">
+
+  <header style="position:sticky; top:0; z-index:20; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:18px 48px; background:{{c.bgAlt}}; border-bottom:1px solid {{c.border}}; flex-wrap:wrap;">
+    <div style="display:flex; align-items:center; gap:40px; flex-wrap:wrap;">
+      <div style="font-family:'Source Serif 4', serif; font-weight:600; font-size:18px; letter-spacing:0.03em; white-space:nowrap;">MILITARIA <span style="color:{{c.accent}};">IN VVLGATA</span></div>
+      <nav style="display:flex; gap:6px;">
+        <button onClick="{{goHome}}" style="font-family:'Public Sans',sans-serif; font-size:14px; font-weight:600; padding:7px 14px; border-radius:7px; cursor:pointer; border:1px solid {{navHome.border}}; background:{{navHome.bg}}; color:{{navHome.color}};">Home</button>
+        <button onClick="{{goLexicon}}" style="font-family:'Public Sans',sans-serif; font-size:14px; font-weight:600; padding:7px 14px; border-radius:7px; cursor:pointer; border:1px solid {{navLexicon.border}}; background:{{navLexicon.bg}}; color:{{navLexicon.color}};">Lexicon</button>
+        <button onClick="{{goChapter}}" style="font-family:'Public Sans',sans-serif; font-size:14px; font-weight:600; padding:7px 14px; border-radius:7px; cursor:pointer; border:1px solid {{navChapter.border}}; background:{{navChapter.bg}}; color:{{navChapter.color}};">Chapter</button>
+      </nav>
+    </div>
+    <button onClick="{{toggleTheme}}" style="font-family:'Public Sans',sans-serif; font-size:13px; font-weight:600; padding:8px 16px; border-radius:999px; cursor:pointer; border:1px solid {{c.borderStrong}}; background:transparent; color:{{c.textMuted}}; letter-spacing:0.02em; white-space:nowrap;">{{themeLabel}}</button>
+  </header>
+
+  <sc-if value="{{isHome}}" hint-placeholder-val="{{true}}">
+  <main style="max-width:1120px; margin:0 auto; padding:88px 48px 64px;">
+    <div style="font-family:'Public Sans',sans-serif; font-size:12px; font-weight:700; letter-spacing:0.16em; color:{{c.accent}}; text-transform:uppercase; margin-bottom:18px;">A digital garden &mdash; Jerome's Vulgate</div>
+    <h1 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:64px; line-height:1.05; margin:0 0 28px; max-width:820px;">Militaria in Vulgata</h1>
+    <p style="font-family:'Source Serif 4',serif; font-size:21px; line-height:1.6; color:{{c.textMuted}}; max-width:680px; margin:0 0 32px;">A research companion to the military lexicon of Jerome's Vulgate. Each chapter is given in its Latin text, with military terms linked to terminology cards that trace every word from the Hebrew (TM) and Greek (LXX) through to the Vulgate rendering.</p>
+    <p style="font-size:15px; line-height:1.7; color:{{c.textMuted}}; max-width:640px; margin:0 0 56px;">New here? The <span style="color:{{c.accent}}; font-weight:600; cursor:pointer; border-bottom:1px solid {{c.accent}};">Introduction</span> explains the project &mdash; the military models of the Hebrew Bible, their Roman re-coding, and how to read the cards.</p>
+
+    <div style="height:1px; background:{{c.border}}; margin:0 0 56px; position:relative;">
+      <div style="position:absolute; left:0; top:-4px; width:8px; height:8px; transform:rotate(45deg); background:{{c.accent}};"></div>
+    </div>
+
+    <div style="margin-bottom:64px;">
+      <div style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:{{c.textMuted}}; text-transform:uppercase; margin-bottom:10px;">Books</div>
+      <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:28px; margin:0 0 22px;">Liber Numerorum</h2>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill, minmax(52px,1fr)); gap:9px; max-width:900px;">
+        <sc-for list="{{chapters}}" as="n" hint-placeholder-count="12">
+          <button onClick="{{goChapter}}" style="font-family:'Source Serif 4',serif; font-size:16px; font-weight:500; padding:11px 0; border-radius:6px; cursor:pointer; border:1px solid {{c.border}}; background:{{c.bgAlt}}; color:{{c.text}};">{{n}}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-size:12px; font-weight:700; letter-spacing:0.14em; color:{{c.textMuted}}; text-transform:uppercase; margin-bottom:10px;">Military lexicon</div>
+      <div style="display:flex; flex-direction:column; gap:16px; max-width:900px;">
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>The camp</b> &mdash; <span onClick="{{goLexicon}}" style="color:{{c.accent}}; font-weight:600; cursor:pointer;">castra</span> &middot; <span style="color:{{c.text}};">castrametari</span> &middot; <span style="color:{{c.text}};">turma</span> &middot; <span style="color:{{c.text}};">cuneus</span> &middot; <span style="color:{{c.text}};">vexillum</span> &middot; <span style="color:{{c.text}};">signum</span> &middot; <span style="color:{{c.text}};">praesidium</span> &middot; <span style="color:{{c.text}};">custodia</span> &middot; <span style="color:{{c.text}};">excubiae</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>Signals and march</b> &mdash; <span style="color:{{c.text}};">tuba</span> &middot; <span style="color:{{c.text}};">clangor</span> &middot; <span style="color:{{c.text}};">ululatus</span> &middot; <span style="color:{{c.text}};">profectio</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>Command, census, levy</b> &mdash; <span style="color:{{c.text}};">exercitus</span> &middot; <span style="color:{{c.text}};">princeps</span> &middot; <span style="color:{{c.text}};">proceres</span> &middot; <span style="color:{{c.text}};">dux</span> &middot; <span style="color:{{c.text}};">ductor</span> &middot; <span style="color:{{c.text}};">tribunus</span> &middot; <span style="color:{{c.text}};">centurio</span> &middot; <span style="color:{{c.text}};">magister</span> &middot; <span style="color:{{c.text}};">recensere</span> &middot; <span style="color:{{c.text}};">numerare</span> &middot; <span style="color:{{c.text}};">vir fortis</span> &middot; <span style="color:{{c.text}};">armatus</span> &middot; <span style="color:{{c.text}};">expeditus</span> &middot; <span style="color:{{c.text}};">accinctus</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>Weapons</b> &mdash; <span style="color:{{c.text}};">gladius</span> &middot; <span style="color:{{c.text}};">sagitta</span> &middot; <span style="color:{{c.text}};">pugio</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>Battle and its aftermath</b> &mdash; <span style="color:{{c.text}};">bellum</span> &middot; <span style="color:{{c.text}};">proelium</span> &middot; <span style="color:{{c.text}};">pugnare</span> &middot; <span style="color:{{c.text}};">dimicare</span> &middot; <span style="color:{{c.text}};">percutere</span> &middot; <span style="color:{{c.text}};">interficere</span> &middot; <span style="color:{{c.text}};">occidere</span> &middot; <span style="color:{{c.text}};">delere</span> &middot; <span style="color:{{c.text}};">vastare</span> &middot; <span style="color:{{c.text}};">subvertere</span> &middot; <span style="color:{{c.text}};">occupare</span> &middot; <span style="color:{{c.text}};">fugere</span> &middot; <span style="color:{{c.text}};">persequi</span> &middot; <span style="color:{{c.text}};">captivus</span> &middot; <span style="color:{{c.text}};">praeda</span> &middot; <span style="color:{{c.text}};">victoria</span> &middot; <span style="color:{{c.text}};">explorare</span> &middot; <span style="color:{{c.text}};">considerare</span> &middot; <span style="color:{{c.text}};">insidiae</span> &middot; <span style="color:{{c.text}};">seditio</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>The enemy</b> &mdash; <span style="color:{{c.text}};">hostis</span> &middot; <span style="color:{{c.text}};">inimicus</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>War as law and command</b> &mdash; <span style="color:{{c.text}};">foedus</span> &middot; <span style="color:{{c.text}};">pactum</span> &middot; <span style="color:{{c.text}};">iuramentum</span> &middot; <span style="color:{{c.text}};">maledictio</span> &middot; <span style="color:{{c.text}};">imperium</span> &middot; <span style="color:{{c.text}};">sors</span> &middot; <span style="color:{{c.text}};">vindicare</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>The sacral register</b> &mdash; <span style="color:{{c.text}};">anathema</span> &middot; <span style="color:{{c.text}};">zelus</span> &middot; <span style="color:{{c.text}};">ultio</span></div>
+
+        <div style="font-size:15.5px; line-height:2.1;"><b>The mantic register</b> &mdash; <span style="color:{{c.text}};">augurium</span> &middot; <span style="color:{{c.text}};">divinatio</span> &middot; <span style="color:{{c.text}};">ariolus</span></div>
+
+      </div>
+    </div>
+
+    <div style="margin-top:80px; padding-top:24px; border-top:1px solid {{c.border}}; font-size:13px; color:{{c.textMuted}}; line-height:1.7;">Texts cited follow Biblia Hebraica Stuttgartensia (Hebrew), Rahlfs&ndash;Hanhart (Septuagint), Field (Hexapla fragments), Sabatier (Vetus Latina), and Weber&ndash;Gryson, Biblia Sacra Vulgata, 5th ed., Stuttgart 2007 (reference edition).</div>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{isLexicon}}" hint-placeholder-val="{{false}}">
+  <main style="max-width:1120px; margin:0 auto; padding:64px 48px 80px; display:grid; grid-template-columns:1fr 300px; gap:56px;">
+    <div>
+      <div style="display:flex; align-items:baseline; gap:18px; flex-wrap:wrap; margin-bottom:6px;">
+        <h1 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:52px; margin:0;">castra</h1>
+        <span style="font-family:'Source Serif 4',serif; font-size:22px; color:{{c.textMuted}};">&#1502;&#1463;&#1495;&#1458;&#1504;&#1462;&#1492; &middot; <i>ma&#7717;&#259;neh</i></span>
+      </div>
+      <p style="font-family:'Source Serif 4',serif; font-style:italic; font-size:17px; color:{{c.textMuted}}; margin:0 0 40px;">camp, encampment (by metonymy: army)</p>
+
+      <div style="display:flex; align-items:stretch; gap:0; margin-bottom:36px; margin-top:12px; flex-wrap:nowrap;">
+        <div style="flex:1.3 1 0; min-width:0; border:1px solid {{c.border}}; border-radius:10px 0 0 10px; padding:16px 12px; background:{{c.bgAlt}};">
+          <div style="font-size:10.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:9px; white-space:nowrap;">TM &middot; Hebrew</div>
+          <div style="font-family:'Source Serif 4',serif; font-size:20px; margin-bottom:4px; white-space:nowrap;">&#1502;&#1463;&#1495;&#1458;&#1504;&#1462;&#1492;</div>
+          <div style="font-family:'Source Serif 4',serif; font-style:italic; font-size:13px; color:{{c.textMuted}}; white-space:nowrap;">ma&#7717;&#259;neh</div>
+        </div>
+        <div style="flex:0 0 30px; display:flex; align-items:center; justify-content:center; color:{{c.textMuted}}; font-size:16px; border-top:1px solid {{c.border}}; border-bottom:1px solid {{c.border}}; background:{{c.bgAlt}};">&rarr;</div>
+        <div style="flex:1.3 1 0; min-width:0; border-top:1px solid {{c.border}}; border-bottom:1px solid {{c.border}}; padding:16px 12px; background:{{c.bgAlt}};">
+          <div style="font-size:10.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:9px; white-space:nowrap;">LXX &middot; Greek</div>
+          <div style="font-family:'Source Serif 4',serif; font-size:20px; white-space:nowrap;">&pi;&alpha;&rho;&epsilon;&mu;&beta;&omicron;&lambda;&#942;</div>
+        </div>
+        <div style="flex:0 0 30px; display:flex; align-items:center; justify-content:center; color:{{c.textMuted}}; font-size:16px; border-top:1px solid {{c.border}}; border-bottom:1px solid {{c.border}}; background:{{c.bgAlt}};">&rarr;</div>
+        <div style="flex:0.9 1 0; min-width:0; border-top:1px solid {{c.border}}; border-bottom:1px solid {{c.border}}; padding:16px 10px; background:{{c.bgAlt}};">
+          <div style="font-size:10.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:9px; white-space:nowrap;">Hexaplaric</div>
+          <div style="font-family:'Source Serif 4',serif; font-size:16px; color:{{c.textMuted}};">&mdash;</div>
+        </div>
+        <div style="flex:0 0 30px; display:flex; align-items:center; justify-content:center; color:{{c.accent}}; font-size:16px; border-top:1px solid {{c.accent}}; border-bottom:1px solid {{c.accent}}; background:{{c.accentBg}};">&rarr;</div>
+        <div style="flex:1.3 1 0; min-width:0; position:relative; border:1px solid {{c.accent}}; border-radius:0 10px 10px 0; padding:16px 12px; background:{{c.accentBg}};">
+          <div style="position:absolute; top:-11px; right:10px; background:{{c.accent}}; color:{{c.bg}}; font-size:10.5px; font-weight:700; padding:3px 8px; border-radius:999px; white-space:nowrap;">193&times;</div>
+          <div style="font-size:10.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:{{c.accentStrong}}; margin-bottom:9px; white-space:nowrap;">Vulgate</div>
+          <div style="font-family:'Source Serif 4',serif; font-weight:700; font-size:21px; color:{{c.accentStrong}}; white-space:nowrap;">castra</div>
+        </div>
+      </div>
+      <p style="font-size:13px; color:{{c.textMuted}}; margin:-16px 0 40px; line-height:1.6;">193 in scope <i>(draft: 148 confirmed as castra, 45 unmapped)</i>; 45 in Numbers (noun, full text, verified).</p>
+
+      <div style="font-family:'Source Serif 4',serif; font-size:17px; line-height:1.8; max-width:640px; margin-bottom:20px;">
+        <p style="margin:0 0 18px;">Camp, encampment; by metonymy also &ldquo;army, host.&rdquo; Root <i>&#7717;-n-h</i>, &ldquo;to encamp.&rdquo;</p>
+        <p style="margin:0;">Jerome renders <i>ma&#7717;&#259;neh</i> almost exclusively as <i>castra</i>, the technical Roman fortified camp, not a neutral calque of the LXX's more generic &pi;&alpha;&rho;&epsilon;&mu;&beta;&omicron;&lambda;&#942; (&ldquo;encampment, drawing-up&rdquo;). The verb <i>&#7717;&#257;n&acirc;</i> &ldquo;to encamp&rdquo; becomes <span style="color:{{c.accent}}; font-weight:600;">castrametari</span>, &ldquo;to lay out a Roman camp&rdquo; &mdash; that card indexes the 39 verb occurrences; this one indexes the 45 noun occurrences.</p>
+      </div>
+
+      <h3 style="font-family:'Source Serif 4',serif; font-size:19px; font-weight:600; margin:44px 0 16px;">Loci (all noun occurrences in Numbers)</h3>
+      <div style="display:flex; flex-direction:column; gap:10px; font-size:14.5px;">
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 1</b> &nbsp;vv. 51, 52</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 2</b> &nbsp;vv. 9, 10, 16, 18, 24, 31</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 4</b> &nbsp;vv. 5, 15</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 5</b> &nbsp;vv. 2, 3, 4 &nbsp;<i style="color:{{c.textMuted}};">&mdash; the purity rules of the camp</i></div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 9</b> &nbsp;v. 22</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 10</b> &nbsp;vv. 2, 5, 13, 22, 25, 28, 31, 33 &nbsp;<i style="color:{{c.textMuted}};">&mdash; quando movenda sunt castra</i></div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 11</b> &nbsp;vv. 1, 9, 26, 27 (bis), 30, 31 (bis), 32</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 12</b> &nbsp;vv. 14, 15 &nbsp;<i style="color:{{c.textMuted}};">&mdash; Maria excluded extra castra</i></div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 14</b> &nbsp;vv. 25, 44</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 15</b> &nbsp;v. 35</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 19</b> &nbsp;vv. 3, 7, 9</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 20</b> &nbsp;v. 22</div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 31</b> &nbsp;vv. 12, 13, 19, 24 &nbsp;<i style="color:{{c.textMuted}};">&mdash; the war camp and its purification</i></div>
+        <div><b style="color:{{c.accent}}; cursor:pointer;" onClick="{{goChapter}}">Nm 33</b> &nbsp;v. 2</div>
+      </div>
+    </div>
+
+    <aside style="align-self:start; position:sticky; top:96px; border:1px solid {{c.border}}; border-radius:12px; padding:24px; background:{{c.bgAlt}}; display:flex; flex-direction:column; gap:18px;">
+      <div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:6px;">Category</div>
+        <div style="font-size:15px; font-weight:600;">B &middot; L1</div>
+      </div>
+      <div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:8px;">Models</div>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <span style="font-size:12.5px; font-weight:600; padding:5px 11px; border-radius:999px; background:{{c.model.tribalMilitia.bg}}; color:{{c.model.tribalMilitia.fg}}; border:1px solid {{c.model.tribalMilitia.border}}; white-space:nowrap;">Tribal militia</span>
+          <span style="font-size:12.5px; font-weight:600; padding:5px 11px; border-radius:999px; background:{{c.model.holyWar.bg}}; color:{{c.model.holyWar.fg}}; border:1px solid {{c.model.holyWar.border}}; white-space:nowrap;">Holy war</span>
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:6px;">Status</div>
+        <div style="font-size:13px; font-weight:600; color:{{c.accent}};">draft</div>
+      </div>
+      <div style="height:1px; background:{{c.border}};"></div>
+      <div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:8px;">See also</div>
+        <div style="display:flex; flex-direction:column; gap:6px; font-size:14px;">
+          <span style="color:{{c.accent}};">castrametari</span>
+          <span style="color:{{c.accent}};">turma</span>
+          <span style="color:{{c.accent}};">exercitus</span>
+        </div>
+      </div>
+      <div style="height:1px; background:{{c.border}};"></div>
+      <div>
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; text-transform:uppercase; color:{{c.textMuted}}; margin-bottom:8px;">Graph</div>
+        <div style="font-size:10.5px; color:{{c.textMuted}}; margin-bottom:6px;">Drag the nodes.</div>
+        <div style="position:relative; width:100%;">
+          <svg ref="{{svgRef}}" onPointerMove="{{onSvgMove}}" onPointerUp="{{onSvgUp}}" onPointerLeave="{{onSvgUp}}" viewBox="0 0 260 190" style="width:100%; height:auto; display:block; touch-action:none; cursor:grab; -webkit-user-select:none; user-select:none;">
+            <sc-for list="{{graphLines}}" as="ln" hint-placeholder-count="6">
+              <line class="graph-line" x1="{{ln.x1}}" y1="{{ln.y1}}" x2="{{ln.x2}}" y2="{{ln.y2}}" stroke="{{c.border}}" stroke-width="1.5"></line>
+            </sc-for>
+            <sc-for list="{{graphSatellites}}" as="node" hint-placeholder-count="6">
+              <circle class="{{node.animClass}}" cx="{{node.x}}" cy="{{node.y}}" r="{{node.r}}" fill="{{node.fill}}" onPointerDown="{{node.onDown}}" style="animation-delay:{{node.delay}}; cursor:grab;"></circle>
+            </sc-for>
+            <circle class="graph-center" cx="{{graphCenter.x}}" cy="{{graphCenter.y}}" r="8" fill="{{c.accent}}" onPointerDown="{{graphCenter.onDown}}" style="cursor:grab;"></circle>
+          </svg>
+          <sc-for list="{{graphSatellites}}" as="node2" hint-placeholder-count="6">
+            <div style="position:absolute; left:{{node2.leftPct}}%; top:{{node2.topPct}}%; transform:translate(-50%,-50%); font-size:10px; font-weight:600; color:{{c.text}}; font-family:'Public Sans',sans-serif; white-space:nowrap; pointer-events:none;">{{node2.label}}</div>
+          </sc-for>
+          <div style="position:absolute; left:{{graphCenter.leftPct}}%; top:{{graphCenter.topPct}}%; transform:translate(-50%,-50%); font-size:11px; font-weight:700; color:{{c.accent}}; font-family:'Source Serif 4',serif; white-space:nowrap; pointer-events:none;">castra</div>
+        </div>
+      </div>
+      <div style="height:1px; background:{{c.border}};"></div>
+      <div style="font-size:12.5px; color:{{c.textMuted}}; line-height:1.6;">Full research dossier: <i>notes/term-dossiers/ma&#7717;aneh.md</i> (internal vault note, not published).</div>
+    </aside>
+  </main>
+  </sc-if>
+
+  <sc-if value="{{isChapter}}" hint-placeholder-val="{{false}}">
+  <main style="max-width:760px; margin:0 auto; padding:64px 48px 96px;">
+    <div style="font-size:13px; color:{{c.textMuted}}; margin-bottom:8px;">Liber Numerorum</div>
+    <h1 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:46px; margin:0 0 28px;">Nm 1</h1>
+
+    <div style="display:flex; gap:18px; flex-wrap:wrap; padding:16px 20px; border:1px solid {{c.border}}; border-radius:10px; background:{{c.bgAlt}}; margin-bottom:44px; font-size:13px;">
+      <div style="display:flex; align-items:center; gap:7px;"><span style="width:10px; height:10px; border-radius:3px; background:{{c.cat.camp.border}};"></span>Camp</div>
+      <div style="display:flex; align-items:center; gap:7px;"><span style="width:10px; height:10px; border-radius:3px; background:{{c.cat.command.border}};"></span>Command &amp; levy</div>
+      <div style="display:flex; align-items:center; gap:7px;"><span style="width:10px; height:10px; border-radius:3px; background:{{c.cat.battle.border}};"></span>Battle</div>
+      <div style="display:flex; align-items:center; gap:7px;"><span style="width:10px; height:10px; border-radius:3px; background:{{c.cat.law.border}};"></span>Law &amp; covenant</div>
+    </div>
+
+    <div style="font-family:'Source Serif 4',serif; font-size:18.5px; line-height:1.85;">
+      <sc-for list="{{verses}}" as="v" hint-placeholder-count="6">
+        <span>
+          <sup style="font-weight:700; font-size:12px; color:{{c.accent}}; margin-right:3px;">{{v.num}}</sup>
+          <sc-for list="{{v.segments}}" as="seg" hint-placeholder-count="1">
+            <sc-if value="{{seg.term}}" hint-placeholder-val="{{false}}">
+              <span style="background:{{seg.bg}}; color:{{seg.fg}}; border-bottom:1.5px solid {{seg.border}}; border-radius:3px; padding:1px 3px;">{{seg.text}}</span>
+            </sc-if>
+            <sc-if value="{{seg.plain}}" hint-placeholder-val="{{true}}">
+              <span>{{seg.text}}</span>
+            </sc-if>
+          </sc-for>
+          &nbsp;
+        </span>
+      </sc-for>
+    </div>
+
+    <div style="display:flex; justify-content:space-between; margin-top:64px; padding-top:24px; border-top:1px solid {{c.border}}; font-size:14px; color:{{c.textMuted}};">
+      <span style="opacity:0.4;">&larr; Nm 0</span>
+      <span style="color:{{c.accent}}; font-weight:600; cursor:pointer;">Nm 2 &rarr;</span>
+    </div>
+  </main>
+  </sc-if>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const CAMP = ['castra','castrametari','turma','cuneus','vexillum','signum','praesidium','custodia','excubiae'];
+const COMMAND = ['exercitus','princeps','proceres','dux','ductor','tribunus','centurio','magister','recensere','numerare','vir fortis','armatus','expeditus','accinctus'];
+const BATTLE = ['bellum','proelium','pugnare','dimicare','percutere','interficere','occidere','delere','vastare','subvertere','occupare','fugere','persequi','captivus','praeda','victoria','explorare','considerare','insidiae','seditio'];
+const LAW = ['foedus','pactum','iuramentum','maledictio','imperium','sors','vindicare'];
+
+const TERM_CATEGORY = {};
+CAMP.forEach(t => TERM_CATEGORY[t] = 'camp');
+COMMAND.forEach(t => TERM_CATEGORY[t] = 'command');
+BATTLE.forEach(t => TERM_CATEGORY[t] = 'battle');
+LAW.forEach(t => TERM_CATEGORY[t] = 'law');
+
+const RAW_VERSES = [
+  "locutusque est Dominus ad Mosen in deserto Sinai in tabernaculo [[foedus|foederis]] prima die mensis secundi anno altero egressionis eorum ex Aegypto dicens",
+  "tollite summam universae congregationis filiorum Israhel per cognationes et domos suas et nomina singulorum quicquid sexus est masculini",
+  "a vicesimo anno et supra omnium [[vir fortis|virorum fortium]] ex Israhel et [[numerare|numerabitis]] eos per [[turma|turmas]] suas tu et Aaron",
+  "eruntque vobiscum [[princeps|principes]] tribuum ac domorum in cognationibus suis",
+  "quorum ista sunt nomina de Ruben Elisur filius Sedeur",
+  "de Symeon Salamihel filius Surisaddai",
+  "de Iuda Naasson filius Aminadab",
+  "de Isachar Nathanahel filius Suar",
+  "de Zabulon Heliab filius Helon",
+  "filiorum autem Ioseph de Ephraim Helisama filius Ammiud de Manasse Gamalihel filius Phadassur",
+  "de Beniamin Abidan filius Gedeonis",
+  "de Dan Ahiezer filius Amisaddai",
+  "de Aser Phegihel filius Ochran",
+  "de Gad Heliasaph filius Duhel",
+  "de Nepthali Ahira filius Henan",
+  "hii nobilissimi [[princeps|principes]] multitudinis per tribus et cognationes suas et capita [[exercitus|exercitus]] Israhel",
+  "quos tulerunt Moses et Aaron cum omni vulgi multitudine",
+  "et congregaverunt primo die mensis secundi [[recensere|recensentes]] eos per cognationes et domos ac familias et capita et nomina singulorum a vicesimo anno et supra",
+  "sicut praeceperat Dominus Mosi [[numerare|numeratique]] sunt in deserto Sinai",
+  "de Ruben primogenito Israhelis per generationes et familias ac domos suas et nomina capitum singulorum omne quod sexus est masculini a vicesimo anno et supra procedentium ad [[bellum|bellum]]",
+  "quadraginta sex milia quingenti",
+  "de filiis Symeon per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina et capita singulorum omne quod sexus est masculini a vicesimo anno et supra procedentium ad [[bellum|bellum]]",
+  "quinquaginta novem milia trecenti",
+  "de filiis Gad per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina singulorum a viginti annis et supra omnes qui ad [[bellum|bella]] procederent",
+  "quadraginta quinque milia sescenti quinquaginta",
+  "de filiis Iuda per generationes et familias ac domos cognationum suarum per nomina singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "[[recensere|recensiti]] sunt septuaginta quattuor milia sescenti",
+  "de filiis Isachar per generationes et familias ac domos cognationum suarum per nomina singulorum a vicesimo anno et supra omnes qui ad [[bellum|bella]] procederent",
+  "[[recensere|recensiti]] sunt quinquaginta quattuor milia quadringenti",
+  "de filiis Zabulon per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "quinquaginta septem milia quadringenti",
+  "de filiis Ioseph filiorum Ephraim per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "quadraginta milia quingenti",
+  "porro filiorum Manasse per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina singulorum a viginti annis et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "triginta duo milia ducenti",
+  "de filiis Beniamin per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt nominibus singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "triginta quinque milia quadringenti",
+  "de filiis Dan per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt nominibus singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "sexaginta duo milia septingenti",
+  "de filiis Aser per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt per nomina singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "quadraginta milia et mille quingenti",
+  "de filiis Nepthali per generationes et familias ac domos cognationum suarum [[recensere|recensiti]] sunt nominibus singulorum a vicesimo anno et supra omnes qui poterant ad [[bellum|bella]] procedere",
+  "quinquaginta tria milia quadringenti",
+  "hii sunt quos [[numerare|numeraverunt]] Moses et Aaron et duodecim [[princeps|principes]] Israhel singulos per domos cognationum suarum",
+  "fueruntque omnes filiorum Israhel per domos et familias suas a vicesimo anno et supra qui poterant ad [[bellum|bella]] procedere",
+  "sescenta tria milia virorum quingenti quinquaginta",
+  "Levitae autem in tribu familiarum suarum non sunt [[numerare|numerati]] cum eis",
+  "locutusque est Dominus ad Mosen dicens",
+  "tribum Levi noli [[numerare|numerare]] neque ponas summam eorum cum filiis Israhel",
+  "sed constitue eos super tabernaculum testimonii cuncta vasa eius et quicquid ad caerimonias pertinet ipsi portabunt tabernaculum et omnia utensilia eius et erunt in ministerio ac per gyrum tabernaculi [[castrametari|metabuntur]]",
+  "cum proficiscendum fuerit deponent Levitae tabernaculum cum [[castra|castra]] [[castrametari|metanda]] erigent quisquis externorum accesserit [[occidere|occidetur]]",
+  "[[castrametari|metabuntur]] autem [[castra|castra]] filii Israhel unusquisque per [[turma|turmas]] et [[cuneus|cuneos]] atque [[exercitus|exercitum]] suum",
+  "porro Levitae per gyrum tabernaculi figent tentoria ne fiat indignatio super multitudinem filiorum Israhel et [[excubiae|excubabunt]] in [[custodia|custodiis]] tabernaculi testimonii",
+  "fecerunt ergo filii Israhel iuxta omnia quae praeceperat Dominus Mosi"
+];
+
+function parseSegments(raw) {
+  const parts = [];
+  const re = /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g;
+  let last = 0, m;
+  while ((m = re.exec(raw))) {
+    if (m.index > last) parts.push({ text: raw.slice(last, m.index), plain: true });
+    const term = m[1].trim();
+    const display = (m[2] || m[1]).trim();
+    parts.push({ text: display, term });
+    last = re.lastIndex;
+  }
+  if (last < raw.length) parts.push({ text: raw.slice(last), plain: true });
+  return parts;
+}
+
+function computeTheme(dark) {
+  const cat = {
+    camp: dark
+      ? { bg: 'oklch(0.30 0.055 55)', fg: 'oklch(0.88 0.06 55)', border: 'oklch(0.5 0.09 55)' }
+      : { bg: 'oklch(0.92 0.045 55)', fg: 'oklch(0.36 0.09 55)', border: 'oklch(0.68 0.09 55)' },
+    command: dark
+      ? { bg: 'oklch(0.28 0.045 240)', fg: 'oklch(0.85 0.055 240)', border: 'oklch(0.48 0.08 240)' }
+      : { bg: 'oklch(0.92 0.035 240)', fg: 'oklch(0.38 0.08 240)', border: 'oklch(0.68 0.08 240)' },
+    battle: dark
+      ? { bg: 'oklch(0.28 0.06 25)', fg: 'oklch(0.85 0.07 25)', border: 'oklch(0.5 0.1 25)' }
+      : { bg: 'oklch(0.92 0.05 25)', fg: 'oklch(0.4 0.1 25)', border: 'oklch(0.68 0.09 25)' },
+    law: dark
+      ? { bg: 'oklch(0.28 0.05 150)', fg: 'oklch(0.83 0.06 150)', border: 'oklch(0.48 0.08 150)' }
+      : { bg: 'oklch(0.9 0.04 150)', fg: 'oklch(0.36 0.08 150)', border: 'oklch(0.66 0.08 150)' },
+  };
+  const model = {
+    tribalMilitia: cat.camp,
+    holyWar: dark
+      ? { bg: 'oklch(0.28 0.05 285)', fg: 'oklch(0.85 0.06 285)', border: 'oklch(0.5 0.08 285)' }
+      : { bg: 'oklch(0.91 0.04 285)', fg: 'oklch(0.4 0.09 285)', border: 'oklch(0.68 0.08 285)' },
+  };
+  return dark ? {
+    bg: 'oklch(0.16 0.018 60)', bgAlt: 'oklch(0.205 0.02 60)',
+    grainA: 'rgba(255,255,255,0.035)', grainB: 'rgba(0,0,0,0.12)',
+    border: 'oklch(0.33 0.02 60)', borderStrong: 'oklch(0.44 0.03 65)',
+    text: 'oklch(0.91 0.018 70)', textMuted: 'oklch(0.66 0.02 65)',
+    accent: 'oklch(0.78 0.13 85)', accentStrong: 'oklch(0.86 0.11 85)', accentBg: 'oklch(0.27 0.05 85)',
+    cat, model,
+  } : {
+    bg: 'oklch(0.965 0.014 75)', bgAlt: 'oklch(0.995 0.008 75)',
+    grainA: 'rgba(255,255,255,0.5)', grainB: 'rgba(0,0,0,0.035)',
+    border: 'oklch(0.85 0.02 70)', borderStrong: 'oklch(0.7 0.03 72)',
+    text: 'oklch(0.24 0.02 50)', textMuted: 'oklch(0.46 0.02 55)',
+    accent: 'oklch(0.5 0.135 85)', accentStrong: 'oklch(0.4 0.14 85)', accentBg: 'oklch(0.92 0.045 85)',
+    cat, model,
+  };
+}
+
+class Component extends DCLogic {
+  state = {
+    page: 'home', theme: 'dark', dragId: null,
+    graphNodes: [
+      { id: 'castra', x: 130, y: 98, r: 8, colorKey: 'accent', label: 'castra', labelDy: -17, isCenter: true },
+      { id: 'castrametari', x: 66, y: 46, r: 5, colorKey: 'camp', label: 'castrametari', labelDy: -12 },
+      { id: 'turma', x: 196, y: 46, r: 5, colorKey: 'camp', label: 'turma', labelDy: -12 },
+      { id: 'exercitus', x: 66, y: 150, r: 5, colorKey: 'command', label: 'exercitus', labelDy: 14 },
+      { id: 'nm10', x: 130, y: 30, r: 4, colorKey: 'muted', label: 'Nm 10', labelDy: -10 },
+      { id: 'nm31', x: 130, y: 166, r: 4, colorKey: 'muted', label: 'Nm 31', labelDy: 14 },
+      { id: 'nm1', x: 200, y: 150, r: 4, colorKey: 'muted', label: 'Nm 1', labelDy: 14 },
+    ],
+  };
+  svgRef = React.createRef();
+
+  tabStyle(key, c) {
+    const active = this.state.page === key;
+    return { bg: active ? c.accentBg : 'transparent', color: active ? c.accentStrong : c.textMuted, border: active ? c.accent : 'transparent' };
+  }
+
+  colorFor(key, c) {
+    if (key === 'accent') return c.accent;
+    if (key === 'camp') return c.cat.camp.border;
+    if (key === 'command') return c.cat.command.border;
+    return c.textMuted;
+  }
+
+  onSvgPointerMove = (e) => {
+    if (!this.state.dragId || !this.svgRef.current) return;
+    const rect = this.svgRef.current.getBoundingClientRect();
+    const x = Math.max(12, Math.min(248, ((e.clientX - rect.left) / rect.width) * 260));
+    const y = Math.max(12, Math.min(178, ((e.clientY - rect.top) / rect.height) * 190));
+    this.setState(s => ({ graphNodes: s.graphNodes.map(n => n.id === s.dragId ? { ...n, x, y } : n) }));
+  };
+
+  onSvgPointerUp = () => this.setState({ dragId: null });
+
+  renderVals() {
+    const dark = this.state.theme === 'dark';
+    const c = computeTheme(dark);
+    const graphNodesResolved = this.state.graphNodes.map((n, i) => ({
+      ...n,
+      fill: this.colorFor(n.colorKey, c),
+      labelY: n.y + n.labelDy,
+      leftPct: (n.x / 260) * 100,
+      topPct: ((n.y + n.labelDy) / 190) * 100,
+      animClass: i % 2 === 0 ? 'graph-node-a' : 'graph-node-b',
+      delay: (i * 0.18) + 's',
+      onDown: (e) => { e.stopPropagation(); e.preventDefault(); this.setState({ dragId: n.id }); },
+    }));
+    const graphCenter = graphNodesResolved.find(n => n.isCenter);
+    const graphSatellites = graphNodesResolved.filter(n => !n.isCenter);
+    const graphLines = graphSatellites.map(n => ({ x1: graphCenter.x, y1: graphCenter.y, x2: n.x, y2: n.y }));
+    const verses = RAW_VERSES.map((raw, i) => ({
+      num: i + 1,
+      segments: parseSegments(raw).map(seg => {
+        if (seg.plain) return { text: seg.text, plain: true };
+        const catKey = TERM_CATEGORY[seg.term.toLowerCase()];
+        const style = catKey ? c.cat[catKey] : null;
+        return { text: seg.text, term: seg.term, bg: style ? style.bg : 'transparent', fg: style ? style.fg : c.accent, border: style ? style.border : c.accent };
+      }),
+    }));
+    return {
+      c,
+      themeLabel: dark ? 'Light mode' : 'Dark mode',
+      isHome: this.state.page === 'home',
+      isLexicon: this.state.page === 'lexicon',
+      isChapter: this.state.page === 'chapter',
+      navHome: this.tabStyle('home', c),
+      navLexicon: this.tabStyle('lexicon', c),
+      navChapter: this.tabStyle('chapter', c),
+      chapters: Array.from({ length: 36 }, (_, i) => i + 1),
+      verses,
+      svgRef: this.svgRef,
+      onSvgMove: this.onSvgPointerMove,
+      onSvgUp: this.onSvgPointerUp,
+      graphCenter,
+      graphSatellites,
+      graphLines,
+      goHome: () => this.setState({ page: 'home' }),
+      goLexicon: () => this.setState({ page: 'lexicon' }),
+      goChapter: () => this.setState({ page: 'chapter' }),
+      toggleTheme: () => this.setState(s => ({ theme: s.theme === 'dark' ? 'light' : 'dark' })),
+    };
+  }
+}
+
+</script>
+</body>
+</html>
