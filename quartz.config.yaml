@@ -17,30 +17,30 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: "Source Serif 4"
+      body: "Public Sans"
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#f6f2ea"
+        lightgray: "#e3dccb"
+        gray: "#b0a58c"
+        darkgray: "#3d3527"
+        dark: "#241f16"
+        secondary: "#8a5a1f"
+        tertiary: "#8a5a1f"
+        highlight: rgba(138, 90, 31, 0.1)
+        textHighlight: "#f0d99a88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        light: "#1c1712"
+        lightgray: "#332c22"
+        gray: "#5c5344"
+        darkgray: "#d8cfbd"
+        dark: "#f0e9dc"
+        secondary: "#d1a44e"
+        tertiary: "#d1a44e"
+        highlight: rgba(209, 164, 78, 0.12)
+        textHighlight: "#d1a44e55"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
