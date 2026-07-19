@@ -2,36 +2,16 @@
 title: Introduction
 ---
 
-# Introduction
-
 > «quas Graeci ἀπάρσεις vocant, nos propter linguae proprietatem significantius *mansiones* sive, quia de exercitu dicitur, *castra* transtulimus»
 >
 > — Jerome, *Epistula* 78,1 to Fabiola
 
 The stages of Israel's desert itinerary, "which the Greeks call ἀπάρσεις, we have translated more meaningfully, as the propriety of our language allows: *mansiones* — or, **since an army is being spoken of**, *castra*." Writing about the forty-two encampments of Numbers 33, Jerome does something rare for an ancient translator: he explains a lexical choice, and the reason he gives is a recognition of genre. The text speaks of an army, so it deserves the army's vocabulary. This site follows that recognition through the military lexicon of his Latin Bible.
 
-## Three tongues for one word
-
-Take "camp": *maḥăneh*, παρεμβολή, *castra*. The chain of those names carries an entire history. In the Hebrew Bible the camp is pitched around the sanctuary and must be kept holy, "for the LORD walks in the midst of it" (Dt 23:15). The Septuagint recasts it as the παρεμβολή, the Hellenistic encampment drawn up for battle. In Jerome's Vulgate it becomes *castra* — and Israel's census a *recensio*, its tribal divisions *turmae* and *cunei* under *signa atque vexilla*, its officers *tribuni* and *centuriones*, its covenant a *foedus*, the command of its God an *imperium*. At the far end of the chain, the camp returns once more: the eschatological "camp of the saints", *castra sanctorum* (Rev 20:9), by which Israel's holy war passed into the language of Christian *militia* and, eventually, of just war.
-
-## Five models of war — and a sixth, looking forward
-
-The Hebrew war-lexicon does not encode one military ideology but several, and this site tags its material accordingly:
-
-- **Tribal militia** — the census-based levy of Numbers 1–2: every man "able to go out to the host", mustered by tribe and clan, encamped in fixed order around the sanctuary.
-- **Holy war / YHWH-warrior** — YHWH himself fights and Israel participates ritually: the Ark on the field, the priestly trumpets, the war-cry, the *ḥērem* that consecrates the enemy to destruction.
-- **Charismatic band** — the deliberately *reduced* force: Gideon's three hundred, "lest Israel boast 'my own hand saved me'" — the theological counter-type to mass and discipline.
-- **Monarchic professional army** — the standing force of the kings: officer hierarchy, chariotry, cavalry, conscription (1 Sam 8).
-- **War as legal procedure** — embassies and declarations, the offer of peace, treaties, oaths, and the binding force of both.
-- **Militia Christi (reception)** — a forward-looking tag: the Vulgate renderings that later became load-bearing for Christian spiritual-warfare and just-war discourse.
-
-## What the Latin does
-
-Romanisation is real, but it is neither uniform nor all Jerome's. Its intensity tracks how institutional each Hebrew model already was: strongest on the census-camp and the officer ladder, procedural on treaty-law, mixed on holy war, and nearly nil on Gideon's anti-institutional band — where the Roman lexicon finds nothing to grip. And it is layered: part of the Roman idiom (the officer grid, *castra* itself) was already in the Old Latin versions Jerome inherited; his own hand shows elsewhere — in rendering the divine title *YHWH ṣəbāʾôt* as *Dominus exercituum* where the older versions had transliterated *Sabaoth*, in re-legalising the covenant as *foedus*, and in his handling of the ban, below.
-
-## To latinise is not always to romanise
-
-The sharpest proof that these choices are deliberate is a refusal. For the *ḥērem* — the devotion of the enemy to destruction — Latin offered Jerome a ready-made sacral category that fitted the rite almost exactly: the *devotio*, by which a Roman general consigned an enemy city, lives and all, to Dis Pater and the Manes, alongside the double-valenced *sacer*, holy and accursed at once. Jerome withholds both. He keeps the inherited Graecism *anathema* for the sacral object (Jos 6:17), turns to *consecrare* for the votive ban (Lv 27:28), and renders the act itself with ordinary verbs of killing (*interficere*, *delere*) — de-sacralising precisely where Rome would have re-sacralised, and keeping Rome's gods of the dead out of Israel's holy war. The same hand that enlists the war-God in an *exercitus* refuses the one Roman rite that fitted the ban.
+Three different tongues for one word: «camp» — *maḥăneh*, παρεμβολή, *castra* — and the chain of those names carries an entire history. In the Hebrew Bible the war-lexicon encodes a sequence of military models: the tribal militia, the holy war of the YHWH-warrior, the reduced charismatic band, the monarchic professional army, plus war conceived as legal procedure. Its anchor is the camp pitched around the sanctuary (*maḥăneh*), a camp that must be kept holy because the deity walks in its midst (Deut 23:15), and its sharpest institution is the *ḥērem*, the devotion of the enemy to destruction.  
+The first re-coding is Greek. The Septuagint recasts these realities in a Hellenistic military idiom: maḥăneh becomes παρεμβολή, the encampment drawn up for battle; ḥērem becomes ἀνάθεμα, the thing set apart and so accursed — a root the translators apply without reserve, supplying the cognate verb ἀναθεματίζω for the act and even rendering the place-name Hormah as Ἀνάθεμα (Num 21:3); and the martial title YHWH ṣĕbāʾôt fractures, by book, into κύριος σαβαωθ (merely transliterated, as in Isaiah), κύριος τῶν δυνάμεων (the Psalms), and κύριος παντοκράτωρ — the "host" already oscillating between an army and the cosmos.  
+A Christian re-reading extends the line. In the deuterocanonical Maccabean literature the wars of YHWH return in Hellenistic dress — zeal for the Law, the charismatic warrior-leader, the epiphany that fights for Israel — together with the new figure of the martyr-soldier. The New Testament then interiorises the model: holy war becomes the militia Christi, waged with the "whole armour of God" (πανοπλία, Eph 6\) by the "good soldier of Christ Jesus" (2 Tim 2:3); ἀνάθεμα hardens into Paul's curse-formula (Gal 1:8–9); σαβαωθ survives untranslated (Rom 9:29; Jas 5:4), while παντοκράτωρ comes to rule the Apocalypse — where the camp reappears, at the last, as the eschatological παρεμβολὴ τῶν ἁγίων (Rev 20:9).  
+Only here does the chain reach Jerome. The Vulgata Bible renders Israel's wars in a Roman military and legal idiom — *castra*, *recensio*, *tribunus*, *foedus* — inherited in part from the Old Latin yet decisively extended: *Dominus Sabaoth* becomes *Dominus exercituum*, and the Hebrew "at the mouth of the LORD" becomes *imperium Domini*, a phrase lying at the very heart of Roman military and political authority. Nevertheless, *to latinise is not always to romanise*: for *ḥērem* Jerome adopts no single equivalent. He keeps the inherited Graecism *anathema* for the cultic ban (Josh 6:17; 7:1), turns to *consecrare* for the votive offering (Lev 27:28), and renders the act of annihilation with ordinary Latin verbs of destruction (*delere*, *interficere*). What he consistently withholds is the one Roman category that fitted the rite almost exactly — the *devotio*, by which a Roman general consigned the enemy to Dis Pater and the Manes — so as to forestall a dangerous resonance between archaic Roman paganism and the military ethnogenesis of Israel. The camp completes its journey as the *castra sanctorum* of Revelation 20:9, a phrase by which Israel's holy war passed into the new Christian *militia* and into the Western language of just war. 
 
 ## How to read this site
 
