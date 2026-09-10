@@ -23,6 +23,17 @@ Every lexicon card is tagged with one or more **levels**, marking which layer of
 
 A term can carry more than one level — [[foedus]], for instance, is tagged `[L1, L3]`: the treaty-tent structures the camp's internal order (L1) but the *foedus* itself belongs to the law of war between parties (L3).
 
+## Semantic domain: A, B, C, D
+
+Alongside the level, each card carries a **category** letter — a different, orthogonal axis: not the legal register of the term, but the *semantic domain* it belongs to.
+
+- **A** — concrete weapons and equipment: sword, bow, spear, shield, helmet — the matériel of war;
+- **B** — the army as institution: host, camp, command, muster, ranks, standards — the organizational and hierarchical vocabulary of the armed force (e.g. [[exercitus]], [[castra]], and the three renderings of the assembly, [[multitudo]] · [[synagoga]] · [[congregatio]]);
+- **C** — the actions and legal-abstract outcomes of conflict: fighting, fleeing, capturing, booty, oaths, sieges;
+- **D** — the sacral-ritual register of holy war: horns and trumpets, the war-cry, the *ḥērem*, zeal.
+
+A term's category and level are independent: [[multitudo]] is category B (institutional — the assembled body) and level L1 (internal order of the community), while [[seditio]] is also category B but reads the same assembly turned hostile.
+
 ## How to read this site
 
 Each **book page** gives a chapter of the Vulgate in its Latin text; the military terms that belong to the lexicon are links. Each **lexicon card** (e.g. [[castra]], [[exercitus]]) traces one term across the whole translation chain — Hebrew (MT), Greek (LXX), the hexaplaric versions where preserved, and the Vulgate — with occurrence counts and the key loci in which the term does its work.

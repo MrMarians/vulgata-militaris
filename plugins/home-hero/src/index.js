@@ -1,8 +1,8 @@
 // Home page transformer. On the index page only:
 //  1. replaces the content h1 with the full-width hero banner from the
-//     "Homepage Hero Vulgata Militaris.dc" mockup: eyebrow (overridable via
-//     frontmatter `eyebrow`), VVLGATA MILITARIS title, ornament divider,
-//     Eph 6:11 quote with attribution, and bottom caption;
+//     "Homepage Hero Vulgata Militaris.dc" mockup: "Vulgata Militaris" title
+//     (set in small caps via CSS — see .home-hero-title), ornament divider,
+//     and Eph 6:11 quote with attribution;
 //  2. inserts the diamond-marked divider before the "Books" section;
 //  3. turns the chapter-links paragraph after "Liber Numerorum" into the
 //     numbered square grid (link text "Nm 12" -> "12", anchors preserved so
@@ -27,10 +27,8 @@ function textOf(node) {
   return ""
 }
 
-const DEFAULT_EYEBROW = "Lessico storico-filologico"
 const HERO_QUOTE = "“Induite vos arma Dei, ut possitis stare adversus insidias diaboli.”"
 const HERO_REF = "Ephesios VI, 11 · Biblia Sacra Vulgata"
-const HERO_FOOT = "Vulgata Militaris — Edizione digitale"
 
 const HomeHero = () => {
   return {
@@ -41,7 +39,6 @@ const HomeHero = () => {
           if (file.data?.slug !== "index") return
           const kids = tree.children
           if (!Array.isArray(kids)) return
-          const fm = file.data?.frontmatter ?? {}
 
           // 1. Hero banner in place of the content h1
           const h1i = kids.findIndex((n) => isEl(n, "h1"))
@@ -60,13 +57,10 @@ const HomeHero = () => {
                   decoding: "async",
                 }),
                 el("div", { className: ["home-hero-inner"] }, [
-                  el("div", { className: ["home-hero-eyebrow"] }, [
-                    text(String(fm.eyebrow ?? DEFAULT_EYEBROW)),
-                  ]),
                   el("h1", { className: ["home-hero-title"] }, [
-                    text("VVLGATA"),
+                    text("Vulgata"),
                     el("br"),
-                    text("MILITARIS"),
+                    text("Militaris"),
                   ]),
                   el("div", { className: ["home-hero-ornament"] }, [
                     el("span", { className: ["home-hero-line"] }),
@@ -75,11 +69,6 @@ const HomeHero = () => {
                   ]),
                   el("p", { className: ["home-hero-quote"] }, [text(HERO_QUOTE)]),
                   el("div", { className: ["home-hero-ref"] }, [text(HERO_REF)]),
-                ]),
-                el("div", { className: ["home-hero-foot"] }, [
-                  el("span", { className: ["home-hero-foot-line"] }),
-                  text(HERO_FOOT),
-                  el("span", { className: ["home-hero-foot-line"] }),
                 ]),
               ]),
             )

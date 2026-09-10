@@ -196,24 +196,21 @@ body[data-slug="index"] {
       pointer-events: none;
     }
 
-    .home-hero-eyebrow {
-      font-size: clamp(12px, 1.5vw, 15px);
-      font-weight: 500;
-      letter-spacing: 0.42em;
-      text-indent: 0.42em; // recenter: letter-spacing trails the last glyph
-      text-transform: uppercase;
-      color: #d1a44e;
-      margin-bottom: clamp(20px, 3vw, 32px);
-    }
-
     h1.home-hero-title {
       font-family: "Source Serif 4", serif;
       font-weight: $semiBoldWeight;
       font-size: clamp(44px, 10vw, 92px);
       line-height: 1.02;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.03em;
       color: #f6f2ea;
       margin: 0;
+      // Maiuscoletto: initial capital at full size, rest of each word in
+      // small caps. font-variant does this natively when the font has true
+      // small-cap glyphs, and browsers synthesize it (scaled-down capitals)
+      // otherwise — either way the initial letter reads larger than the rest.
+      font-variant: small-caps;
+      -webkit-font-feature-settings: "smcp" 1;
+      font-feature-settings: "smcp" 1;
     }
 
     .home-hero-ornament {
@@ -261,28 +258,6 @@ body[data-slug="index"] {
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: #a68a55;
-    }
-
-    .home-hero-foot {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: clamp(30px, 4.5vw, 42px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      font-size: 11px;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: #6f6455;
-
-      .home-hero-foot-line {
-        width: 22px;
-        height: 1px;
-        flex-shrink: 0;
-        background: #8a5a1f;
-      }
     }
 
     // Lede + intro paragraphs (first two of the page)
