@@ -13,6 +13,16 @@ The first re-coding is Greek. The Septuagint recasts these realities in a Hellen
 A Christian re-reading extends the line. In the deuterocanonical Maccabean literature the wars of YHWH return in Hellenistic dress — zeal for the Law, the charismatic warrior-leader, the epiphany that fights for Israel — together with the new figure of the martyr-soldier. The New Testament then interiorises the model: holy war becomes the militia Christi, waged with the "whole armour of God" (πανοπλία, Eph 6\) by the "good soldier of Christ Jesus" (2 Tim 2:3); ἀνάθεμα hardens into Paul's curse-formula (Gal 1:8–9); σαβαωθ survives untranslated (Rom 9:29; Jas 5:4), while παντοκράτωρ comes to rule the Apocalypse — where the camp reappears, at the last, as the eschatological παρεμβολὴ τῶν ἁγίων (Rev 20:9).  
 Only here does the chain reach Jerome. The Vulgata Bible renders Israel's wars in a Roman military and legal idiom — *castra*, *recensio*, *tribunus*, *foedus* — inherited in part from the Old Latin yet decisively extended: *Dominus Sabaoth* becomes *Dominus exercituum*, and the Hebrew "at the mouth of the LORD" becomes *imperium Domini*, a phrase lying at the very heart of Roman military and political authority. Nevertheless, *to latinise is not always to romanise*: for *ḥērem* Jerome adopts no single equivalent. He keeps the inherited Graecism *anathema* for the cultic ban (Josh 6:17; 7:1), turns to *consecrare* for the votive offering (Lev 27:28), and renders the act of annihilation with ordinary Latin verbs of destruction (*delere*, *interficere*). What he consistently withholds is the one Roman category that fitted the rite almost exactly — the *devotio*, by which a Roman general consigned the enemy to Dis Pater and the Manes — so as to forestall a dangerous resonance between archaic Roman paganism and the military ethnogenesis of Israel. The camp completes its journey as the *castra sanctorum* of Revelation 20:9, a phrase by which Israel's holy war passed into the new Christian *militia* and into the Western language of just war. 
 
+## Levels of classification: L1, L2, L3
+
+Every lexicon card is tagged with one or more **levels**, marking which layer of military language the term belongs to:
+
+- **L1** — internal rules of the armed forces (hierarchy, discipline, command, census, camp order, signals);
+- **L2** — conduct of armed conflict (combatants, civilians, prisoners, booty, ḥērem, siege rules);
+- **L3** — use of war and wartime (declarations, embassies, truces, treaties, oaths, surrender, sacred places).
+
+A term can carry more than one level — [[foedus]], for instance, is tagged `[L1, L3]`: the treaty-tent structures the camp's internal order (L1) but the *foedus* itself belongs to the law of war between parties (L3).
+
 ## How to read this site
 
 Each **book page** gives a chapter of the Vulgate in its Latin text; the military terms that belong to the lexicon are links. Each **lexicon card** (e.g. [[castra]], [[exercitus]]) traces one term across the whole translation chain — Hebrew (MT), Greek (LXX), the hexaplaric versions where preserved, and the Vulgate — with occurrence counts and the key loci in which the term does its work.

@@ -8,6 +8,13 @@ A research companion to the military lexicon of Jerome's Vulgate. Each chapter i
 
 New here? The **[[introduction|Introduction]]** explains the project — the military models of the Hebrew Bible, their Roman re-coding, and how to read the cards.
 
+> [!info] Levels of military language (L1–L3)
+> Every lexicon card is tagged with one or more of these levels — see the **[[introduction|Introduction]]** for the full discussion:
+>
+> - **L1** — internal rules of the armed forces (hierarchy, discipline, command, census, camp order, signals)
+> - **L2** — conduct of armed conflict (combatants, civilians, prisoners, booty, ḥērem, siege rules)
+> - **L3** — use of war and wartime (declarations, embassies, truces, treaties, oaths, surrender, sacred places)
+
 ## Books
 
 ### Liber Numerorum
@@ -17,6 +24,8 @@ New here? The **[[introduction|Introduction]]** explains the project — the mil
 ## Military lexicon
 
 **The camp** — [[castra]] · [[castrametari]] · [[turma]] · [[cuneus]] · [[vexillum]] · [[signum]] · [[praesidium]] · [[custodia]] · [[excubiae]]
+
+**The assembly** — [[multitudo]] · [[synagoga]] · [[congregatio]] — three renderings of one Hebrew word, *ʿēdâ*: the crowd, the official organ, the cultic body (see also [[seditio]] for the same lemma turned hostile)
 
 **Signals and march** — [[tuba]] · [[clangor]] · [[ululatus]] · [[profectio]]
 
