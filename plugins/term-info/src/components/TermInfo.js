@@ -14,6 +14,15 @@ const MODEL_META = {
   "monarchic-professional": { label: "Monarchic-professional", cls: "model-command" },
 }
 
+// Italian labels for pages that declare `lang: it` in the frontmatter
+const MODEL_LABEL_IT = {
+  "tribal-militia": "Milizia tribale",
+  "holy-war": "Guerra santa",
+  "juridical-diplomatic": "Giuridico-diplomatico",
+  "monarchic-professional": "Esercito monarchico professionale",
+  "militia-Christi-reception": "Ricezione: militia Christi",
+}
+
 const cardCss = `
 .term-info {
   border: 1px solid var(--borderCol);
@@ -101,6 +110,7 @@ const TermInfo = () => {
     const fm = props.fileData?.frontmatter
     if (!fm || fm.type !== "terminology-card") return null
 
+    const it = fm.lang === "it"
     const level = Array.isArray(fm.level) ? fm.level.join(" · ") : fm.level
     const categoryCode = [fm.category, level].filter(Boolean).join(" · ")
     const models = Array.isArray(fm.models) ? fm.models : []
@@ -112,15 +122,18 @@ const TermInfo = () => {
     if (categoryCode) {
       sections.push(block("Category", [h("div", { class: "term-info-category" }, categoryCode)]))
     }
+    if (fm.dominio) {
+      sections.push(block(it ? "Dominio" : "Domain", [h("div", { class: "term-info-category" }, String(fm.dominio))]))
+    }
     if (models.length > 0) {
       sections.push(
-        block("Models", [
+        block(it ? "Modelli" : "Models", [
           h(
             "div",
             { class: "term-info-models" },
             models.map((m) => {
               const meta = MODEL_META[m] ?? { label: m, cls: "model-camp" }
-              return h("span", { class: `term-info-pill ${meta.cls}`, key: m }, meta.label)
+              return h("span", { class: `term-info-pill ${meta.cls}`, key: m }, it ? (MODEL_LABEL_IT[m] ?? m) : meta.label)
             }),
           ),
         ]),
@@ -132,7 +145,7 @@ const TermInfo = () => {
     if (seeAlso.length > 0) {
       sections.push(divider())
       sections.push(
-        block("See also", [
+        block(it ? "Vedi anche" : "See also", [
           h(
             "div",
             { class: "term-info-seealso" },

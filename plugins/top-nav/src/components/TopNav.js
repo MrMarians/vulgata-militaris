@@ -20,6 +20,22 @@ const LINKS = [
   },
 ]
 
+// Italian site (content-vulgata: the home page has `lang: it`): Italian labels
+// and the folders that exist there. The English site is unaffected.
+const LINKS_IT = [
+  { label: "Inizio", target: "", active: (slug) => slug === "index" },
+  {
+    label: "Lessico",
+    target: "lessico-latino/",
+    active: (slug) => slug.startsWith("lessico-"),
+  },
+  {
+    label: "Capitoli",
+    target: "books/genesis/01",
+    active: (slug) => slug.startsWith("books/"),
+  },
+]
+
 const navCss = `
 body {
   padding-top: 72px;
@@ -137,6 +153,10 @@ const TopNav = () => {
   const Component = (props) => {
     const slug = props.fileData?.slug ?? ""
     const root = pathToRoot(slug)
+    const it =
+      props.fileData?.frontmatter?.lang === "it" ||
+      props.allFiles?.find((f) => f.slug === "index")?.frontmatter?.lang === "it"
+    const links = it ? LINKS_IT : LINKS
 
     return h("nav", { class: "top-nav" }, [
       h("div", { class: "top-nav-left" }, [
@@ -147,7 +167,7 @@ const TopNav = () => {
         h(
           "div",
           { class: "top-nav-links" },
-          LINKS.map((l) =>
+          links.map((l) =>
             h(
               "a",
               {
@@ -161,8 +181,8 @@ const TopNav = () => {
         ),
       ]),
       h("button", { class: "darkmode top-nav-toggle", type: "button" }, [
-        h("span", { class: "toggle-to-dark" }, "Dark mode"),
-        h("span", { class: "toggle-to-light" }, "Light mode"),
+        h("span", { class: "toggle-to-dark" }, it ? "Tema scuro" : "Dark mode"),
+        h("span", { class: "toggle-to-light" }, it ? "Tema chiaro" : "Light mode"),
       ]),
     ])
   }

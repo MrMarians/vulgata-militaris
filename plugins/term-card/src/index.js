@@ -74,10 +74,11 @@ function buildChain(fm, lxxCell, hexCell, vulgCell) {
     )
   const occurrences = fm.occurrences != null ? String(fm.occurrences) : null
   const hexText = textOf(hexCell).trim()
+  const it = fm.lang === "it" // Italian pages: Italian labels, no Hexaplaric box
 
   return el("div", { className: ["term-chain"] }, [
     el("div", { className: ["chain-box", "chain-first"] }, [
-      chainLabel("TM · Hebrew"),
+      chainLabel(it ? "TM · ebraico" : "TM · Hebrew"),
       el("div", { className: ["chain-word"] }, [text(String(fm.lemma ?? "—"))]),
       el("div", { className: ["chain-translit"] }, [
         el("i", {}, [text(String(fm.translit ?? ""))]),
@@ -85,22 +86,23 @@ function buildChain(fm, lxxCell, hexCell, vulgCell) {
     ]),
     arrow(false),
     el("div", { className: ["chain-box", "chain-mid"] }, [
-      chainLabel("LXX · Greek"),
+      chainLabel(it ? "LXX · greco" : "LXX · Greek"),
       el("div", { className: ["chain-word"] }, lxxCell),
     ]),
-    arrow(false),
+    // Italian pages: the third cell is the Vetus Latina (Codex Lugdunensis), shown only when attested
+    ...(it && (hexText === "" || hexText === "—") ? [] : [arrow(false),
     el("div", { className: ["chain-box", "chain-mid", "chain-hex"] }, [
-      chainLabel("Hexaplaric"),
+      chainLabel(it ? "Vetus Latina" : "Hexaplaric"),
       el(
         "div",
         { className: ["chain-word", "chain-word-hex"] },
         hexText === "" || hexText === "—" ? [text("—")] : hexCell,
       ),
-    ]),
+    ])]),
     arrow(true),
     el("div", { className: ["chain-box", "chain-vulgate"] }, [
       ...(occurrences ? [el("div", { className: ["chain-count"] }, [text(`${occurrences}×`)])] : []),
-      chainLabel("Vulgate", "chain-label-vulgate"),
+      chainLabel(it ? "Vulgata" : "Vulgate", "chain-label-vulgate"),
       el("div", { className: ["chain-word", "chain-word-vulgate"] }, vulgCell),
     ]),
   ])
@@ -133,7 +135,7 @@ const TermCardTransformer = () => {
 
           // 2. Comparison chain
           const h2i = kids.findIndex(
-            (n) => isEl(n, "h2") && textOf(n).trim().startsWith("Textual tradition"),
+            (n) => isEl(n, "h2") && /^(Textual tradition|Tradizione testuale)/.test(textOf(n).trim()),
           )
           if (h2i >= 0) {
             const ti = kids.findIndex((n, i) => i > h2i && isEl(n, "table"))
@@ -165,7 +167,7 @@ const TermCardTransformer = () => {
 
           // 3. See also -> sidebar data
           const si = kids.findIndex(
-            (n) => isEl(n, "p") && textOf(n).trim().startsWith("See also"),
+            (n) => isEl(n, "p") && /^(See also|Vedi anche)/.test(textOf(n).trim()),
           )
           if (si >= 0) {
             file.data.termSeeAlso = collectLinks(kids[si])
@@ -188,7 +190,7 @@ const TermCardTransformer = () => {
           if (Array.isArray(file.data.toc)) {
             file.data.toc = file.data.toc.filter(
               (e) =>
-                !["Textual tradition", "Further reading"].includes(
+                !["Textual tradition", "Tradizione testuale", "Further reading"].includes(
                   String(e?.text ?? "").trim(),
                 ),
             )

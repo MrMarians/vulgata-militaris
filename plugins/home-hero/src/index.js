@@ -76,24 +76,26 @@ const HomeHero = () => {
 
           // 2. Diamond divider before the Books section
           const bi = kids.findIndex(
-            (n) => isEl(n, "h2") && textOf(n).trim().startsWith("Books"),
+            (n) => isEl(n, "h2") && /^(Books|Libri)/.test(textOf(n).trim()),
           )
           if (bi >= 0) {
             kids.splice(bi, 0, el("div", { className: ["home-divider"] }))
           }
 
           // 3. Chapter grid: the paragraph following "Liber Numerorum"
-          const li = kids.findIndex(
-            (n) => isEl(n, "h3") && textOf(n).trim().startsWith("Liber Numerorum"),
-          )
-          if (li >= 0) {
+          const italiano = file.data?.frontmatter?.lang === "it"
+          const libri = kids
+            .map((n, i) => (isEl(n, "h3") && (italiano || textOf(n).trim().startsWith("Liber Numerorum")) ? i : -1))
+            .filter((i) => i >= 0)
+            .reverse()
+          for (const li of libri) {
             const pi = kids.findIndex((n, i) => i > li && isEl(n, "p"))
             if (pi >= 0 && pi - li <= 2) {
               const anchors = kids[pi].children.filter((n) => isEl(n, "a"))
               if (anchors.length > 0) {
                 for (const a of anchors) {
                   const label = textOf(a).trim()
-                  const num = label.replace(/^Nm\s+/i, "")
+                  const num = label.replace(/^.*\s+/, "")
                   a.properties = a.properties ?? {}
                   const cls = a.properties.className
                   a.properties.className = [
