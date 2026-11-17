@@ -200,8 +200,11 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/49#^v6\|Gn 49,6]] | in consilio eorum ne veniat anima mea et in coetu illorum non sit gloria mea quia in furore suo occiderunt virum et in voluntate sua suffoderunt **murum** | in consilio eorum non ueniat anima mea super eos, et super constantia eorum non contendat praecordia mea: quia in furore suo occiderunt homines, et in concupiscentia sua subneruauerunt taurum. | Gn 49,6, p. 161 |
 | [[books/Genesis/49#^v22\|Gn 49,22]] | filius adcrescens Ioseph filius adcrescens et decorus aspectu filiae discurrerunt super **murum** | Filius meus crescens Ioseph, filius meus crescens zelatus, filius meus iunior ad me reuertere. | Gn 49,22, p. 162 |
+| [[books/Leviticus/25#^v29\|Lv 25,29]] | qui vendiderit domum intra urbis **muros** habebit licentiam redimendi donec unus impleatur annus | Et homo si cui reddet domum fundatam in ciuitate, satis reddet domesticum in ciuitate murata, et erit redemptio eius usque adinpleatur annus totus, | Lv 25,29, p. 235 |
+| [[books/Leviticus/25#^v31\|Lv 25,31]] | sin autem in villa fuerit domus quae **muros** non habet agrorum iure vendetur si ante redempta non fuerit in iobeleo revertetur ad dominum | Domos autem quae sunt - in conciliabulis, quibus sunt **muri** non sunt in circuitu in agris et terrae, redimentur redemptione per omnia erit, iste in remissione exigent. | Lv 25,31, p. 235 |
 | [[books/Numeri/13#^v19\|Nm 13,19]] | ipsa terra bona an mala urbes quales muratae an absque **muris** | aut quae terra sit quam hi insident in ea, si bona est aut mala: et quae sunt ciuitates in quibus habitant, aut muratae sint, aut sine **muris**: | Nm 13,20, p. 267 |
 | [[books/Numeri/35#^v4\|Nm 35,4]] | quae a **muris** civitatum forinsecus per circuitum mille passuum spatio tendentur | Et quae excurruntur a ciuitatibus et omnibus quadrupedibus pecoribus eorum, et quae excurruntur ciuitatibus, has dabitis Leuitis, et extremorum duo milia cubita in circuitu. | Nm 35,4, p. 307 |
+| [[books/Deuteronomium/03#^v5\|Dt 3,5]] | cunctae urbes erant munitae **muris** altissimis portisque et vectibus absque oppidis innumeris quae non habebant **muros** | Omnes ciuitates munitae **muris** altis, et portis, et serris firmis, praeterquam ciuitates Ferezeorum multas ualde: | Dt 3,5, p. 316 |
 
 ## Occorrenze
 

@@ -74,6 +74,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Numeri/21#^v3\|Nm 21,3]] | exaudivitque Dominus preces Israhel et tradidit Chananeum quem ille interfecit subversis urbibus eius et vocavit nomen loci illius Horma id est **anathema** | Et exaudiuit Dominus uocem Istrahel, et tradidit Channaneum subditum ei: et ciuitates eorum anatematizauit. Et cognominarunt nomen loci illius **anathema**. | Nm 21,3, p. 282 |
+| [[books/Deuteronomium/07#^v26\|Dt 7,26]] | nec inferes quippiam ex idolo in domum tuam ne fias **anathema** sicut et illud est quasi spurcitiam detestaberis et velut inquinamentum ac sordes abominationi habebis quia **anathema** est | Nec inferes spurcitiam in domo tua, et erit **anathema** sicut et illud est: offensione offendes, et coinquinatus abominatione illa scies quia **anathema** est. | Dt 7,26, p. 326 |
 
 ## Occorrenze
 

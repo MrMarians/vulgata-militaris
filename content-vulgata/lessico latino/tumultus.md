@@ -80,6 +80,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Exodus/32#^v17\|Ex 32,17]] | audiens autem Iosue **tumultum** populi vociferantis dixit ad Mosen ululatus pugnae auditur in castris | Et cum audisset Iesus clamorem populi clamantium, dixit ad Moysen: Non uox pugnae in castris auditur. | Ex 32,17, p. 187 |
 | [[books/Numeri/16#^v42\|Nm 16,42]] | cumque oreretur seditio et **tumultus** incresceret | Et factum est, conueniente synagoga super Moysen et Aronem, et impetu abierunt ad tabernaculum testimonii. Hoc autem cooperuit nubis, et uisus est honor Domini. | Nm 16,42, p. 275 |
 
 ## Occorrenze

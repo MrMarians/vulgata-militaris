@@ -95,6 +95,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Genesis/27#^v3\|Gn 27,3]] | sume **arma** tua faretram et arcum et egredere foras cumque venatu aliquid adprehenderis | Nunc ergo sume uasum tuum, pharetram, et arcum, et exi in campum, et uenare mihi uenationem: | Gn 27,3, p. 132 |
+| [[books/Deuteronomium/01#^v41\|Dt 1,41]] | et respondistis mihi peccavimus Domino ascendemus atque pugnabimus sicut praecepit Dominus Deus noster cumque instructi **armis** pergeretis in montem | Et respondistis mihi, et dixistis: Peccauimus palam Domino nostro, nam nos pugnauimus per omnia quae praecepit Dominus Deus noster nobis. Et sumpsistis unusquisque **arma** uestra pugnatoria, et unanimes ascendistis in montem. | Dt 1,41, p. 313 |
 
 ## Occorrenze
 

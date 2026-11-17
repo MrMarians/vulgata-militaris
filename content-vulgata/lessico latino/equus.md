@@ -186,6 +186,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/47#^v17\|Gn 47,17]] | quae cum adduxissent dedit eis alimenta pro **equis** et ovibus et bubus et asinis sustentavitque eos illo anno pro commutatione pecorum | Adduxerunt autem iumenta ad Ioseph: et dedit eis Ioseph panem pro **equis**, et pro ouibus, et pro bubus, et pro asinis: et pauit eos panibus pro omnibus pecoribus illorum in illo anno. | Gn 47,17, p. 159 |
 | [[books/Genesis/49#^v17\|Gn 49,17]] | fiat Dan coluber in via cerastes in semita mordens ungulas **equi** ut cadat ascensor eius retro | Et fiat Dan sicut coluber in uiam, obsidens in semitas, mordens calcaneum **equi**: et cadet eques retrorsum, | Gn 49,17, p. 162 |
+| [[books/Deuteronomium/11#^v4\|Dt 11,4]] | omnique exercitui Aegyptiorum et **equis** ac curribus quomodo operuerint eos aquae Rubri maris cum vos persequerentur et deleverit eos Dominus usque in praesentem diem | et qualem fecerit uirtutem Aegyptiorum, currus illius, et **equos** illius, quemadmodum delusit aquam maris rubri in faciem illorum, dum consequerentur post uos, et perdidit illos Dominus usque... | Dt 11,4, p. 330 |
 
 ## Occorrenze
 

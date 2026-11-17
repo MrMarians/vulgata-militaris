@@ -14,6 +14,8 @@ lang: it
 
 Equivalente ebraico da stabilire.
 
+Nelle veteres, al posto della parola della Vulgata — Robert (Codex Lugdunensis): *ciuitas* ([[books/Numeri/21#^v28|Nm 21,28]], [[books/Numeri/35#^v8|Nm 35,8]]).
+
 ## Loci
 
 ### Genesis (7)
@@ -99,11 +101,15 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Genesis/44#^v13\|Gn 44,13]] | at illi scissis vestibus oneratisque rursum asinis reversi sunt in **oppidum** | Et consciderunt uestimenta sua, et posuerunt unusquisque in asinum suum, et reuersi sunt in ciuitate. | Gn 44,13, p. 153 |
+| [[books/Leviticus/14#^v45\|Lv 14,45]] | quam statim destruent et lapides eius ac ligna atque universum pulverem proicient extra **oppidum** in loco inmundo | Et delent domum, et ligna eius, et lapides eius, et omnem puluerem domus proferent extra ciuitatem in locum mundum. | Lv 14,45, p. 226 |
 | [[books/Numeri/21#^v28\|Nm 21,28]] | ignis egressus est de Esebon flamma de **oppido** Seon et devoravit Ar Moabitarum et habitatores excelsorum Arnon | quia ignis exiuit ex Sebon, flama de ciuitate Seon, et comedit usque Moab, et deuorauit usque monimenta Arnon. | Nm 21,28, p. 283 |
 | [[books/Numeri/22#^v36\|Nm 22,36]] | quod cum audisset Balac egressus est in occursum eius in **oppido** Moabitarum quod situm est in extremis finibus Arnon | Sed ut audiuit Balac quia uenit Balaam, exiit ouuiam ei in ciuitate Moab, quae est in finibus Arnon, quod est ex parte terminorum. | Nm 22,36, p. 286 |
 | [[books/Numeri/35#^v3\|Nm 35,3]] | urbes ad habitandum et suburbana earum per circuitum ut ipsi in **oppidis** maneant et suburbana sint pecoribus ac iumentis | Erint eis ciuitates inhabitare: extra super terminos eorum erint pecoribus eorum, et omnibus quadrupedibus eorum. | Nm 35,3, p. 307 |
 | [[books/Numeri/35#^v6\|Nm 35,6]] | de ipsis autem **oppidis** quae Levitis dabitis sex erunt in fugitivorum auxilia separata ut fugiat ad ea qui fuderit sanguinem exceptis his alia quadraginta duo **oppida** | Ciuitates quas dabitis Leuitis, ex ciuitate refugium quas dabitis refugiat illic is qui homicidium fecerit, et super hac CCCC et duae ciuitates. | Nm 35,6, p. 308 |
 | [[books/Numeri/35#^v8\|Nm 35,8]] | ipsaeque urbes quae dabuntur de possessionibus filiorum Israhel ab his qui plus habent plures auferentur et qui minus pauciores singuli iuxta mensuram hereditatis suae dabunt **oppida** Levitis | Et ciuitates quas dabitis eis ex possessione filiorum Istrahel, ab illis qui multas possiderunt multas, et ab illis qui paucas possiderunt paucas: quisque secundum hereditatem suam quam possiderunt, de ciuitatibus Leuitis. | Nm 35,8, p. 308 |
+| [[books/Deuteronomium/02#^v36\|Dt 2,36]] | ab Aroer quae est super ripam torrentis Arnon **oppido** quod in valle situm est usque Galaad non fuit vicus et civitas quae nostras effugeret manus omnes tradidit Dominus Deus noster nobis | ex Aroer, quae est secundum ripam torrentis Arnon, et ciuitas quae erat in conuallem, et usque in montem Galaad: non fuit ciuitas quae nos effugeret: omnes enim tradidit Dominus Deus noster in manus nostras, | Dt 2,36, p. 316 |
+| [[books/Deuteronomium/03#^v4\|Dt 3,4]] | vastantes cunctas civitates illius uno tempore non fuit **oppidum** quod nos effugeret sexaginta urbes omnem regionem Argob regni Og in Basan | Et possidemus omnes ciuitates eius in tempore illo: et non fuit ciuitas quam non sumeremus ab eis: LX ciuitates omnes quae in circuitu erant Argob regis Og in Basan. | Dt 3,4, p. 316 |
+| [[books/Deuteronomium/03#^v5\|Dt 3,5]] | cunctae urbes erant munitae muris altissimis portisque et vectibus absque **oppidis** innumeris quae non habebant muros | Omnes ciuitates munitae muris altis, et portis, et serris firmis, praeterquam ciuitates Ferezeorum multas ualde: | Dt 3,5, p. 316 |
 
 ## Occorrenze
 

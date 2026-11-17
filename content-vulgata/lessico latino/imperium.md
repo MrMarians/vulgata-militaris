@@ -171,6 +171,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/09#^v20\|Nm 9,20]] | quotquot diebus fuisset nubes super tabernaculum ad **imperium** Domini erigebant tentoria et ad **imperium** illius deponebant | Et erit cum cooperit nubs dies plures numero super tabernaculum Dei, per uocem Domini Dei constituent, et per praeceptum Domini promouebunt. | Nm 9,20, p. 262 |
 | [[books/Numeri/09#^v23\|Nm 9,23]] | per verbum Domini figebant tentoria et per verbum illius proficiscebantur erantque in excubiis Domini iuxta **imperium** eius per manum Mosi | Quia praeceptum Domini promouebunt: obseruationem Domini obseruabunt praeceptum Domini in manu Moysi. | Nm 9,23, p. 262 |
 | [[books/Numeri/10#^v13\|Nm 10,13]] | moveruntque castra primi iuxta **imperium** Domini in manu Mosi | Et promouerunt primi per uocem Domini in manu Moysi. | Nm 10,13, p. 263 |
+| [[books/Deuteronomium/01#^v43\|Dt 1,43]] | locutus sum et non audistis sed adversantes **imperio** Domini et tumentes superbia ascendistis in montem | Et locutus sum ad uos ista omnia, et non exaudistis me, et praeuaricastis uerbum Domini: et conantes ascendistis in montem. | Dt 1,43, p. 313 |
+| [[books/Deuteronomium/09#^v23\|Dt 9,23]] | et quando misit vos de Cadesbarne dicens ascendite et possidete terram quam dedi vobis et contempsistis **imperium** Domini Dei vestri et non credidistis ei neque vocem eius audire voluistis | Et cum dimisit uos Dominus de Cades Barne, dicens: Ascendite, et heredes estote terrae quam dabo uobis, et non credidistis in uerbum Domini Dei uestri, et non credidistis ei, et non obaudistis uocem illius. | Dt 9,23, p. 328 |
 
 ## Occorrenze
 

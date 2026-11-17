@@ -116,6 +116,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/19#^v6\|Gn 19,6]] | egressus ad eos Loth post **tergum** adcludens ostium ait | Exiuit autem ad eos Lot ad posticium, et osteum clusit post se. | Gn 19,6, p. 130 |
 | [[books/Genesis/19#^v17\|Gn 19,17]] | et eduxerunt eum posueruntque extra civitatem ibi locutus est ad eum salva animam tuam noli respicere post **tergum** nec stes in omni circa regione sed in monte salvum te fac ne et tu simul pereas | Et factum est, postquam duxerunt eum foras, et dixerunt: Saluans salua animam tuam: ne respexeris retro, neque stes in hac uniuersa regione: in montem uade, et ibi saluaberis, ne forte conpraehendaris. | Gn 19,17, p. 131 |
+| [[books/Exodus/33#^v8\|Ex 33,8]] | cumque egrederetur Moses ad tabernaculum surgebat universa plebs et stabat unusquisque in ostio papilionis sui aspiciebantque **tergum** Mosi donec ingrederetur tentorium | Cum autem intraret in tabernaculum Moyses, stabat omnes populus speculantes unusquisque ad ostium tabernaculi sui: et denotabant euntem Moysen usque dum introiret in tabernaculum. | Ex 33,8, p. 189 |
 
 ## Occorrenze
 

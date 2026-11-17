@@ -148,6 +148,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Exodus/21#^v14\|Ex 21,14]] | si quis de industria occiderit proximum suum et per **insidias** ab altari meo evelles eum ut moriatur | Quod si quis insidiabitur proximo suo occidere eum dolo, et refugerit ad altare meum, inde sumis eum occidere. | Ex 21,14, p. 175 |
 | [[books/Numeri/32#^v17\|Nm 32,17]] | nos autem ipsi armati et accincti pergemus ad proelium ante filios Israhel donec introducamus eos ad loca sua parvuli nostri et quicquid habere possumus erunt in urbibus muratis propter habitatorum **insidias** | et nos armati primo agmine priores ante Istrahel ibimus, donec perducamus eos in locum suum: et habitabit praeparatura nostra in ciuitatibus muratis propter eos qui inhabitant terram. | Nm 32,17, p. 302 |
 | [[books/Numeri/35#^v20\|Nm 35,20]] | si per odium quis hominem inpulerit vel iecerit quippiam in eum per **insidias** | Si autem per inimicitiam inpulerit eum, et inmiserit super eum omne uas ex **insidia**, et mortuus fuerit, | Nm 35,20, p. 308 |
 

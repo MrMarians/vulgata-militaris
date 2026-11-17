@@ -41,6 +41,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/01#^v52\|Nm 1,52]] | **metabuntur** autem castra filii Israhel unusquisque per turmas et cuneos atque exercitum suum | Et constituent castra filii Istrahel, et uiri in suo ordine secundum suum ducem in uirtute sua erit. | Nm 1,52, p. 244 |
 | [[books/Numeri/03#^v23\|Nm 3,23]] | hii post tabernaculum **metabuntur** ad occidentem | Plebs Getson post tabernaculum ad marem constituens ad castra, | Nm 3,23, p. 247 |
 | [[books/Numeri/34#^v10\|Nm 34,10]] | inde **metabuntur** fines contra orientalem plagam de villa Henan usque Sephama | Et demetietis uobis ipsis terminos orientis ab Asernain. | Nm 34,10, p. 306 |
+| [[books/Deuteronomium/01#^v33\|Dt 1,33]] | qui praecessit vos in via et **metatus** est locum in quo tentoria figere deberetis nocte ostendens vobis iter per ignem et die per columnam nubis | qui ambulat ante nos in uia eligere uobis locum, ducatum uobis praebens in igne noctu, demonstrans uobis uiam quemadmodum ambulare possitis in ea, et in nube interdie. | Dt 1,33, p. 313 |
 
 ## Occorrenze
 

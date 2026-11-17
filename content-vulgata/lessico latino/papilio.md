@@ -34,6 +34,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Exodus/33#^v8\|Ex 33,8]] | cumque egrederetur Moses ad tabernaculum surgebat universa plebs et stabat unusquisque in ostio papilionis sui aspiciebantque tergum Mosi donec ingrederetur tentorium | Cum autem intraret in tabernaculum Moyses, stabat omnes populus speculantes unusquisque ad ostium tabernaculi sui: et denotabant euntem Moysen usque dum introiret in tabernaculum. | Ex 33,8, p. 189 |
 | [[books/Numeri/16#^v27\|Nm 16,27]] | cumque recessissent a tentoriis eorum per circuitum Dathan et Abiram egressi stabant in introitu papilionum suorum cum uxoribus et liberis omnique frequentia | Et recesserunt a tabernaculo Core in circuitu. Et Dathan et Abiron exierunt, et steterunt secundum ostia tabernaculorum suorum, et uxores eorum, etfili eorum, et apparatus eorum. | Nm 16,27, p. 274 |
 
 ## Occorrenze

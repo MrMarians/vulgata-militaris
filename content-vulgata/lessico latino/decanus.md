@@ -24,6 +24,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Deuteronomium/01|Dt 1]]: vv. [[books/Deuteronomium/01#^v15|15]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Deuteronomium/01#^v15\|Dt 1,15]] | tulique de tribubus vestris viros sapientes et nobiles et constitui eos principes tribunos et centuriones et quinquagenarios ac **decanos** qui docerent vos singula | Et sumpsi ex uobis uiros sapientes, et pudoratos, et sensatos, et ordinaui ut disponerem uobis tribunos et centuriones, et euocatos, et optiones, et aduocatos qui causas uestras inferrent iudicibus uestris. | Dt 1,15, p. 311 |
+
 ## Occorrenze
 
 | rif. | testo |

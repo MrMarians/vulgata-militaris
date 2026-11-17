@@ -49,6 +49,14 @@ Equivalente ebraico da stabilire.
 - [[books/Danihel/02|Dn 2]]: vv. [[books/Danihel/02#^v48|48]]
 - [[books/Danihel/03|Dn 3]]: vv. [[books/Danihel/03#^v2|2]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Exodus/05#^v6\|Ex 5,6]] | praecepit ergo in die illo **praefectis** operum et exactoribus populi dicens | Praecepit autem Pharao superpositis operum eorum, et scribsit, dicens: | Ex 5,6, p. 171 |
+
 ## Occorrenze
 
 | rif. | testo |

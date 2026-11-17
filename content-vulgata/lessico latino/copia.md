@@ -38,6 +38,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Danihel/08|Dn 8]]: vv. [[books/Danihel/08#^v25|25]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Deuteronomium/08#^v13\|Dt 8,13]] | habuerisque armenta et ovium greges argenti et auri cunctarumque rerum **copiam** | et oues tuae et boues, cum repleti fuerint, et argenti et auri et cum conpletus fueris, et omnia quae coeperis possidere plena fuerint, | Dt 8,13, p. 326 |
+
 ## Occorrenze
 
 | rif. | testo |

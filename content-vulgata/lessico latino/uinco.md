@@ -87,6 +87,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Numeri/31#^v7\|Nm 31,7]] | cumque pugnassent contra Madianitas atque **vicissent** omnes mares occiderunt | Et commiserunt pugnam contra Madiam, sicut mandauit Dominus Moysi: et occiderunt omnem masculum. | Nm 31,7, p. 299 |
+| [[books/Deuteronomium/07#^v7\|Dt 7,7]] | non quia cunctas gentes numero **vincebatis** vobis iunctus est Dominus et elegit vos cum omnibus sitis populis pauciores | Non quia magna turba sitis inter ceteras gentes, et elegit uos: | Dt 7,7, p. 324 |
 
 ## Occorrenze
 

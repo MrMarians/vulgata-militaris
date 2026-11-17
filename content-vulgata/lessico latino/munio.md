@@ -127,6 +127,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Numeri/32#^v16\|Nm 32,16]] | at illi prope accedentes dixerunt caulas ovium fabricabimus et stabula iumentorum parvulis quoque nostris urbes **munitas** | Et accesserunt ad eum, et dixerunt: Et stabula ouium aedificabimus nos pecoribus nostris, et ciuitates inpedimentis nostris: | Nm 32,16, p. 302 |
 | [[books/Numeri/32#^v36\|Nm 32,36]] | et Bethnemra et Betharan urbes **munitas** et caulas pecoribus suis | et Nambram, et Betharam, ciuitates firmas, et stabula ouium. | Nm 32,36, p. 303 |
+| [[books/Deuteronomium/01#^v28\|Dt 1,28]] | quo ascendemus nuntii terruerunt cor nostrum dicentes maxima multitudo est et nobis in statura procerior urbes magnae et ad caelum usque **munitae** filios Enacim vidimus ibi | cum ascenderimus. Nam fratres uestri auertuerunt sensos uestros, dicentes: Gens magna, et multa, et potentior est quam uos estis, et ciuitates magnae et muris cinctae usque ad caelum, sed et filios gigantum uidimus ibi. | Dt 1,28, p. 312 |
+| [[books/Deuteronomium/03#^v5\|Dt 3,5]] | cunctae urbes erant **munitae** muris altissimis portisque et vectibus absque oppidis innumeris quae non habebant muros | Omnes ciuitates **munitae** muris altis, et portis, et serris firmis, praeterquam ciuitates Ferezeorum multas ualde: | Dt 3,5, p. 316 |
 
 ## Occorrenze
 

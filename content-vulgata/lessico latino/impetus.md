@@ -96,6 +96,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Leviticus/25#^v19\|Lv 25,19]] | et gignat vobis humus fructus suos quibus vescamini usque ad saturitatem nullius **impetum** formidantes | Et dabit terra fructus suos, et manducabitis ad satietatem, et inhabitabitis confidentes super eam. | Lv 25,19, p. 234 |
 | [[books/Numeri/22#^v3\|Nm 22,3]] | et quod pertimuissent eum Moabitae et **impetum** eius ferre non possent | et timuit Moab populum nimis, qui multi erant: conturbatus est Moab a faciae filiorum Istrahel. | Nm 22,3, p. 284 |
 
 ## Occorrenze

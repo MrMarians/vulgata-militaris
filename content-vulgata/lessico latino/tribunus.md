@@ -83,6 +83,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/31#^v14\|Nm 31,14]] | iratusque Moses principibus exercitus **tribunis** et centurionibus qui venerant de bello | Et iratus factus est Moyses aduersus praepositos uirtutis, **tribunos** et centuriones qui uenerant de bello. | Nm 31,14, p. 299 |
 | [[books/Numeri/31#^v48\|Nm 31,48]] | cumque accessissent principes exercitus ad Mosen et **tribuni** centurionesque dixerunt | Et accesserunt ad Moysen omnes qui constituerunt per singula milia uirtutis, **tribuni** et centuriones. | Nm 31,48, p. 301 |
 | [[books/Numeri/31#^v52\|Nm 31,52]] | pondo sedecim milia septingentos quinquaginta siclos a **tribunis** et centurionibus | et factum est omne aurum in oblatione quod obtulerunt Domino, XVI milia DCCL sicli quod oblatum est a **tribunis** et centurionibus, | Nm 31,52, p. 301 |
+| [[books/Deuteronomium/01#^v15\|Dt 1,15]] | tulique de tribubus vestris viros sapientes et nobiles et constitui eos principes **tribunos** et centuriones et quinquagenarios ac decanos qui docerent vos singula | Et sumpsi ex uobis uiros sapientes, et pudoratos, et sensatos, et ordinaui ut disponerem uobis **tribunos** et centuriones, et euocatos, et optiones, et aduocatos qui causas uestras inferrent iudicibus uestris. | Dt 1,15, p. 311 |
 
 ## Occorrenze
 

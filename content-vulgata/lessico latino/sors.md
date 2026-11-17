@@ -209,6 +209,9 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Leviticus/16#^v8\|Lv 16,8]] | mittens super utrumque **sortem** unam Domino et alteram capro emissario | Et inponit Aron supra duos hircos **sortem**: clerus clerum unum Domino, et **sortem** et clerum unum ad dimissionem pompeio. | Lv 16,8, p. 230 |
+| [[books/Leviticus/16#^v9\|Lv 16,9]] | cuius **sors** exierit Domino offeret illum pro peccato | Statuet eum uiuum ante Dominum, et propitiet super eum, ut dimittat eum ad dimissionem, et dimittit eum in heremo, et accipiet hircus supra se iniustitias eorum in heremo. | Lv 16,9-10, p. 230 |
+| [[books/Leviticus/27#^v24\|Lv 27,24]] | in iobeleo autem revertetur ad priorem dominum qui vendiderat eum et habuerat in **sortem** possessionis suae | Et in anno remissionis reddetur ager Domini quem inpossidebit, non est possessio terrae. | Lv 27,24, p. 240 |
 | [[books/Numeri/26#^v55\|Nm 26,55]] | ita dumtaxat ut **sors** terram tribubus dividat et familiis | Per **sortes** diuidetur terra in omnibus, secundum tribu pagorum eorum possidebunt. | Nm 26,55, p. 292 |
 | [[books/Numeri/26#^v56\|Nm 26,56]] | quicquid **sorte** contigerit hoc vel plures accipient vel pauciores | Ex **sorte** diuides **sortes** hereditatem illis inter multos et paucos. | Nm 26,56, p. 292 |
 | [[books/Numeri/33#^v54\|Nm 33,54]] | quam dividetis vobis **sorte** pluribus dabitis latiorem et paucis angustiorem singulis ut **sors** ceciderit ita tribuetur hereditas per tribus et familias possessio dividetur | Et possidebitis in **sorte** terram illorum per tribus uestras, pluribus adampliabitis possessiones illorum, et auctoribus minoribus dabitis possessionem illorum, ad quodcumque nomen eius exierit, ibi erit, per tribus pagorum uestrorum possidebitis. | Nm 33,54, p. 306 |
@@ -216,6 +219,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/34#^v13\|Nm 34,13]] | praecepitque Moses filiis Israhel dicens haec erit terra quam possidebitis **sorte** et quam iussit dari Dominus novem tribubus et dimidiae tribui | Et mandauit Moyses filiis Istrahel, dicens: Hace erit terra quam possidebitis cum **sorte**, quemadmodum praecepit Dominus dare eam VIIII tribus, ei dimidiam et tribu Mannasse. | Nm 34,13, p. 307 |
 | [[books/Numeri/36#^v2\|Nm 36,2]] | tibi domino nostro praecepit Dominus ut terram **sorte** divideres filiis Israhel et ut filiabus Salphaad fratris nostri dares possessionem debitam patri | et dixerunt: Domine, non mandauit Dominus Deus reddere terram hereditatis in **sorte** filiis Istrahel, et tibi, domine, praecepit Dominus dare hereditatem Salpaal fratris nostri filiab eius. | Nm 36,2, p. 309 |
 | [[books/Numeri/36#^v4\|Nm 36,4]] | atque ita fiet ut cum iobeleus id est quinquagesimus annus remissionis advenerit confundatur **sortium** distributio et aliorum possessio ad alios transeat | Si autem fuerit ablatio filiorum Istrahel, et inponetur hereditas earum ad hereditatem tribu eorum, quorum fuerint uxores, et hereditatem tribu patris nostri auferetur hereditas earum. | Nm 36,4, p. 309 |
+| [[books/Deuteronomium/01#^v38\|Dt 1,38]] | sed Iosue filius Nun minister tuus ipse intrabit pro te hunc exhortare et robora et ipse terram **sorte** dividat Israheli | Sed Iesus, filius Naue, qui adstat tibi, hic intrabit ibi: hunc confirma, quia ipse possidebit hereditatem eius huic Istrahel. | Dt 1,38, p. 313 |
 
 ## Occorrenze
 

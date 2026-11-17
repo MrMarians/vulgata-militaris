@@ -96,6 +96,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Genesis/49#^v27\|Gn 49,27]] | Beniamin lupus rapax mane comedet praedam et vespere dividet **spolia** | Beniamin lupus rapax, mane manducauit adhuc, et ad uesperam dabit escam. | Gn 49,27, p. 162 |
+| [[books/Deuteronomium/02#^v35\|Dt 2,35]] | absque iumentis quae in partem venere praedantium et **spoliis** urbium quas cepimus | practer pecora quae praedati sumus, et **spolia** ciuitatium sumpsimus | Dt 2,35, p. 315 |
+| [[books/Deuteronomium/03#^v7\|Dt 3,7]] | iumenta autem et **spolia** urbium diripuimus | et omne pecus: et **spolia** ciuitatium praedauimus nobis. | Dt 3,7, p. 316 |
 
 ## Occorrenze
 

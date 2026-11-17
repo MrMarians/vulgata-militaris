@@ -92,6 +92,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/31#^v5\|Nm 31,5]] | dederuntque millenos de cunctis tribubus id est duodecim milia **expeditorum** ad pugnam | Et enumerabunt de milibus Istrahel mille ex tribus, XII milia armatos in proelium. | Nm 31,5, p. 299 |
 | [[books/Numeri/32#^v20\|Nm 32,20]] | quibus Moses ait si facitis quod promittitis **expediti** pergite coram Domino ad pugnam | Et dixit ad eos Moyses: Si feceritis, si peccabitis ante Dominum: et scietis peccatum cum uos conpraehenderint mala. | Nm 32,20-23, p. 303 |
 | [[books/Numeri/32#^v27\|Nm 32,27]] | nos autem famuli tui omnes **expediti** pergemus ad bellum sicut tu domine loqueris | pueri autem tui transient omnes armati et ornati ante Dominum in bellum, quemadmodum dicet. | Nm 32,27, p. 303 |
+| [[books/Deuteronomium/03#^v18\|Dt 3,18]] | praecepique vobis in tempore illo dicens Dominus Deus vester dat vobis terram hanc in hereditatem **expediti** praecedite fratres vestros filios Israhel omnes viri robusti | Et mandauit uobis in tempore illo, dicens: Dominus Deus noster dedit uobis terram hanc in sorte: armati ite ante faciem fratrum uestrorum filiorum Istrahel omnes uiri potenter. | Dt 3,18, p. 317 |
 
 ## Occorrenze
 

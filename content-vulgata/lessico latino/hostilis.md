@@ -32,6 +32,17 @@ Equivalente ebraico da stabilire.
 
 - [[books/Lamentationes/01|Lam 1]]: vv. [[books/Lamentationes/01#^v7|7]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Leviticus/26#^v35\|Lv 26,35]] | in terra **hostili** sabbatizabit et requiescet in sabbatis solitudinis suae eo quod non requieverit in sabbatis vestris quando habitabatis in ea | omnibus diebus desertionis eius: sabbatizauit sabbatis uestris, quia habitabitis in ea. | Lv 26,35, p. 238 |
+| [[books/Leviticus/26#^v38\|Lv 26,38]] | peribitis inter gentes et **hostilis** vos terra consumet | Et perietis in g[en]tibus, sed co[med]et uos terra inimicorum uestrorum. | Lv 26,38, p. 238 |
+| [[books/Leviticus/26#^v41\|Lv 26,41]] | ambulabo igitur et ego contra eos et inducam illos in terram **hostilem** donec erubescat incircumcisa mens eorum tunc orabunt pro impietatibus suis | et ego ibo cum illis praue, et perdam illos in terra inimicorum illorum. Et tunc reuerebitur cor incircumcisorum illorum, et tune probabunt peccata sua. | Lv 26,41, p. 238 |
+| [[books/Leviticus/26#^v44\|Lv 26,44]] | et tamen etiam cum essent in terra **hostili** non penitus abieci eos neque sic despexi ut consumerentur et irritum facerem pactum meum cum eis ego enim sum Dominus Deus eorum | Et cum essent in terram inimicorum suorum, non dispexi eos, neque nocui eos, ne dissiparent testamentum meum quod est ad illos: ego sum enim Dominus Deus illorum. | Lv 26,44, p. 239 |
+
 ## Occorrenze
 
 | rif. | testo |

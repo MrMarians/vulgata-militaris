@@ -141,6 +141,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/46#^v29\|Gn 46,29]] | quo cum pervenisset iuncto Ioseph **curru** suo ascendit obviam patri ad eundem locum vidensque eum inruit super collum eius et inter amplexus flevit | Iungens autem Ioseph uehicula sua, ascendit in ouiam Istrahel patri suo ad Heroum ciuitatem: et uidens eum procidit super collum eius, et fleuit fletu magno. | Gn 46,29, p. 157 |
 | [[books/Genesis/50#^v9\|Gn 50,9]] | habuit quoque in comitatu **currus** et equites et facta est turba non modica | Et simul ascenderunt cum eo **currus** et equites, et factus est comitatus magnus ualde. | Gn 50,9, p. 163 |
+| [[books/Deuteronomium/11#^v4\|Dt 11,4]] | omnique exercitui Aegyptiorum et equis ac **curribus** quomodo operuerint eos aquae Rubri maris cum vos persequerentur et deleverit eos Dominus usque in praesentem diem | et qualem fecerit uirtutem Aegyptiorum, **currus** illius, et equos illius, quemadmodum delusit aquam maris rubri in faciem illorum, dum consequerentur post uos, et perdidit illos Dominus usque... | Dt 11,4, p. 330 |
 
 ## Occorrenze
 

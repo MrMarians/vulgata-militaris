@@ -218,6 +218,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/24#^v24\|Nm 24,24]] | venient in trieribus de Italia superabunt Assyrios **vastabuntque** Hebraeos et ad extremum etiam ipsi peribunt | Et exient de manibus Citheorum, et uexabunt Asur, et uexabunt Hebraeos, et ipsi unanimes perient. | Nm 24,24, p. 289 |
 | [[books/Numeri/32#^v39\|Nm 32,39]] | porro filii Machir filii Manasse perrexerunt in Galaad et **vastaverunt** eam interfecto Amorreo habitatore eius | Et abiit inde Machir filius Manasse in Galaad, et obtinuit ea, et perdidit Amorreum qui habitabit in ea. | Nm 32,39, p. 304 |
 | [[books/Numeri/33#^v52\|Nm 33,52]] | disperdite cunctos habitatores regionis illius confringite titulos et statuas comminuite atque omnia excelsa **vastate** | et perditis omnes qui habitant terram ante faciem uestram, et auferetis speculas eorum, et omnia idola, et fusilia eorum. | Nm 33,52, p. 306 |
+| [[books/Deuteronomium/03#^v4\|Dt 3,4]] | **vastantes** cunctas civitates illius uno tempore non fuit oppidum quod nos effugeret sexaginta urbes omnem regionem Argob regni Og in Basan | Et possidemus omnes ciuitates eius in tempore illo: et non fuit ciuitas quam non sumeremus ab eis: LX ciuitates omnes quae in circuitu erant Argob regis Og in Basan. | Dt 3,4, p. 316 |
 
 ## Occorrenze
 

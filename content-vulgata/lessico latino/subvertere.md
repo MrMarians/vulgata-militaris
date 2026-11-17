@@ -197,6 +197,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/32#^v7\|Nm 32,7]] | cur **subvertitis** mentes filiorum Israhel ne transire audeant in locum quem eis daturus est Dominus | Ut quid peruertitis sensus filiorum Istrahel, monstra sunt in terram quam Dominus dat illis? | Nm 32,7, p. 302 |
 | [[books/Numeri/32#^v9\|Nm 32,9]] | cumque venissent usque ad vallem Botri lustrata omni regione **subverterunt** cor filiorum Israhel ut non intrarent fines quos eis Dominus dedit | Et ascenderunt uallem Botryonis, et expoliauerunt terram, et auerterunt sensum filiorum Istrahel, ut non intrarent in terram quam dedit illis Dominus. | Nm 32,9, p. 302 |
 | [[books/Numeri/32#^v21\|Nm 32,21]] | et omnis vir bellator armatus Iordanem transeat donec **subvertat** Dominus inimicos suos | Et dixit ad eos Moyses: Si feceritis, si peccabitis ante Dominum: et scietis peccatum cum uos conpraehenderint mala. | Nm 32,20-23, p. 303 |
+| [[books/Deuteronomium/07#^v5\|Dt 7,5]] | quin potius haec facietis eis aras eorum **subvertite** confringite statuas lucosque succidite et sculptilia conburite | Sed sic facies ei: aras eorum deponetis, et titulos eorum confringetis. et lucos eorum excidetis, et sculptilia daeorum illorum comburetis igni: | Dt 7,5, p. 324 |
 
 ## Occorrenze
 

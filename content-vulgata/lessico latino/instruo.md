@@ -68,6 +68,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/43#^v16\|Gn 43,16]] | quos cum ille vidisset et Beniamin simul praecepit dispensatori domus suae dicens introduc viros domum et occide victimas et **instrue** convivium quoniam mecum sunt comesuri meridie | Uidit autem eos Ioseph, et Beniamin fratrem suum, et dixit praeposito domus suae: Introduc homines in domo, et occide uictimas, et para: mecum enim manducabunt panem homines isti meridiae. | Gn 43,16, p. 151 |
 | [[books/Genesis/49#^v32\|Gn 49,32]] | finitisque mandatis quibus filios instruebat collegit pedes suos super lectulum et obiit adpositusque est ad populum suum | Et cessauit Iacob admonens filios suos: et extollens pedes super lectum, defecit: et adpositus est ad plebem suam. | Gn 49,33, p. 163 |
+| [[books/Deuteronomium/01#^v41\|Dt 1,41]] | et respondistis mihi peccavimus Domino ascendemus atque pugnabimus sicut praecepit Dominus Deus noster cumque **instructi** armis pergeretis in montem | Et respondistis mihi, et dixistis: Peccauimus palam Domino nostro, nam nos pugnauimus per omnia quae praecepit Dominus Deus noster nobis. Et sumpsistis unusquisque arma uestra pugnatoria, et unanimes ascendistis in montem. | Dt 1,41, p. 313 |
 
 ## Occorrenze
 

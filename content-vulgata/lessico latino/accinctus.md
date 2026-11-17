@@ -183,6 +183,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Genesis/49#^v19\|Gn 49,19]] | Gad **accinctus** proeliabitur ante eum et ipse accingetur retrorsum | Gad, piraterium temptauit eum: ipse uero temptauit eos secundum pedes eorum. | Gn 49,19, p. 162 |
+| [[books/Leviticus/08#^v7\|Lv 8,7]] | vestivit pontificem subucula linea **accingens** eum balteo et induens tunica hyacinthina et desuper umerale inposuit | et induit eum tunicam, et praecinxit eum zona, et inposuit ei fibulam, | Lv 8,7, p. 212 |
+| [[books/Leviticus/16#^v4\|Lv 16,4]] | tunica linea vestietur feminalibus lineis verecunda celabit **accingetur** zona linea cidarim lineam inponet capiti haec enim vestimenta sunt sancta quibus cunctis cum lotus fuerit induetur | Et tunicam lineam sanctificatam induetur, et peristolum in eum erit supra corpus eius: et zonam lineam cingetur, et mytram lineam inponet sibi: uestimenta sancta sunt. Et lauabit aqua omne corpus suum, et uestietur ea. | Lv 16,4, p. 229 |
 | [[books/Numeri/32#^v17\|Nm 32,17]] | nos autem ipsi armati et **accincti** pergemus ad proelium ante filios Israhel donec introducamus eos ad loca sua parvuli nostri et quicquid habere possumus erunt in urbibus muratis propter habitatorum insidias | et nos armati primo agmine priores ante Istrahel ibimus, donec perducamus eos in locum suum: et habitabit praeparatura nostra in ciuitatibus muratis propter eos qui inhabitant terram. | Nm 32,17, p. 302 |
 
 ## Occorrenze

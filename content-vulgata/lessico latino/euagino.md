@@ -63,6 +63,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Leviticus/26#^v33\|Lv 26,33]] | vos autem dispergam in gentes et **evaginabo** post vos gladium eritque terra vestra deserta et civitates dirutae | Et dispargam uos in gentes, et interficiet uos perambulans gladius, et erit terra uestra deserta, et ciuitates uestrae erint desertae. | Lv 26,33, p. 238 |
 | [[books/Numeri/22#^v23\|Nm 22,23]] | cernens asina angelum stantem in via **evaginato** gladio avertit se de itinere et ibat per agrum quam cum verberaret Balaam et vellet ad semitam reducere | Et ut uidit asina angelum Dei resistentem in uia, et gladius strictus erat in manu eius, et deuertebat asina de uia, et ibat in campum. Et percussit Balam asinam de uirga, ut dirigeret eam in uia. | Nm 22,23, p. 285 |
 | [[books/Numeri/22#^v31\|Nm 22,31]] | protinus aperuit Dominus oculos Balaam et vidit angelum stantem in via **evaginato** gladio adoravitque eum pronus in terram | Et denudauit Deus oculos Balaam, et uidit angelum Dei resistentem in uia, et gladius strictus erat in manu eius, et inclinauit se, et adorauit in faciem. | Nm 22,31, p. 286 |
 

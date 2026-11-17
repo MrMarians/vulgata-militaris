@@ -46,6 +46,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Exodus/30#^v33\|Ex 30,33]] | homo quicumque tale conposuerit et dederit ex eo alieno **exterminabitur** de populo suo | Quicumque fecerit similiter, et quicumque dederit ex illo alieniginae, **exterminabitur** de populo suo. | Ex 30,33, p. 185 |
 | [[books/Numeri/09#^v13\|Nm 9,13]] | si quis autem et mundus est et in itinere non fuit et tamen non fecit phase **exterminabitur** anima illa de populis suis quia sacrificium Domino non obtulit tempore suo peccatum suum ipse portabit | Et homo qui fuerit mundus, et uia longa non fuerit, et cessauerit facere pascha, et **exterminabitur** anima illa de populo suo, quia munus Domino non obtulit tempore suo: peccatum suum accipiet homo ille. | Nm 9,13, p. 261 |
 
 ## Occorrenze

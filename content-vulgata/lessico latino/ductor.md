@@ -72,6 +72,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Numeri/10#^v31\|Nm 10,31]] | et ille noli inquit nos relinquere tu enim nosti in quibus locis per desertum castra ponere debeamus et eris **ductor** noster | Et dixit Moyses: Noli relinquere nos, quoniam fuisti nobiscum in deserto, et eris inter nos praesbiter. | Nm 10,31, p. 263 |
+| [[books/Deuteronomium/01#^v30\|Dt 1,30]] | Dominus Deus qui **ductor** est vester pro vobis ipse pugnabit sicut fecit in Aegypto videntibus cunctis | Dominus Deus uester qui praecedit ante faciem uestram, ipse debellabit et expugnabit illos uobiscum, secundum omnia quae fecit in uobis magnalia in terra Aegypti, | Dt 1,30, p. 312 |
+| [[books/Deuteronomium/08#^v15\|Dt 8,15]] | et **ductor** tuus fuit in solitudine magna atque terribili in qua erat serpens flatu adurens et scorpio ac dipsas et nullae omnino aquae qui eduxit rivos de petra durissima | quia adduxit te per deserta illa magna et saeua illa, uipere morsus et scorphionum et sitis, nec erat aqua: qui eduxit tibi de petra summa fontem aquae: | Dt 8,15, p. 326 |
 
 ## Occorrenze
 

@@ -117,6 +117,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/37#^v36\|Gn 37,36]] | Madianei vendiderunt Ioseph in Aegypto Putiphar eunucho Pharaonis **magistro** militiae | Madianei autem uendiderunt Ioseph in Aegyptum Petefreti spadoni Faraonis praeposito cocorum. | Gn 37,36, p. 148 |
 | [[books/Genesis/47#^v6\|Gn 47,6]] | terra Aegypti in conspectu tuo est in optimo loco fac habitare eos et trade eis terram Gessen quod si nosti esse in eis viros industrios constitue illos **magistros** pecorum meorum | Et ecce terra Aegypti ante te est: in meliori terra fac morari patrem tuum et fratres tuos. | Gn 47,6, p. 158 |
+| [[books/Exodus/01#^v11\|Ex 1,11]] | praeposuit itaque eis **magistros** operum ut adfligerent eos oneribus aedificaveruntque urbes tabernaculorum Pharaoni Phiton et Ramesses | Et constituit illis praepositos operum, ut adfligerent eos in operibus suis. Et aedificauerunt ciuitates munitas Faraoni, Phythonam, et Ramessem, et On, quae est solis ciuitas. | Ex 1,11, p. 165 |
 | [[books/Numeri/11#^v16\|Nm 11,16]] | et dixit Dominus ad Mosen congrega mihi septuaginta viros de senibus Israhel quos tu nosti quod senes populi sint ac **magistri** et duces eos ad ostium tabernaculi foederis faciesque ibi stare tecum | Et dixit Dominus ad Moysen: Concollige mihi LXX uiros ex praesbyteris Istrahel, quos ipse tu scis, quia hi sunt praesbyteri populi et scribam eorum: et adduces eos in tabernaculum testimonii, et stabunt ibi tecum. | Nm 11,16, p. 265 |
 
 ## Occorrenze

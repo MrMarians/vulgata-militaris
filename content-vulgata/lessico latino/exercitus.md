@@ -489,6 +489,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
 | [[books/Genesis/37#^v36\|Gn 37,36]] | Madianei vendiderunt Ioseph in Aegypto Putiphar eunucho Pharaonis magistro **militiae** | Madianei autem uendiderunt Ioseph in Aegyptum Petefreti spadoni Faraonis praeposito cocorum. | Gn 37,36, p. 148 |
+| [[books/Exodus/07#^v4\|Ex 7,4]] | et non audiet vos inmittamque manum meam super Aegyptum et educam **exercitum** et populum meum filios Israhel de terra Aegypti per iudicia maxima | Et non abaudiet uos Farao. Immittam manum meam in Aegyptum, et educam cum uirtute populum meum filios Istrahel de terra Aegypti cum uindicta magna. | Ex 7,4, p. 174 |
 | [[books/Numeri/01#^v16\|Nm 1,16]] | hii nobilissimi principes multitudinis per tribus et cognationes suas et capita **exercitus** Israhel | Hi sunt electi synagogae, principes tribus secundum paternas tribus, tribuni Istrahel. | Nm 1,16, p. 242 |
 | [[books/Numeri/01#^v52\|Nm 1,52]] | metabuntur autem castra filii Israhel unusquisque per turmas et cuneos atque **exercitum** suum | Et constituent castra filii Istrahel, et uiri in suo ordine secundum suum ducem in uirtute sua erit. | Nm 1,52, p. 244 |
 | [[books/Numeri/02#^v3\|Nm 2,3]] | ad orientem Iudas figet tentoria per turmas **exercitus** sui eritque princeps filiorum eius Naasson filius Aminadab | Et qui constituit contra austrum, contra orientem disponant castra Iuda cum uirtute sua illos, et principes filiorum Iuda Naasson filius Aminadab. | Nm 2,3, p. 245 |
@@ -511,6 +512,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/31#^v21\|Nm 31,21]] | Eleazar quoque sacerdos ad viros **exercitus** qui pugnaverant sic locutus est hoc est praeceptum legis quod mandavit Dominus Mosi | Et dixit Eleazar sacerdus ad principes uirtutis qui uenerant de bello: Haec est iustificatio legis quam constituit Dominus. | Nm 31,21, p. 300 |
 | [[books/Numeri/31#^v32\|Nm 31,32]] | fuit autem praeda quam **exercitus** ceperat ovium sescenta septuaginta quinque milia | Et facta est abundantia praedationis quam praedauerunt uiri bellatores DCLXXV, i | Nm 31,32, p. 300 |
 | [[books/Numeri/31#^v48\|Nm 31,48]] | cumque accessissent principes **exercitus** ad Mosen et tribuni centurionesque dixerunt | Et accesserunt ad Moysen omnes qui constituerunt per singula milia uirtutis, tribuni et centuriones. | Nm 31,48, p. 301 |
+| [[books/Deuteronomium/11#^v4\|Dt 11,4]] | omnique **exercitui** Aegyptiorum et equis ac curribus quomodo operuerint eos aquae Rubri maris cum vos persequerentur et deleverit eos Dominus usque in praesentem diem | et qualem fecerit uirtutem Aegyptiorum, currus illius, et equos illius, quemadmodum delusit aquam maris rubri in faciem illorum, dum consequerentur post uos, et perdidit illos Dominus usque... | Dt 11,4, p. 330 |
 
 ## Occorrenze
 

@@ -44,6 +44,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Hiezechiel/13|Ez 13]]: vv. [[books/Hiezechiel/13#^v21|21]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Deuteronomium/02#^v35\|Dt 2,35]] | absque iumentis quae in partem venere **praedantium** et spoliis urbium quas cepimus | practer pecora quae **praedati** sumus, et spolia ciuitatium sumpsimus | Dt 2,35, p. 315 |
+
 ## Occorrenze
 
 | rif. | testo |

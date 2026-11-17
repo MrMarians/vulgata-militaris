@@ -142,6 +142,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 | [[books/Numeri/33#^v43\|Nm 33,43]] | profectique de Phinon **castrametati** sunt in Oboth | Et promouerunt a Phyno, et deuerterunt in Nobth. | Nm 33,43, p. 305 |
 | [[books/Numeri/33#^v46\|Nm 33,46]] | unde egressi **castrametati** sunt in Elmondeblathaim | Et promouerunt ab Debo Gad, et deuerterunt in Gelbon Deblathaem. | Nm 33,46, p. 305 |
 | [[books/Numeri/33#^v49\|Nm 33,49]] | ibique **castrametati** sunt de Bethsimon usque ad Belsattim in planioribus locis Moabitarum | Et promouerunt ab Iordanen de medio in terra Etimot usque ad Belsattun occidentem Moab. | Nm 33,49, p. 305 |
+| [[books/Deuteronomium/10#^v7\|Dt 10,7]] | inde venerunt in Gadgad de quo loco profecti **castrametati** sunt in Ietabatha in terra aquarum atque torrentium | Inde sustulerunt in Gatgat, et a Gatgat in Tebatha, terra torrentis aquarum. | Dt 10,7, p. 329 |
 
 ## Occorrenze
 

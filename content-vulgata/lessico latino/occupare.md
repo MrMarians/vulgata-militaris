@@ -118,6 +118,8 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Exodus/27#^v18\|Ex 27,18]] | in longitudine **occupabit** atrium cubitos centum in latitudine quinquaginta altitudo quinque cubitorum erit fietque de bysso retorta et habebit bases aeneas | Longitudo autem atrii C per C, et latitudo L, et altitudo V cubitorum de bysso torto, et basses earum aereae. | Ex 27,18, p. 179 |
+| [[books/Leviticus/26#^v5\|Lv 26,5]] | adprehendet messium tritura vindemiam et vindemia **occupabit** sementem et comedetis panem vestrum in saturitatem et absque pavore habitabitis in terra vestra | et conpraehendet uobis area uindemiam, et uindemiam conpraehendet semen: manducabitis panem uestrum et in plenitudinem, et habitabitis cum tutamento in terra uestra, | Lv 26,5, p. 237 |
 | [[books/Numeri/32#^v41\|Nm 32,41]] | Iair autem filius Manasse abiit et **occupavit** vicos eius quos appellavit Avothiair id est villas Iair | Abiit et obtinuit uillas eorum, et cognominauit eas uillas Iair. | Nm 32,41, p. 304 |
 
 ## Occorrenze

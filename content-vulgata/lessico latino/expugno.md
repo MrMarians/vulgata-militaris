@@ -62,6 +62,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Danihel/11|Dn 11]]: vv. [[books/Danihel/11#^v22|22]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Exodus/01#^v10\|Ex 1,10]] | venite sapienter opprimamus eum ne forte multiplicetur et si ingruerit contra nos bellum addatur inimicis nostris expugnatisque nobis egrediatur e terra | Uenite, et depotentemus eos, ne quando increscant, et erit cum forte contigerit nobis bellum, et adponentur et hii ad aduersarios, et **expugnantes** nos exient de terra. | Ex 1,10, p. 165 |
+
 ## Occorrenze
 
 | rif. | testo |

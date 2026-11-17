@@ -60,6 +60,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Osee/13|Os 13]]: vv. [[books/Osee/13#^v1|1]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Exodus/21#^v32\|Ex 21,32]] | si servum ancillamque invaserit triginta siclos argenti dabit domino bos vero lapidibus opprimetur | Quod si seruum cornu percusserit taurus uel ancillam, XXX didragma argenti dabit domino illorum, et taurus lapidabitur. | Ex 21,32, p. 176 |
+
 ## Occorrenze
 
 | rif. | testo |

@@ -88,6 +88,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 |---|---|---|---|
 | [[books/Genesis/33#^v12\|Gn 33,12]] | ait gradiamur simul eroque **socius** itineris tui | et dixit Esau: Tollentes eamus recta. | Gn 33,12, p. 146 |
 | [[books/Genesis/33#^v15\|Gn 33,15]] | respondit Esau oro te ut de populo qui mecum est saltem **socii** remaneant viae tuae non est inquit necesse hoc uno indigeo ut inveniam gratiam in conspectu domini mei | Dixit autem Esau: Relinquam ergo tecum de. | Gn 33,15, p. 146 |
+| [[books/Exodus/31#^v6\|Ex 31,6]] | dedique ei **socium** Hooliab filium Achisamech de tribu Dan et in corde omnis eruditi posui sapientiam ut faciant cuncta quae praecepi tibi | Et ego dedici et Eliab filium Achisamac de tribu Dan, et omnia intellectum habenti corde dedi sensum, et facient omnia quaecumque praecepi tibi. | Ex 31,6, p. 186 |
 
 ## Occorrenze
 

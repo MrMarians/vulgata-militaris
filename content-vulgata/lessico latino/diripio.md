@@ -103,6 +103,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/Sofonias/02|So 2]]: vv. [[books/Sofonias/02#^v9|9]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Deuteronomium/03#^v7\|Dt 3,7]] | iumenta autem et spolia urbium **diripuimus** | et omne pecus: et spolia ciuitatium praedauimus nobis. | Dt 3,7, p. 316 |
+
 ## Occorrenze
 
 | rif. | testo |

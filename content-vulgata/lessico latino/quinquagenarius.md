@@ -28,6 +28,14 @@ Equivalente ebraico da stabilire.
 
 - [[books/IV Regum/01|4Rg 1]]: vv. [[books/IV Regum/01#^v9|9]], [[books/IV Regum/01#^v10|10]], [[books/IV Regum/01#^v11|11]], [[books/IV Regum/01#^v13|13]], [[books/IV Regum/01#^v14|14]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Deuteronomium/01#^v15\|Dt 1,15]] | tulique de tribubus vestris viros sapientes et nobiles et constitui eos principes tribunos et centuriones et **quinquagenarios** ac decanos qui docerent vos singula | Et sumpsi ex uobis uiros sapientes, et pudoratos, et sensatos, et ordinaui ut disponerem uobis tribunos et centuriones, et euocatos, et optiones, et aduocatos qui causas uestras inferrent iudicibus uestris. | Dt 1,15, p. 311 |
+
 ## Occorrenze
 
 | rif. | testo |

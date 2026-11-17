@@ -14,7 +14,7 @@ lang: it
 
 Equivalente ebraico da stabilire.
 
-Nelle veteres, al posto della parola della Vulgata — Sabatier, fonte da verificare: *castra* ([[books/Numeri/33#^v1|Nm 33,1]]).
+Nelle veteres, al posto della parola della Vulgata — Robert (Codex Lugdunensis): *castra* ([[books/Numeri/33#^v1|Nm 33,1]]); Sabatier, fonte da verificare: *castra* ([[books/Numeri/33#^v1|Nm 33,1]]).
 
 ## Loci
 

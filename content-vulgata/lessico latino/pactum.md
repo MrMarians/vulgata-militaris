@@ -81,6 +81,16 @@ lang: it
 
 - [[books/Hiezechiel/16|Ez 16]]: vv. [[books/Hiezechiel/16#^v60|60]], [[books/Hiezechiel/16#^v61|61]]
 
+## Vetus Latina: Pentateuchus, Codex Lugdunensis
+
+Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collazionato: da controllare sulla pagina indicata.
+
+| Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
+|---|---|---|---|
+| [[books/Exodus/06#^v5\|Ex 6,5]] | ego audivi gemitum filiorum Israhel quo Aegyptii oppresserunt eos et recordatus sum **pacti** mei | Et ego exaudiui gemitum filiorum Istrahel, quemadmodum Aegyptii in seruitutem deprimunt eos: et memoratus sum testamenti mei. | Ex 6,5, p. 173 |
+| [[books/Deuteronomium/04#^v31\|Dt 4,31]] | quia Deus misericors Dominus Deus tuus est non dimittet te nec omnino delebit neque obliviscetur **pacti** in quo iuravit patribus tuis | quia Deus misericors est et Dominus Deus tuus non derelinquet te, nec disperdet te, nec obliuiscitur testamentum patrum uestrorum, quod iurauit eis. | Dt 4,31, p. 319 |
+| [[books/Deuteronomium/09#^v9\|Dt 9,9]] | quando ascendi in montem ut acciperem tabulas lapideas tabulas **pacti** quod pepigit vobiscum Dominus et perseveravi in monte quadraginta diebus ac noctibus panem non comedens et aquam non bibens | dum ascenderem in monte accipere tabulas lapideas, tabulas testamenti, quod disposuit Dominus in uobis, et feci XL dies in monte et XL noctes panem non edi, aquam non bibi. | Dt 9,9, p. 327 |
+
 ## Occorrenze
 
 | rif. | testo |

@@ -108,6 +108,7 @@ Edizione di U. Robert (1881). Testo da riconoscimento automatico, non collaziona
 
 | Vulgata | testo della Vulgata | Codex Lugdunensis | Robert |
 |---|---|---|---|
+| [[books/Leviticus/11#^v36\|Lv 11,36]] | fontes vero et cisternae et omnis aquarum **congregatio** munda erit qui morticinum eorum tetigerit polluetur | Uerum fortium aquarum et lacorum, et **congregationes** aquae mundum erit. Qui autem attigerit omnem munditiam animae eorum quae sibi mortua sunt, inmundus erit. | Lv 11,36, p. 219 |
 | [[books/Numeri/01#^v2\|Nm 1,2]] | tollite summam universae **congregationis** filiorum Israhel per cognationes et domos suas et nomina singulorum quicquid sexus est masculini | Accipite principium totius synagogae Istrahel secundum cognationes et domos paternas, secundum numerum nominum, secundum capita eorum: | Nm 1,2, p. 242 |
 | [[books/Numeri/16#^v16\|Nm 16,16]] | dixitque ad Core tu et omnis **congregatio** tua state seorsum coram Domino et Aaron die crastino separatim | Et dixit Moyses ad Core: Sanctifica synagogam tuam, et estote parati ante Dominum tu et ipsi et Aron cras. | Nm 16,16, p. 274 |
 | [[books/Numeri/16#^v21\|Nm 16,21]] | separamini de medio **congregationis** huius ut eos repente disperdam | Discedite uos de medio synagogae huius, et consummans consummabo eos in saemel. | Nm 16,21, p. 274 |
